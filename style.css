@@ -1,0 +1,307 @@
+:root {
+--background-color:#F8F8FF;
+}
+
+* {
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+font-family: arial;
+}
+
+.header {
+width: 100%;
+height: 100px;
+background: var(--background-color);
+position: fixed;
+z-index: 100;
+top: 0;
+box-shadow:
+    0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+    0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+    0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12);
+}
+
+.navigation-wrapper {
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding-top: 20px;
+}
+
+.logo {
+font-size: 50px;
+color:white;
+display: inline-block;
+padding-left: 40px;
+cursor: pointer;
+min-width: 175px;
+}
+
+.hamburger {
+font-size: 30px;
+color: black;
+display: none;
+}
+
+.logoboks {
+display: flex;
+align-items: baseline;
+    
+}
+
+.briwide{
+display: inline-block;
+color: black;
+margin-left: 10px;
+display: none;
+}
+
+ul {
+display: inline;
+padding-right: 100px;
+}
+
+li, a {
+font-size: 20px;
+color: black;
+display: inline-block;
+text-decoration: none;
+padding-left: 40px;
+}
+
+a:hover {
+color: grey;
+}
+
+.bilde4 {
+    width: 200px;
+}
+
+.banner {
+display: grid;
+width: 100%;
+height: 500px;
+margin-top: 100px;
+background-color: var(--background-color);
+grid-template-columns: 1fr 1fr;
+}
+
+.box-one {
+align-self: center;
+justify-self: center;
+margin-left: 40px;
+}
+
+.box-two {
+align-self: center;
+justify-self: center;
+margin-left: 40px;
+}
+
+#headline {
+color: #00008B;
+font-size: 300%;
+}
+
+/*
+
+.image-in-box {
+width: 100px;
+}
+
+.image-in-box-two {
+width: 100px;
+}
+
+.image-in-box-three {
+width: 100px;
+}
+
+*/
+
+.headline-two {
+color: black;
+text-align: center;
+padding-top: 100px;
+padding-bottom: 50px;
+font-size: 270%;
+}
+
+.headline3 {
+color: black;
+font-size: 120%;
+font-weight: lighter;
+margin: 25px 0;
+}
+
+.bilde {
+margin-right: 40px;
+/*
+transform: rotate(0deg);
+*/
+}
+
+.btn {
+width: 200px;
+background-color: #FF1493;
+height: 50px;
+border-radius: 20px;
+color: white;
+border: none;
+font-size: 150%;
+font-weight: bold;
+cursor: pointer;
+transition: all .3s ease-in-out; 
+}
+        
+.btn:hover { 
+transform: scale(1.2); 
+}
+
+.wrapper {
+width: 80%;
+margin: 0 auto;
+margin: 50px auto;
+}
+
+.flex-item {
+display: flex;
+flex-direction: column;
+align-items: center;
+min-width: 250px;
+border-radius: 20px; 
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+transition: all .3s ease-in-out;
+cursor: pointer;
+}
+
+.logoboks-one {
+
+        display: flex;
+        align-items: center;
+        height: 100px;    
+        }
+
+.flex-item:hover { 
+transform: scale(1.1); 
+}
+
+.one,
+.two,
+.three,
+.four,
+.five {
+padding: 20px;
+}
+
+.one {
+grid-area: one;
+}
+
+.two {
+grid-area: two;
+}
+
+.three {
+grid-area: three;
+
+}
+
+.four {
+grid-area: four;
+
+}
+
+
+
+.grid-container {
+display: grid;
+grid-template-columns: 1fr 1fr 1fr 1fr;
+grid-template-rows: 500px;
+gap: 20px 20px;
+grid-template-areas:
+
+                    "one two three four"
+                    "one two three four"
+                    "one two three four"
+                    "one two three four"
+;
+}
+
+h3 {
+text-align: center;
+color: var(--background-color);
+margin-bottom: 25px;
+margin-top: 25px;
+}
+
+.tekst {
+font-weight: lighter;
+font-size: small;
+color: #483D8B;
+
+}
+
+.small-btn {
+background-color: #FF1493;
+border: none;
+width: 150px;
+height: 40px;
+border-radius: 20px;
+color: white;
+margin-top: 40px;
+
+}
+
+
+
+/* media queries */
+
+@media all and (max-width: 1325px) {
+.grid-container {
+display: grid;
+grid-template-columns: 1fr 1fr 1fr 1fr;
+grid-template-rows: 1fr 1fr 1fr;
+gap: 20px 20px;
+grid-template-areas:
+        
+                            "one one one one"
+                            "two two two two"
+                            "three three three three"
+                            "four four four four"
+                            "five five five five"
+        ;
+
+
+    }
+
+.wrapper {
+width: 90%;
+margin: 50px auto;
+padding-top: 0px;
+}
+
+ul {
+display: none;
+}
+
+.hamburger {
+font-size: 30px;
+color: black;
+display: block;
+margin-right: 50px;
+cursor: pointer;
+}
+
+.hamburger:hover {
+color: grey;
+}
+
+}
+
+
+
