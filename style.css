@@ -221,7 +221,7 @@ grid-area: four;
 .grid-container {
 display: grid;
 grid-template-columns: 1fr 1fr 1fr 1fr;
-grid-template-rows: 500px;
+grid-template-rows: 800px;
 gap: 20px 20px;
 grid-template-areas:
 
@@ -234,7 +234,7 @@ grid-template-areas:
 
 h3 {
 text-align: center;
-color: var(--background-color);
+color: black;
 margin-bottom: 25px;
 margin-top: 25px;
 }
@@ -242,7 +242,7 @@ margin-top: 25px;
 .tekst {
 font-weight: lighter;
 font-size: small;
-color: #483D8B;
+color: black;
 
 }
 
@@ -264,20 +264,16 @@ margin-top: 40px;
 @media all and (max-width: 1325px) {
 .grid-container {
 display: grid;
-grid-template-columns: 1fr 1fr 1fr 1fr;
-grid-template-rows: 1fr 1fr 1fr;
+grid-template-columns: 1rem 1rem%;
+grid-template-rows: 400px 400px;
 gap: 20px 20px;
 grid-template-areas:
         
-                            "one one one one"
-                            "two two two two"
-                            "three three three three"
-                            "four four four four"
-                            "five five five five"
-        ;
+                            "one one two two"
+                            "three three four four";
+}
 
 
-    }
 
 .wrapper {
 width: 90%;
