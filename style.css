@@ -160,22 +160,6 @@ color: #00008B;
 font-size: 300%;
 }
 
-/*
-
-.image-in-box {
-width: 100px;
-}
-
-.image-in-box-two {
-width: 100px;
-}
-
-.image-in-box-three {
-width: 100px;
-}
-
-*/
-
 .headline-two {
 color: black;
 text-align: center;
@@ -323,12 +307,12 @@ grid-template-rows: auto;
 }
 
 .grid-nede-boks-one {
-    height: auto;
+    height: 100px;
     width: auto;
     border: solid black 1px
 }
 
-/* media queries */
+/* ------------------------------- media queries --------------------------- */
 
 /* max-width 1325px*/
 
@@ -375,7 +359,7 @@ color: grey;
 
 
 
-/* max-width 855px */
+/* ------------------------------- max-width 855px ---------------------------------- */
 
 @media all and (max-width: 855px) {
 .banner {
@@ -400,7 +384,7 @@ padding-top: 30px;
 
 }
 
-/* max-width 670px (mobile)*/
+/* --------------------------------- max-width 670px (mobile) ------------------------------ */
 
 
 @media all and (max-width: 670px) {
@@ -426,6 +410,14 @@ padding-top: 30px;
     background-size: cover;
     background-repeat: no-repeat;
     }
+
+    #headline, .headline-two, .headline3 {
+        
+        font-size: 7vw;
+        }
+
+    .headline3 {
+        font-size: 3vw;
 
 }
 
