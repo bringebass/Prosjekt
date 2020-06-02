@@ -405,7 +405,7 @@ padding-top: 30px;
     }
     
     .banner {
-        height: 660px;
+        height: 720px;
         margin-top: 50px;
         
     }    
@@ -443,19 +443,19 @@ padding-top: 30px;
         }
 
     .header {
-        height:50px;
+        height:60px;
         box-shadow: none;
         background-color: white;
 
     }
 
     .logo {
-        width: 100px;
-        height: 30px;
+        width: 150px;
+        height: 40px;
     }
 
     .hamburger {
-        font-size: 15px;
+        font-size: 25px;
         margin-right: 10px;
     }
 
