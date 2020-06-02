@@ -115,6 +115,24 @@ background-color: var(--background-color);
 grid-template-columns: 1fr 1fr;
 }
 
+.banner-two {
+    width: 100%;
+    height: 300px;
+    background-color: var(--background-color);
+    text-align: center;
+    margin-top: 100px;
+}
+
+#overskrift-banner-two {
+font-size: 30px;
+color: #778899;
+padding-top: 100px;
+}
+
+.para-banner-two {
+    padding-top: 10px;
+}
+
 .box-one {
 display: flex;
 flex-flow: column;
@@ -336,6 +354,15 @@ cursor: pointer;
 
 .hamburger:hover {
 color: grey;
+}
+
+.wrapper-two{
+    width: auto;
+    height: auto;
+}
+
+.grid-nede {
+    
 }
 
 /* max-width 855px */
