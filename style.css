@@ -91,6 +91,8 @@ grid-template-columns: 1fr 1fr;
 }
 
 .box-one {
+display: flex;
+flex-flow: column;
 align-self: center;
 justify-self: center;
 margin-left: 40px;
@@ -100,6 +102,14 @@ margin-left: 40px;
 align-self: center;
 justify-self: center;
 margin-left: 40px;
+}
+
+.imageinbox {
+background-image: url("Bilder/ppc.png");
+width: 400px;
+height: 400px;
+background-size: cover;
+background-repeat: no-repeat;
 }
 
 #headline {
@@ -155,7 +165,7 @@ border: none;
 font-size: 150%;
 font-weight: bold;
 cursor: pointer;
-transition: all .3s ease-in-out; 
+transition: all .3s ease-in-out;
 }
         
 .btn:hover { 
@@ -163,6 +173,8 @@ transform: scale(1.2);
 }
 
 .wrapper {
+display: flex;
+justify-content: center;
 width: 80%;
 margin: 0 auto;
 margin: 50px auto;
@@ -220,8 +232,8 @@ grid-area: four;
 
 .grid-container {
 display: grid;
-grid-template-columns: 1fr 1fr 1fr 1fr;
-grid-template-rows: 800px;
+grid-template-columns: 300px 300px 300px 300px;
+grid-template-rows: auto;
 gap: 20px 20px;
 grid-template-areas:
 
@@ -261,23 +273,32 @@ margin-top: 40px;
 
 /* media queries */
 
+/* max-width 1325px*/
+
 @media all and (max-width: 1325px) {
 .grid-container {
 display: grid;
-grid-template-columns: 1rem 1rem%;
-grid-template-rows: 400px 400px;
+grid-template-columns: 300px 300px;
+grid-template-rows: 1fr 1fr;
 gap: 20px 20px;
 grid-template-areas:
         
-                            "one one two two"
-                            "three three four four";
+                            "one two"
+                            "three four";
 }
 
-.wrapper {
-width: 90%;
-margin: 50px auto;
-padding-top: 0px;
-}
+.btn {
+    margin: 10px auto;
+    }
+
+.box-one {
+    text-align: center;
+    margin: 5px 5px; 
+    }
+
+.box-two {
+margin-left: 0px;
+    }
 
 ul {
 display: none;
@@ -295,6 +316,8 @@ cursor: pointer;
 color: grey;
 }
 
+/* max-width 855px */
+
 @media all and (max-width: 855px) {
 .banner {
 display: grid;
@@ -306,16 +329,48 @@ grid-template-columns: 1fr;
 grid-template-rows: 1fr 1fr;
         }
 
+.btn {
+margin: 10px auto;
+}
+
 #headline {
 color: #00008B;
 font-size: 300%;
 padding-top: 30px;
 }
 
-
 }
 
+/* max-width 670px (mobile)*/
+
+
+@media all and (max-width: 670px) {
+    .grid-container {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 300px;
+    grid-template-rows: 400px 400px 400px 400px;
+    gap: 20px 20px;
+    grid-template-areas:
+            
+                                "one"
+                                "two"
+                                "three"
+                                "four";
+    }
+
+.banner {
+height: 800px;
+}
+
+.imageinbox {
+    background-image: url("Bilder/imacsmall.png");
+    width: 290px;
+    height: 290px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    }
 
 
 
-
+}
