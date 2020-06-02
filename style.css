@@ -348,7 +348,7 @@ padding-top: 30px;
     .grid-container {
     display: grid;
     justify-content: center;
-    grid-template-columns: 300px;
+    grid-template-columns: 290px;
     grid-template-rows: 400px 400px 400px 400px;
     gap: 20px 20px;
     grid-template-areas:
@@ -358,12 +358,9 @@ padding-top: 30px;
                                 "three"
                                 "four";
     }
-
-.banner {
-height: 800px;
-}
-
-.imageinbox {
+    
+        
+    .imageinbox {
     background-image: url("Bilder/imacsmall.png");
     width: 290px;
     height: 290px;
@@ -371,6 +368,9 @@ height: 800px;
     background-repeat: no-repeat;
     }
 
-
-
 }
+
+@media all and (max-width: 335px) {
+   .banner {
+       height: 800px;
+   }
