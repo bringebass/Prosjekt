@@ -163,8 +163,7 @@ font-size: 300%;
 .headline-two {
 color: black;
 text-align: center;
-padding-top: 30px;
-padding-bottom: 30px;
+padding: 30px 5px 0px 5px;
 font-size: 230%;
 }
 
@@ -374,6 +373,9 @@ grid-template-rows: 1fr 1fr;
 
 .btn {
 margin: 10px auto;
+width: 150px;
+font-size: 20px;
+
 }
 
 #headline {
@@ -405,6 +407,7 @@ padding-top: 30px;
     .banner {
         height: 640px;
         margin-top: 50px;
+        
     }    
 
     .imageinbox {
@@ -420,7 +423,7 @@ padding-top: 30px;
         }
 
     .headline-two {
-        font-size: 180%;
+        font-size: 160%;
     }
 
     .headline3 {
@@ -430,7 +433,6 @@ padding-top: 30px;
     .btn {
         width: 100px;
         background-color: #FF1493;
-        height: 25x;
         border-radius: 20px;
         color: white;
         border: none;
@@ -441,21 +443,28 @@ padding-top: 30px;
         }
 
     .header {
-        height:
-        50px;
+        height:50px;
+        box-shadow: none;
+        background-color: white;
+
     }
 
     .logo {
         width: 100px;
-        height: 25px;
+        height: 30px;
     }
 
     .hamburger {
         font-size: 15px;
+        margin-right: 10px;
     }
 
     .navigation-wrapper {
         padding-top: 10px;
+    }
+
+    .btn {
+        margin-top: 25px;
     }
 
 }
