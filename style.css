@@ -309,7 +309,24 @@ margin-top: 40px;
 
 }
 
+.wrapper-two{
+    width: 100%;
+    height: 500px;
+}
 
+.grid-nede {
+display: grid;
+width: 100%;
+height: 500px;
+grid-template-columns: 100px 100px;
+grid-template-rows: auto;
+}
+
+.grid-nede-boks-one {
+    height: auto;
+    width: auto;
+    border: solid black 1px
+}
 
 /* media queries */
 
@@ -356,14 +373,7 @@ cursor: pointer;
 color: grey;
 }
 
-.wrapper-two{
-    width: auto;
-    height: auto;
-}
 
-.grid-nede {
-    
-}
 
 /* max-width 855px */
 
