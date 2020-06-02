@@ -207,6 +207,7 @@ margin: 50px auto;
 display: flex;
 flex-direction: column;
 align-items: center;
+height: auto;
 min-width: 250px;
 border-radius: 20px; 
 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -407,7 +408,7 @@ padding-top: 30px;
     
     .banner {
         height: 740px;
-        margin-top: 50px;
+        margin-top: 60px;
         
     }    
 
@@ -421,6 +422,7 @@ padding-top: 30px;
 
     #headline {
     font-size: 250%;
+    margin-top: 50px;
         }
 
     .headline-two {
@@ -429,6 +431,7 @@ padding-top: 30px;
 
     .headline3 {
         font-size: 15px;
+        margin-top: 30px;
     }
 
     .btn {
@@ -441,18 +444,19 @@ padding-top: 30px;
         font-weight: bold;
         cursor: pointer;
         transition: all .3s ease-in-out;
-        margin-top: 40px;
+        margin-top: 30px;
         }
 
     .header {
         height:70px;
         box-shadow: none;
         background-color: white;
+        border-bottom: solid lightgray 1px;
 
     }
 
     .logo {
-        width: 150px;
+        width: 200px;
         height: 50px;
     }
 
@@ -465,6 +469,9 @@ padding-top: 30px;
         padding-top: 10px;
     }
 
+    .box-two {
+        margin-bottom: 70px;
+    }
 
 
 }
