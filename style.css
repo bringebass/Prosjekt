@@ -165,7 +165,7 @@ color: black;
 text-align: center;
 padding-top: 30px;
 padding-bottom: 30px;
-font-size: 270%;
+font-size: 230%;
 }
 
 .headline3 {
@@ -402,7 +402,11 @@ padding-top: 30px;
                                 "four";
     }
     
-        
+    .banner {
+        height: 640px;
+        margin-top: 50px;
+    }    
+
     .imageinbox {
     background-image: url("Bilder/imacsmall.png");
     width: 290px;
@@ -411,19 +415,55 @@ padding-top: 30px;
     background-repeat: no-repeat;
     }
 
-    #headline, .headline-two, .headline3 {
-        
-        font-size: 7vw;
+    #headline {
+    font-size: 250%;
         }
 
+    .headline-two {
+        font-size: 180%;
+    }
+
     .headline3 {
-        font-size: 3vw;
+        font-size: 15px;
+    }
+
+    .btn {
+        width: 100px;
+        background-color: #FF1493;
+        height: 25x;
+        border-radius: 20px;
+        color: white;
+        border: none;
+        font-size: 80%;
+        font-weight: bold;
+        cursor: pointer;
+        transition: all .3s ease-in-out;
+        }
+
+    .header {
+        height:
+        50px;
+    }
+
+    .logo {
+        width: 100px;
+        height: 25px;
+    }
+
+    .hamburger {
+        font-size: 15px;
+    }
+
+    .navigation-wrapper {
+        padding-top: 10px;
+    }
 
 }
 
+/* 
 @media all and (max-width: 335px) {
    .banner {
-       height: 800px;
+       height: 00px;
    }
 
-}
+   */
