@@ -1,6 +1,10 @@
+/* ------------------------------------ Variables -------------------------------------- */
+
 :root {
 --background-color:#F8F8FF;
 }
+
+/* ------------------------------------ All ------------------------------------------- */
 
 * {
 box-sizing: border-box;
@@ -8,6 +12,8 @@ margin: 0;
 padding: 0;
 font-family: arial;
 }
+
+/* ----------------------------------- Header -------------------------------------------- */
 
 .header {
 width: 100%;
@@ -25,6 +31,8 @@ box-shadow:
     0 100px 80px rgba(0, 0, 0, 0.12);
 }
 
+/* --------------------------------- Navigation-bar ------------------------------ */
+
 .navigation-wrapper {
 display: flex;
 justify-content: space-between;
@@ -41,7 +49,6 @@ background-repeat: no-repeat;
 display: inline-block;
 padding-left: 40px;
 cursor: pointer;
-
 }
 
 .hamburger {
@@ -73,9 +80,71 @@ a:hover {
 color: grey;
 }
 
-.bilde4 {
-    width: 200px;
+/* --------------------------------------- Banner One --------------------------------------------- */
+
+.banner {
+display: grid;
+width: 100%;
+height: 500px;
+margin-top: 100px;
+background-color: var(--background-color);
+grid-template-columns: 1fr 1fr;
 }
+
+.box-one {
+display: flex;
+flex-flow: column;
+align-self: center;
+margin-left: 200px;
+}
+
+#headline {
+color: #00008B;
+font-size: 300%;
+margin: 0px 5px
+}
+
+.headline3 {
+color: black;
+font-size: 120%;
+font-weight: lighter;
+margin: 25px 5px;
+    }
+    
+.btn {
+width: 270px;
+height: 50px;
+background-color: #FF1493;
+border-radius: 20px;
+color: white;
+border: none;
+font-size: 100%;
+font-weight: bold;
+cursor: pointer;
+transition: all .3s ease-in-out;
+margin-top: 10px;
+}
+
+.btn:hover {
+transform: scale(1. 1);
+}
+
+.box-two {
+align-self: center;
+justify-self: center;
+margin-right: 50px;
+}
+    
+.imageinbox {
+background-image: url("Bilder/ppc.png");
+width: 400px;
+height: 400px;
+background-size: cover;
+background-repeat: no-repeat;
+}
+
+/* ------------------------------------- Social media symbols --------------------------------- */
+
 
 .socialmedia-symbols {
     display: flex;
@@ -99,222 +168,227 @@ color: red;
     color: green;
     }
 
-.banner {
-display: grid;
-width: 100%;
-height: 500px;
-margin-top: 100px;
-background-color: var(--background-color);
-grid-template-columns: 1fr 1fr;
-}
-
-.banner-two {
-    width: 100%;
-    height: 300px;
-    background-color: var(--background-color);
-    text-align: center;
-    margin-top: 100px;
-}
-
-#overskrift-banner-two {
-font-size: 30px;
-color: #778899;
-padding-top: 100px;
-}
-
-.para-banner-two {
-    padding-top: 10px;
-}
-
-.box-one {
-display: flex;
-flex-flow: column;
-align-self: center;
-justify-self: center;
-margin-left: 40px;
-}
-
-.box-two {
-align-self: center;
-justify-self: center;
-margin-left: 40px;
-}
-
-.imageinbox {
-background-image: url("Bilder/ppc.png");
-width: 400px;
-height: 400px;
-background-size: cover;
-background-repeat: no-repeat;
-}
-
-#headline {
-color: #00008B;
-font-size: 300%;
-}
+/* --------------------------------------- Headline over top grid ----------------------------- */
 
 .headline-two {
-color: black;
-text-align: center;
-padding: 30px 5px 0px 5px;
-font-size: 230%;
-}
+    color: black;
+    text-align: center;
+    padding: 30px 5px 0px 5px;
+    font-size: 230%;
+    }
 
-.headline3 {
-color: black;
-font-size: 120%;
-font-weight: lighter;
-margin: 25px 0;
-}
-
-.bilde {
-margin-right: 40px;
-}
-
-.btn {
-width: 200px;
-background-color: #FF1493;
-height: 50px;
-border-radius: 20px;
-color: white;
-border: none;
-font-size: 150%;
-font-weight: bold;
-cursor: pointer;
-transition: all .3s ease-in-out;
-}
-        
-.btn:hover { 
-transform: scale(1.2); 
-}
+/* --------------------------------------- Wrapper around top grid ----------------------------- */
 
 .wrapper {
-display: flex;
-justify-content: center;
-width: 80%;
-margin: 0 auto;
-margin: 50px auto;
-}
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    margin: 0 auto;
+    margin: 50px auto;
+    }
 
-.flex-item {
-display: flex;
-flex-direction: column;
-align-items: center;
-height: auto;
-min-width: 250px;
-border-radius: 20px; 
-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-transition: all .3s ease-in-out;
-cursor: pointer;
-}
+/* --------------------------------------- Grid one -------------------------------------------- */
 
-.logoboks-one {
+.grid-container {
+    display: grid;
+    grid-template-columns: 300px 300px 300px 300px;
+    grid-template-rows: auto;
+    gap: 20px 20px;
+    grid-template-areas:
+    
+                        "one two three four"
+                        "one two three four"
+                        "one two three four"
+                        "one two three four"
+    ;
+    }
 
+/* ------------------------------------- Items inside grid one ------------------------------------- */
+
+    .grid-item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+        min-width: 250px;
+        border-radius: 20px; 
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        transition: all .3s ease-in-out;
+        cursor: pointer;
+        }
+        
+        .logoboks-one {
+        
         display: flex;
         align-items: center;
         height: 100px;    
         }
+        
+        .grid-item:hover { 
+        transform: scale(1.1); 
+        }
+        
+        .one,
+        .two,
+        .three,
+        .four {
+        padding: 20px;
+        }
+        
+        .one {
+        grid-area: one;
+        }
+        
+        .two {
+        grid-area: two;
+        }
+        
+        .three {
+        grid-area: three;
+        
+        }
+        
+        .four {
+        grid-area: four;
+        }
 
-.flex-item:hover { 
-transform: scale(1.1); 
-}
-
-.one,
-.two,
-.three,
-.four,
-.five {
-padding: 20px;
-}
-
-.one {
-grid-area: one;
-}
-
-.two {
-grid-area: two;
-}
-
-.three {
-grid-area: three;
-
-}
-
-.four {
-grid-area: four;
-
-}
+        .tekst {
+            font-weight: lighter;
+            font-size: small;
+            color: black;
+            
+            }
+            
+            .small-btn {
+            background-color: #FF1493;
+            border: none;
+            width: 150px;
+            height: 40px;
+            border-radius: 20px;
+            color: white;
+            margin-top: 40px;
+            }
 
 
+/* --------------------------------------- Banner two ----------------------------------------- */
 
-.grid-container {
-display: grid;
-grid-template-columns: 300px 300px 300px 300px;
-grid-template-rows: auto;
-gap: 20px 20px;
-grid-template-areas:
-
-                    "one two three four"
-                    "one two three four"
-                    "one two three four"
-                    "one two three four"
-;
-}
-
-h3 {
-text-align: center;
-color: black;
-margin-bottom: 25px;
-margin-top: 25px;
-}
-
-.tekst {
-font-weight: lighter;
-font-size: small;
-color: black;
-
-}
-
-.small-btn {
-background-color: #FF1493;
-border: none;
-width: 150px;
-height: 40px;
-border-radius: 20px;
-color: white;
-margin-top: 40px;
-
-}
-
-.wrapper-two{
+.banner-two {
     width: 100%;
+    height: 400px;
+    background-color: var(--background-color);
+    text-align: center;
+    margin-top: 100px;
+    gap: 20px;
+    }
+    
+    #overskrift-banner-two {
+    font-size: 30px;
+    color: #778899;
+    padding-top: 100px;
+    }
+    
+    .para-banner-two {
+    padding-top: 10px;
+    }
+
+
+/*------------------------------------------ Flexo  ------------------------------------------ */
+
+.flexo {
+display: flex;
+
+flex-wrap: wrap;
+justify-content: center;
+
+margin-top: 100px;
+margin-bottom: 100px;
+}
+
+.flexy {
+    width: 40%;
+    min-width: 300px;
+    max-width: 500px;
     height: 500px;
+    box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 5px;
 }
 
-.grid-nede {
-display: grid;
-width: 100%;
-height: 500px;
-grid-template-columns: 100px 100px;
-grid-template-rows: auto;
+.uno {
+    background-image: url(Bilder/gray-laptop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
-.grid-nede-boks-one {
-    height: 100px;
-    width: auto;
-    border: solid black 1px
+.dos {
+    background-image: url(Bilder/iphone.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
-/* ------------------------------- media queries --------------------------- */
+.tres {
+    background-image: url(Bilder/SEO.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
 
-/* max-width 1325px*/
+.quatro {
+    background-image: url(Bilder/smartphone.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.h3class {
+    text-align: center;
+  
+    color: white;
+    font-size: 5vw;
+    margin-top: 30px;
+
+}
+
+.overskrifter {
+    text-align: center;
+    margin-top: 80px;
+    font-size: xx-large;
+}
+
+.btns {
+    width: 50%;
+    height: 50px;
+    background-color: white;
+    border-radius: 20px;
+    color: black;
+    font-size: 100%;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+    margin: 80% 25%;
+    }
+
+    .footer {
+        
+    }
+
+/* ------------------------------- Media queries ----------------------------------- 
+------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------*/
+
+
+
+
+
+/* ------------------------------ max-width 1325px ------------------------- */
 
 @media all and (max-width: 1325px) {
 .grid-container {
 display: grid;
 grid-template-columns: 300px 300px;
 grid-template-rows: 1fr 1fr;
-gap: 20px 20px;
+gap: 30px 30px;
 grid-template-areas:
         
                             "one two"
@@ -327,11 +401,11 @@ grid-template-areas:
 
 .box-one {
     text-align: center;
-    margin: 5px 5px; 
+    margin-left: 100px; 
     }
 
 .box-two {
-margin-left: 0px;
+margin-right: 0px;
     }
 
 ul {
@@ -350,11 +424,9 @@ cursor: pointer;
 color: grey;
 }
 
+/* ------------------------------- max-width 860px ---------------------------------- */
 
-
-/* ------------------------------- max-width 855px ---------------------------------- */
-
-@media all and (max-width: 855px) {
+@media all and (max-width: 875px) {
 .banner {
 display: grid;
 width: 100%;
@@ -379,18 +451,26 @@ font-size: 300%;
 padding-top: 30px;
 }
 
+.box-two {
+margin-right: 0px;
+}
+
+.box-one {
+text-align: center;
+margin-left: 0px; 
+}
+
 }
 
 /* --------------------------------- max-width 670px (mobile) ------------------------------ */
-
 
 @media all and (max-width: 670px) {
     .grid-container {
     display: grid;
     justify-content: center;
-    grid-template-columns: minmax(290px, 479px);
+    grid-template-columns: 300px;
     grid-template-rows: 400px 400px 400px 400px;
-    gap: 10px 10px;
+    gap: 30px 30px;
     grid-template-areas:
             
                                 "one"
@@ -474,12 +554,12 @@ padding-top: 30px;
         margin: 50px auto;
         }
 
-        .flex-item:hover { 
+        .flex-grid:hover { 
             transform: none; 
             }
         
-        .flex-item {
-        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-                
-
+        .grid-item {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);      
+        }
+    }
 }
