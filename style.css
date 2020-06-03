@@ -56,13 +56,6 @@ align-items: baseline;
     
 }
 
-.briwide{
-display: inline-block;
-color: black;
-margin-left: 10px;
-display: none;
-}
-
 ul {
 display: inline;
 padding-right: 100px;
@@ -395,9 +388,9 @@ padding-top: 30px;
     .grid-container {
     display: grid;
     justify-content: center;
-    grid-template-columns: 290px;
+    grid-template-columns: minmax(290px, 479px);
     grid-template-rows: 400px 400px 400px 400px;
-    gap: 20px 20px;
+    gap: 10px 10px;
     grid-template-areas:
             
                                 "one"
@@ -473,5 +466,20 @@ padding-top: 30px;
         margin-bottom: 70px;
     }
 
+    .wrapper {
+        display: flex;
+        justify-content: center;
+        width: 95%;
+        margin: 0 auto;
+        margin: 50px auto;
+        }
+
+        .flex-item:hover { 
+            transform: none; 
+            }
+        
+        .flex-item {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+                
 
 }
