@@ -314,31 +314,19 @@ margin-bottom: 100px;
 }
 
 .uno {
-    background-image: url(Bilder/gray-laptop.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+  
 }
 
 .dos {
-    background-image: url(Bilder/iphone.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+    
 }
 
 .tres {
-    background-image: url(Bilder/SEO.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+    
 }
 
 .quatro {
-    background-image: url(Bilder/smartphone.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+   
 }
 
 .h3class {
