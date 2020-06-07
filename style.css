@@ -2,6 +2,7 @@
 
 :root {
 --background-color:#F8F8FF;
+--box-shaddow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 /* ------------------------------------ All ------------------------------------------- */
@@ -212,7 +213,7 @@ color: red;
         height: auto;
         min-width: 250px;
         border-radius: 20px; 
-        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        box-shadow: var(--box-shaddow);
         transition: all .3s ease-in-out;
         cursor: pointer;
         }
@@ -292,41 +293,74 @@ color: red;
     }
 
 
-/*------------------------------------------ Flexo  ------------------------------------------ */
+/*------------------------------------------ Grid-two ------------------------------------------ */
 
-.flexo {
-display: flex;
-
-flex-wrap: wrap;
-justify-content: center;
-
-margin-top: 100px;
-margin-bottom: 100px;
+.wrapper-two {
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    justify-content: center;
 }
 
-.flexy {
-    width: 40%;
-    min-width: 300px;
-    max-width: 500px;
-    height: 500px;
-    box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    margin: 5px;
-}
 
-.uno {
-  
-}
-
-.dos {
+.grid-two {
+    display: grid;
+    border: black 1px solid;
+    grid-template-columns: 500px 500px;
+    grid-template-rows: 500px auto;
+    margin-top: 50px;
+    grid-template-areas: 
     
+                        "bilde styrker"
+                        "review"
+                    }
+
+.flex-one-grid-two {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.tres {
+.bildety {
     
+    grid-template-areas: bilde;
+    background-image: url(bilder/gray-laptop.jpg);
+    width: 300px;
+    height: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
-.quatro {
-   
+.flex-two-grid-two {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    grid-template-areas: styrker;
+}
+
+.flex-i-flex {
+    display: flex;
+}
+
+.v {
+    color: green;
+}
+
+.m {
+    color: red;
+}
+
+.flex-three-grid-two {
+
+    grid-template-areas: review;
+    width: 1000px
+
+}
+
+.skriftly {
+    width: 200px
 }
 
 .h3class {
@@ -554,7 +588,7 @@ margin-left: 0px;
 
 /* -------------------------------------- Landscape view --------------------------- */
 
-@media all and (max-width: 800px) and (orientation:landscape) {
+@media only screen (max-width: 800px) and (orientation:landscape) {
     .grid-container {
         display: grid;
         justify-content: center;
@@ -652,4 +686,4 @@ margin-left: 0px;
             box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);      
             }
         }
-    
+    }
