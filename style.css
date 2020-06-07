@@ -551,3 +551,105 @@ margin-left: 0px;
         }
     }
 }
+
+/* -------------------------------------- Landscape view --------------------------- */
+
+@media all and (max-width: 740px) and (orientation:landscape) {
+    .grid-container {
+        display: grid;
+        justify-content: center;
+        grid-template-columns: 300px;
+        grid-template-rows: 400px 400px 400px 400px;
+        gap: 30px 30px;
+        grid-template-areas:
+                
+                                    "one"
+                                    "two"
+                                    "three"
+                                    "four";
+        }
+        
+        .banner {
+            height: 740px;
+            margin-top: 60px;
+            
+        }    
+    
+        .imageinbox {
+        background-image: url("Bilder/imacsmall.png");
+        width: 290px;
+        height: 290px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        }
+    
+        #headline {
+        font-size: 250%;
+        margin-top: 50px;
+            }
+    
+        .headline-two {
+            font-size: 160%;
+        }
+    
+        .headline3 {
+            font-size: 15px;
+            margin-top: 30px;
+        }
+    
+        .btn {
+            width: 100px;
+            background-color: #FF1493;
+            border-radius: 20px;
+            color: white;
+            border: none;
+            font-size: 80%;
+            font-weight: bold;
+            cursor: pointer;
+            transition: all .3s ease-in-out;
+            margin-top: 30px;
+            }
+    
+        .header {
+            height:70px;
+            box-shadow: none;
+            background-color: white;
+            border-bottom: solid lightgray 1px;
+    
+        }
+    
+        .logo {
+            width: 200px;
+            height: 50px;
+        }
+    
+        .hamburger {
+            font-size: 25px;
+            margin-right: 10px;
+        }
+    
+        .navigation-wrapper {
+            padding-top: 10px;
+        }
+    
+        .box-two {
+            margin-bottom: 70px;
+        }
+    
+        .wrapper {
+            display: flex;
+            justify-content: center;
+            width: 95%;
+            margin: 0 auto;
+            margin: 50px auto;
+            }
+    
+            .flex-grid:hover { 
+                transform: none; 
+                }
+            
+            .grid-item {
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);      
+            }
+        }
+    
