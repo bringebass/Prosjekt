@@ -554,7 +554,7 @@ margin-left: 0px;
 
 /* -------------------------------------- Landscape view --------------------------- */
 
-@media all and (max-width: 740px) and (orientation:landscape) {
+@media all and (max-width: 800px) and (orientation:landscape) {
     .grid-container {
         display: grid;
         justify-content: center;
