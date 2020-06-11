@@ -89,10 +89,10 @@ color: grey;
 
 .nav-boxy-class {
     position: absolute;
-    height: 600px;
-    width: 200px;
+    height: 2000px;
+    width: 300px;
     right: 3px;
-    top: 70px;
+    top: 130px;
     background: black;
     display: none;
     box-shadow: var(--box-shaddow);
@@ -106,7 +106,7 @@ display: block;
 display: inline-block;
 list-style: none;
 margin-left: 30px;
-margin-top: 40px;
+
 position: absolute;
 }
 
@@ -348,7 +348,6 @@ color: red;
     width: 80%;
     margin: 0 auto;
     justify-content: center;
-    display: none;
 }
 
 
@@ -558,6 +557,10 @@ margin-left: 0px;
         margin-top: 60px;
         
     }    
+
+    .nav-boxy-class {
+        width: 200px;
+    }
 
     .imageinbox {
     background-image: url("Bilder/imacsmall.png");
