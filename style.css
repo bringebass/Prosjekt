@@ -3,6 +3,7 @@
 :root {
 --background-color:#F8F8FF;
 --headline-color: #00008B;
+--button-color: #FF1493;
 --box-shaddow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
@@ -26,9 +27,9 @@ position: fixed;
 z-index: 100;
 top: 0;
 box-shadow:
-    0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 2.8px 2.2px rgba(0, 0, 0, 0.016),
     0 6.7px 5.3px rgba(0, 0, 0, 0.048),
-    0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 12.5px 10px rgba(0, 0, 0, 0.016),
     0 22.3px 17.9px rgba(0, 0, 0, 0.072),
     0 41.8px 33.4px rgba(0, 0, 0, 0.086),
     0 100px 80px rgba(0, 0, 0, 0.12);
@@ -193,6 +194,13 @@ background-size: cover;
 background-repeat: no-repeat;
 }
 
+.imageinbox2 {
+    width: 40px;
+    height: auto;
+background-size: cover;
+background-repeat: no-repeat;
+}
+
 /* ------------------------------------- Social media symbols --------------------------------- */
 
 
@@ -267,6 +275,16 @@ color: red;
         cursor: pointer;
         }
         
+        .toppick {
+            z-index: 1001;
+            position: absolute;
+            top: -29px;
+            color: white;
+            text-transform: uppercase;
+            font-weight:;
+            ;
+        }
+
         .logoboks-one {
         
         display: flex;
@@ -275,7 +293,7 @@ color: red;
         }
         
         .grid-item:hover { 
-        transform: scale(1.1); 
+        transform: scale(1.05); 
         }
         
         .one,
@@ -291,6 +309,18 @@ color: red;
         
         .two {
         grid-area: two;
+        border-top: 40px solid var(--button-color);
+        box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+        0 6.7px 5.3px rgba(0, 0, 0, 0.084),
+        0 12.5px 10px rgba(0, 0, 0, 0.064),
+        0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+        0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+        0 100px 80px rgba(0, 0, 0, 0.12);;
+        transform: scale(1.04);
+        }
+
+        .two:hover {
+            transform: scale(1.1);
         }
         
         .three {
@@ -312,12 +342,23 @@ color: red;
             .small-btn {
             background-color: #FF1493;
             border: none;
-            width: 150px;
+            width: 200px;
             height: 40px;
             border-radius: 20px;
             color: white;
             margin-top: 40px;
             }
+
+            .small-btn2 {
+                background-color: #FF1493;
+                border: none;
+                width: 200px;
+                height: 40px;
+                border-radius: 20px;
+                color: white;
+                margin-top: 20px;
+            }
+
 
 
 /* --------------------------------------- Banner two ----------------------------------------- */
@@ -385,6 +426,17 @@ color: red;
 .underpenger {
     font-size: small;
     color: grey;
+}
+
+.symbolboks2 {
+    margin-top: 50px;
+    margin-bottom: 10px;
+} 
+
+.forstørre {
+    font-size: 40px;
+    padding: 0 5px 0 5px;
+    color: rgba(4, 3, 3, 0.714);
 }
 
 /* ------------------------------------------- grid2 -------------------------------------------------------*/
@@ -587,8 +639,8 @@ margin-left: 0px;
     gap: 30px 30px;
     grid-template-areas:
             
-                                "one"
                                 "two"
+                                "one"
                                 "three"
                                 "four";
     }
