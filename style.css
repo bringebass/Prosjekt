@@ -26,6 +26,7 @@ font-family: arial;
     height: 100%;
     display: block;
     padding-top: 16px;
+    text-transform: uppercase;
     ;
 }
 
@@ -59,12 +60,13 @@ font-family: arial;
         font-size: 100%;
         font-weight: bold;
         cursor: pointer;
-        transition: all .3s ease-in-out;
+        transition: all .2s ease-in-out;
         margin-top: 10px;
         }
         
         .btn:hover {
-        transform: scale(1. 1);
+        background-color: rgba(255, 20, 145, 0.269);
+        
         }
 
 /* ----------------------------------- Header -------------------------------------------- */
@@ -135,8 +137,12 @@ text-decoration: none;
 padding-left: 40px;
 }
 
+.aclass {
+    transition: all .2s ease-in-out;
+}
+
 .aclass:hover {
-color: grey;
+color:rgba(0, 0, 0, 0.269);
 }
 
 .nav-boxy-class {
