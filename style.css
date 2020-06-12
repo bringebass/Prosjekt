@@ -30,6 +30,11 @@ font-family: arial;
     ;
 }
 
+.button-text-2 {
+    text-decoration: none;
+    color: grey;
+}
+
 .small-btn {
     background-color: #FF1493;
     border: none;
@@ -78,6 +83,7 @@ font-family: arial;
     font-family: arial;
     margin-left: 7px;
     font-weight: bold;
+    transition: all .2s ease-in-out;
     cursor: pointer;
     }
 
@@ -90,6 +96,43 @@ font-family: arial;
     padding-right: 3px;
     font-size: large;
 }
+
+/* ------------------------------------ Headlines ------------------------------------- */
+
+#headline {
+    color: var(--headline-color);
+    font-size: 300%;
+    margin: 0px 5px
+    }
+    
+    .headline3 {
+    color: black;
+    font-size: 120%;
+    font-weight: lighter;
+    margin: 25px 5px;
+    }
+    
+    .headline-two {
+    color: black;
+    text-align: center;
+    padding: 0px 5px 0px 5px;
+    margin-bottom: 60px;
+    margin-top: ;
+    font-size: 230%;
+    }
+
+    .overskrifter {
+    text-align: center;
+    margin-top: 80px;
+    font-size: xx-large;
+    }
+
+    .headline5 {
+    text-align: center;
+    color: var(--headline-color);
+    font-size: x-large;
+    margin-bottom: 80px;
+    }
 
 /* ----------------------------------- Header -------------------------------------------- */
 
@@ -190,9 +233,6 @@ margin-left: 30px;
 position: absolute;
 }
 
-
-
-
 .li2 {
 padding-top: 40px;
 position: ;
@@ -203,9 +243,7 @@ color: white;
 
 
 .ar {
-   
-    color: white;
-    
+color: white;
 }
 
 
@@ -226,21 +264,6 @@ flex-flow: column;
 align-self: center;
 margin-left: 200px;
 }
-
-#headline {
-color: var(--headline-color);
-font-size: 300%;
-margin: 0px 5px
-}
-
-.headline3 {
-color: black;
-font-size: 120%;
-font-weight: lighter;
-margin: 25px 5px;
-    }
-    
-
 
 .box-two {
 align-self: center;
@@ -265,17 +288,11 @@ background-repeat: no-repeat;
 
 /* ------------------------------------- Social media symbols (prøver knapper og tekst her isteden) --------------------------------- */
 
-.headline4 {
-    text-align: center;
-    margin-top: 20px;
-    margin-top: px;
-    color: var(--headline-color);
-}
-
 .what-is {
+    text-align: center;
+    width: 70%;
     margin: 0 auto;
-    margin-top: 30px;
-    margin-bottom: 60px;
+    margin-bottom: 70px;
     max-width: 1000px;
     font-size: large;
     line-height: 1.7;
@@ -297,15 +314,30 @@ background-repeat: no-repeat;
 
 .fb {
 color: blue;
+transition: all .2s ease-in-out;
+}
+
+.fb:hover {
+    color: rgba(0, 0, 255, 0.173);
 }
 
 .tw {
 color: red;
+transition: all .2s ease-in-out;
+}
+
+.tw:hover {
+color: rgba(255, 0, 0, 0.091);
 }
 
 .lk {
     color: green;
+    transition: all .2s ease-in-out;
     }
+
+.lk:hover {
+    color:  rgba(0, 128, 0, 0.084);
+}
 
 .button-span {
 display: flex;
@@ -317,14 +349,7 @@ background-color: var(--background-color);
 
 /* --------------------------------------- Headline over top grid ----------------------------- */
 
-.headline-two {
-    color: black;
-    text-align: center;
-    padding: 0px 5px 0px 5px;
-    margin-bottom: 60px;
-    margin-top: ;
-    font-size: 230%;
-    }
+
 
 /* --------------------------------------- Wrapper around top grid ----------------------------- */
 
@@ -345,10 +370,10 @@ background-color: var(--background-color);
     gap: 20px 20px;
     grid-template-areas:
     
-                        "one two three four"
-                        "one two three four"
-                        "one two three four"
-                        "one two three four"
+                        "one three two four"
+                        "one three two four"
+                        "one three two four"
+                        "one three two four"
     ;
     }
 
@@ -490,6 +515,7 @@ background-color: var(--background-color);
    font-style: italic;
    margin-top: 10px;
    margin-bottom: 30px;
+   text-align: center;
 }
 
 .penger {
@@ -587,11 +613,7 @@ background-color: var(--background-color);
 
 }
 
-.overskrifter {
-    text-align: center;
-    margin-top: 80px;
-    font-size: xx-large;
-}
+
 
 .btns {
     width: 50%;
