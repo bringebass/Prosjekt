@@ -93,7 +93,7 @@ font-family: arial;
 
 .spm {
     color: var(--headline-color);
-    padding-right: 3px;
+    padding-right: 7px;
     font-size: large;
 }
 
@@ -538,13 +538,26 @@ background-color: var(--background-color);
     color: rgba(4, 3, 3, 0.714);
 }
 
-/* ------------------------------------------- grid2 -------------------------------------------------------*/
+/* ------------------------------------------- table -------------------------------------------------------*/
 
+.table {
+margin: 0 auto;
+width: 70%;
+height: 800px;
+box-shadow: var(--box-shaddow);
+border-collapse: collapse;  
+margin-top: 100px;
+margin-bottom: 300px;
+text-align: center;
+}
 
+tr, td, th {
+border: solid lightgray 1px;    
+}
 
-
-
-
+th, tr, td {
+    width: 10000px;
+}
 
 
 
