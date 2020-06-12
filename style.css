@@ -69,12 +69,34 @@ font-family: arial;
         
         }
 
+    .btn4 {
+    background-color: white;
+    width: 220px;
+    height: 50px;
+    border:none;
+    margin-right: 3px;
+    font-family: arial;
+    margin-left: 7px;
+    font-weight: bold;
+    cursor: pointer;
+    }
+
+    .btn4:hover {
+        background-color: var(--background-color);
+    }
+
+.spm {
+    color: var(--headline-color);
+    padding-right: 3px;
+    font-size: large;
+}
+
 /* ----------------------------------- Header -------------------------------------------- */
 
 .header {
 width: 100%;
 height: 60px;
-background: var(--background-color);
+background: white;
 position: fixed;
 z-index: 100;
 top: 0;
@@ -241,12 +263,31 @@ background-size: cover;
 background-repeat: no-repeat;
 }
 
-/* ------------------------------------- Social media symbols --------------------------------- */
+/* ------------------------------------- Social media symbols (prøver knapper og tekst her isteden) --------------------------------- */
+
+.headline4 {
+    text-align: center;
+    margin-top: 20px;
+    margin-top: px;
+    color: var(--headline-color);
+}
+
+.what-is {
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 60px;
+    max-width: 1000px;
+    font-size: large;
+    line-height: 1.7;
+}
+
 
 
 .socialmedia-symbols {
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
+    margin-right: 70px;
+    margin-top: 30px;
 }
 
 .sm {
@@ -266,12 +307,22 @@ color: red;
     color: green;
     }
 
+.button-span {
+display: flex;
+justify-content:center;
+background-color: var(--background-color);
+
+
+}
+
 /* --------------------------------------- Headline over top grid ----------------------------- */
 
 .headline-two {
     color: black;
     text-align: center;
-    padding: 30px 5px 0px 5px;
+    padding: 0px 5px 0px 5px;
+    margin-bottom: 60px;
+    margin-top: ;
     font-size: 230%;
     }
 
@@ -350,12 +401,12 @@ color: red;
         .two {
         grid-area: two;
         border-top: 40px solid var(--button-color);
-        box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
-        0 6.7px 5.3px rgba(0, 0, 0, 0.084),
-        0 12.5px 10px rgba(0, 0, 0, 0.064),
+        box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.077),
+        0 6.7px 5.3px rgba(0, 0, 0, 0.077),
+        0 12.5px 10px rgba(0, 0, 0, 0),
         0 22.3px 17.9px rgba(0, 0, 0, 0.072),
         0 41.8px 33.4px rgba(0, 0, 0, 0.086),
-        0 100px 80px rgba(0, 0, 0, 0.12);;
+        0 100px 80px rgba(0, 0, 0, 0.064);;
         transform: scale(1.04);
         }
 
