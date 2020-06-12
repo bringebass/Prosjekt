@@ -97,6 +97,20 @@ font-family: arial;
     font-size: large;
 }
 
+.button-table {
+    width: 100%;
+    height: 100%;
+    background-color: var(--button-color);
+    border-radius: none;
+    color: white;
+    border: none;
+    font-size: 70%;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+    
+}
+
 /* ------------------------------------ Headlines ------------------------------------- */
 
 #headline {
@@ -543,12 +557,12 @@ background-color: var(--background-color);
 .table {
 margin: 0 auto;
 width: 70%;
-height: 800px;
+height: 1000px;
 box-shadow: var(--box-shaddow);
 border-collapse: collapse;  
 margin-top: 100px;
-margin-bottom: 300px;
 text-align: center;
+margin-bottom: 50px;
 }
 
 tr, td, th {
@@ -559,7 +573,11 @@ th, tr, td {
     width: 10000px;
 }
 
-
+#tablerow {
+    background-color: ;
+    font-size: x-large;
+    
+}
 
 /* ------------------------------- Media queries ----------------------------------- 
 ------------------------------------------------------------------------------------
