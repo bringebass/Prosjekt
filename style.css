@@ -131,7 +131,7 @@ font-family: arial;
     text-align: center;
     padding: 0px 5px 0px 5px;
     margin-bottom: 60px;
-    margin-top: ;
+    margin-top: 60px;
     font-size: 230%;
     }
 
@@ -147,6 +147,12 @@ font-family: arial;
     font-size: x-large;
     margin-bottom: 80px;
     }
+
+    #overskrift-banner-two {
+        font-size: 30px;
+        color: #778899;
+        padding-top: 175px;
+        }
 
 /* ----------------------------------- Header -------------------------------------------- */
 
@@ -440,6 +446,9 @@ background-color: var(--background-color);
         .two {
         grid-area: two;
         border-top: 40px solid var(--button-color);
+            
+
+        
         box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.077),
         0 6.7px 5.3px rgba(0, 0, 0, 0.077),
         0 12.5px 10px rgba(0, 0, 0, 0),
@@ -484,11 +493,7 @@ background-color: var(--background-color);
     gap: 20px;
     }
     
-    #overskrift-banner-two {
-    font-size: 30px;
-    color: #778899;
-    padding-top: 100px;
-    }
+   
     
     .para-banner-two {
     padding-top: 10px;
