@@ -538,7 +538,8 @@ background-color: var(--background-color);
 }
 
 .penger {
-    color: var(--headline-color)
+    color: var(--headline-color);
+    font-size: 30px;
 }
 
 .underpenger {
