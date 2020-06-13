@@ -168,6 +168,11 @@ font-family: arial;
         padding-top: 175px;
         }
 
+    .wix-headline {
+        text-align: center;
+        font-size: 25px;
+    }
+
 /* ----------------------------------- Header -------------------------------------------- */
 
 .header {
@@ -617,7 +622,7 @@ th, tr, td {
 .wrapper-around-grid-five {
     max-width: 900px;
     height: auto;
-    margin: 0 auto;
+    margin-left: 10%;
 }
 
 .grid5 {
@@ -625,6 +630,7 @@ th, tr, td {
     width: 100%;
     height: 1000px;
     box-shadow: var(--box-shaddow);
+    border-radius: 10px;
     justify-items: center;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 500px 1fr;
