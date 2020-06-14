@@ -67,6 +67,7 @@ font-family: arial;
         cursor: pointer;
         transition: all .2s ease-in-out;
         margin-top: 10px;
+        margin: 0 auto;
         }
         
         .btn:hover {
@@ -289,26 +290,32 @@ color: white;
 
 /* --------------------------------------- Banner One --------------------------------------------- */
 
+.wrapper-around-banner {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    background-color: var(--background-color);
+}
+
 .banner {
 display: grid;
-width: 100%;
+width: 1200px;
 height: 600px;
 margin-top: 60px;
 background-color: var(--background-color);
-grid-template-columns: 1fr 1fr;
+grid-template-columns: 600px 600px;
 }
 
 .box-one {
 display: flex;
 flex-flow: column;
 align-self: center;
-margin-left: 200px;
+text-align: center;
 }
 
 .box-two {
 align-self: center;
 justify-self: center;
-margin-right: 50px;
 }
     
 .imageinbox {
@@ -621,23 +628,25 @@ th, tr, td {
 
 
 .wrapper-around-grid-five {
-    max-width: 900px;
+    max-width: 80%;
     height: auto;
     margin-left: 10%;
+    
 }
 
 .grid5 {
     display: grid;
-    width: 100%;
-    height: 1000px;
+    width: 1300px;
+    height: 1300px;
     box-shadow: var(--box-shaddow);
-    border-radius: 10px;
+    border-radius: ;
+    margin-bottom: 200px;
     justify-items: center;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 500px 1fr;
-    grid-template-areas: "topleft topright" 
-                         "bottoms bottoms ";
-}
+    grid-template-areas: "topleft topright aside" 
+                         "bottoms bottoms aside";
+}              
 
 .item-one-grid-five {
     
@@ -659,6 +668,45 @@ th, tr, td {
     grid-area: bottoms;
     width:90%
 }
+
+.item-four-grid-five {
+ 
+    grid-area: aside;
+    width:100%;
+    border-left: solid lightgray 1px;
+}
+
+.anmeldelse-tekst {
+    line-height: 1.7;
+}
+
+.anmeldelse-tekst2 {
+    line-height: 1.7;
+    float: none;
+    margin-top: 100px;
+}
+
+.webhosting-dave {
+    float: right;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.whd {
+    margin-top: 35px;
+    float: right;
+    color: var(--headline-color)
+}
+
+
+/* table-two */
+
+.table-two {
+    width: 400px;
+    height: 70%;
+    text-align: center;
+}
+
 
 
 /* ------------------------------- Media queries ----------------------------------- 
