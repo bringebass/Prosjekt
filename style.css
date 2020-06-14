@@ -14,6 +14,8 @@ box-sizing: border-box;
 margin: 0;
 padding: 0;
 font-family: arial;
+color: rgb(2, 2, 65);
+font-size: 16px;
 
 }
 
@@ -27,12 +29,13 @@ font-family: arial;
     display: block;
     padding-top: 16px;
     text-transform: uppercase;
-    ;
+    font-size: 1rem;
 }
 
 .button-text-2 {
     text-decoration: none;
     color: grey;
+    font-size: 0.8rem;
 }
 
 .small-btn {
@@ -56,18 +59,17 @@ font-family: arial;
     }
 
     .btn {
-        width: 270px;
+        width: 240px;
         height: 50px;
         background-color: #FF1493;
         border-radius: 20px;
         color: white;
         border: none;
-        font-size: 100%;
         font-weight: bold;
         cursor: pointer;
         transition: all .2s ease-in-out;
         margin-top: 10px;
-        margin: 0 auto;
+        
         }
         
         .btn:hover {
@@ -95,7 +97,7 @@ font-family: arial;
 .spm {
     color: var(--headline-color);
     padding-right: 7px;
-    font-size: large;
+    font-size: 1,1rem;
 }
 
 .button-table {
@@ -105,7 +107,7 @@ font-family: arial;
     border-radius: none;
     color: white;
     border: none;
-    font-size: 70%;
+    font-size: 1rem;
     font-weight: bold;
     cursor: pointer;
     transition: all .2s ease-in-out;
@@ -116,15 +118,15 @@ font-family: arial;
 
 #headline {
     color: var(--headline-color);
-    font-size: 300%;
+    font-size: 3rem;
     margin: 0px 5px
     }
     
     .headline3 {
     color: black;
-    font-size: 120%;
     font-weight: lighter;
     margin: 25px 5px;
+    font-size: 1.1rem;
     }
 
     .headline-three {
@@ -133,7 +135,6 @@ font-family: arial;
         padding: 0px 5px 0px 5px;
         margin-bottom: 10px;
         padding-top: 100px;
-        font-size: 230%;
         }
     
     .headline-two {
@@ -141,38 +142,32 @@ font-family: arial;
     text-align: center;
     padding: 0px 5px 0px 5px;
     margin-bottom: 60px;
-    margin-top: 60px;
-    font-size: 230%;
-    }
-
-    .overskrifter {
-    text-align: center;
-    margin-top: 80px;
-    font-size: xx-large;
+    margin-top: 0px;
+    font-size: 2.5rem;
     }
 
     .headline5 {
     text-align: center;
     color: var(--headline-color);
-    font-size: x-large;
+    font-size: 1.5rem;
     margin-bottom: 80px;
     margin-top: 60px;
     }
 
     .symbolzz {
-     font-size: 80px;
+     font-size: 5rem;
      margin: 0 auto;
     }
 
     #overskrift-banner-two {
-        font-size: 30px;
+        font-size: 2rem;
         color: #778899;
         padding-top: 175px;
         }
 
     .wix-headline {
         text-align: center;
-        font-size: 25px;
+        font-size: 1.2rem;
     }
 
 /* ----------------------------------- Header -------------------------------------------- */
@@ -180,7 +175,7 @@ font-family: arial;
 .header {
 width: 100%;
 height: 60px;
-background: white;
+background: var(--background-color);
 position: fixed;
 z-index: 100;
 top: 0;
@@ -219,7 +214,7 @@ cursor: pointer;
 }
 
 .hamburger {
-font-size: 30px;
+font-size: 1.5rem;
 color: black;
 display: none;
 }
@@ -236,7 +231,7 @@ padding-right: 100px;
 }
 
 .liclass, .aclass {
-font-size: 20px;
+font-size: 1rem;
 color: black;
 display: inline-block;
 text-decoration: none;
@@ -310,17 +305,17 @@ grid-template-columns: 600px 600px
 display: flex;
 flex-flow: column;
 align-self: center;
-text-align: center;
+margin-left: 80px ;
 }
 
 .box-two {
 align-self: center;
 justify-self: center;
-margin-left: 100px;
+margin-left:;
 }
     
 .imageinbox {
-background-image: url("Bilder/ppc.png");
+background-image: url("Bilder/test.png");
 width: 400px;
 height: 400px;
 background-size: cover;
@@ -342,7 +337,7 @@ background-repeat: no-repeat;
     margin: 0 auto;
     margin-bottom: 70px;
     max-width: 1500px;
-    font-size: large;
+    font-size: 1.1rem;
     line-height: 1.7;
 }
 
@@ -352,7 +347,7 @@ background-repeat: no-repeat;
     margin: 0 auto;
     margin-bottom: 10px;
     max-width: 1000px;
-    font-size: large;
+    font-size: 1rem;
     line-height: 1.7;
 }
 
@@ -366,7 +361,7 @@ background-repeat: no-repeat;
 
 .sm {
     padding: 35px 20px;
-    font-size: 20px;
+    font-size: 1rem;
 }
 
 .fb {
@@ -440,7 +435,7 @@ background-color: var(--background-color);
         display: flex;
         flex-direction: column;
         align-items: center;
-        height: 700px;
+        height: 750px;
         min-width: 250px;
         border-radius: 20px; 
         box-shadow: var(--box-shaddow);
@@ -453,7 +448,7 @@ background-color: var(--background-color);
             top: -29px;
             color: white;
             text-transform: uppercase;
-            font-size: 17px;
+            font-size: 1rem;
         }
 
         .logoboks-one {
@@ -482,6 +477,7 @@ background-color: var(--background-color);
         grid-area: two;
         border-top: 40px solid var(--button-color);
         position: relative;
+        transform: scale(1.04);
             
     }
         
@@ -509,13 +505,6 @@ background-color: var(--background-color);
         .four {
         grid-area: four;
         }
-
-        .tekst {
-            font-weight: lighter;
-            font-size: small;
-            color: black;
-            
-            }
             
 
 
@@ -578,11 +567,11 @@ background-color: var(--background-color);
 
 .penger {
     color: var(--headline-color);
-    font-size: 30px;
+    font-size: 2rem;
 }
 
 .underpenger {
-    font-size: small;
+    font-size: 0.7rem;
     color: grey;
 }
 
@@ -592,7 +581,7 @@ background-color: var(--background-color);
 } 
 
 .forstørre {
-    font-size: 40px;
+    font-size: 2rem;
     padding: 0 5px 0 5px;
     color: rgba(4, 3, 3, 0.714);
 }
@@ -602,12 +591,14 @@ background-color: var(--background-color);
 .table {
 margin: 0 auto;
 width: 70%;
+max-width: 1200px;
 height: 1000px;
 box-shadow: var(--box-shaddow);
 border-collapse: collapse;  
 margin-top: 100px;
 text-align: center;
 margin-bottom: 100px;
+
 }
 
 tr, td, th {
@@ -615,12 +606,12 @@ border: solid lightgray 1px;
 }
 
 th, tr, td {
-    width: 10000px;
+    font-size: 1rem;
 }
 
 #tablerow {
-    background-color: ;
-    font-size: x-large;
+    font-size: 1rem;
+    width: 70px
     
 }
 
@@ -640,10 +631,11 @@ th, tr, td {
 .grid5 {
     display: grid;
     max-width: 1300px;
-    min-width: 600px;
-    height: 1300px;
+    min-width: 300px;
+    height: 2000px;
     box-shadow: var(--box-shaddow);
-    border-radius: ;
+    margin-right: 10px;
+    margin-left: 15px;
     margin-bottom: 200px;
     justify-items: center;
     grid-template-columns: 1fr 1fr 1fr;
@@ -684,12 +676,14 @@ th, tr, td {
 
 .anmeldelse-tekst {
     line-height: 1.7;
+    font-size: 1.1rem;
 }
 
 .anmeldelse-tekst2 {
     line-height: 1.7;
     float: none;
     margin-top: 100px;
+    font-size: 1.1rem;
 }
 
 .webhosting-dave {
@@ -701,7 +695,8 @@ th, tr, td {
 .whd {
     margin-top: 35px;
     float: right;
-    color: var(--headline-color)
+    color: var(--headline-color);
+    font-weight: bolder;
 }
 
 .item-five-grid-five {
@@ -729,7 +724,7 @@ margin-top: 40%;
 /* table-two */
 
 .table-two {
-    width: 400px;
+    width: 500px;
     height: 100%;
     text-align: center;
 }
@@ -776,8 +771,8 @@ display: none;
 }
 
 .hamburger {
-font-size: 30px;
-color: black;
+
+
 display: block;
 margin-right: 50px;
 cursor: pointer;
@@ -787,11 +782,31 @@ cursor: pointer;
 color: grey;
 }
 
+.item-five-grid-five {
+    display: none;
+}
 
+.item-four-grid-five {
+    display: none;
+}
 
-/* ------------------------------- max-width 860px ---------------------------------- */
+.grid5 {
+grid-template-columns: 1fr 1fr;
+grid-template-rows: 500px 1fr 1fr;
+grid-template-areas: "topleft topright" 
+                     "bottoms bottoms"
+                     "bottoms bottoms";
+}
 
-@media all and (max-width: 875px) {
+.table-two {
+    width: 80%;
+    margin: 0 auto;
+    height: auto;
+}
+
+/* ------------------------------- max-width 1000px ---------------------------------- */
+
+@media all and (max-width: 1000px) {
 .banner {
 display: grid;
 width: 100%;
@@ -802,17 +817,18 @@ grid-template-columns: 1fr;
 grid-template-rows: 1fr 1fr;
         }
 
-.btn {
+* {
+    font-size: 15px;
+}
 
+.btn {
 width: 150px;
-font-size: 20px;
 margin-top: 20px;
 
 }
 
 #headline {
 color: #00008B;
-font-size: 300%;
 padding-top: 30px;
 }
 
@@ -844,6 +860,11 @@ margin-left: 0px;
                                 "four";
     }
     
+    * {
+        font-size: 12px;
+    }
+
+
     .banner {
         height: 740px;
         margin-top: 60px;
@@ -863,16 +884,13 @@ margin-left: 0px;
     }
 
     #headline {
-    font-size: 250%;
+    
     margin-top: 50px;
         }
 
-    .headline-two {
-        font-size: 160%;
-    }
+  
 
     .headline3 {
-        font-size: 15px;
         margin-top: 30px;
     }
 
@@ -882,7 +900,6 @@ margin-left: 0px;
         border-radius: 20px;
         color: white;
         border: none;
-        font-size: 80%;
         font-weight: bold;
         cursor: pointer;
         transition: all .3s ease-in-out;
@@ -903,7 +920,6 @@ margin-left: 0px;
     }
 
     .hamburger {
-        font-size: 25px;
         margin-right: 10px;
     }
 
@@ -930,6 +946,15 @@ margin-left: 0px;
         .grid-item {
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);      
         }
+
+        .grid5 {
+            grid-template-columns: 1fr;
+            grid-template-rows: auto;
+            grid-template-areas: "topleft" 
+                                 "topright"
+                                 "bottoms";
+            }
+
     }
 }
 
@@ -965,16 +990,12 @@ margin-left: 0px;
         }
     
         #headline {
-        font-size: 250%;
         margin-top: 50px;
             }
     
-        .headline-two {
-            font-size: 160%;
-        }
+     
     
         .headline3 {
-            font-size: 15px;
             margin-top: 30px;
         }
     
@@ -984,7 +1005,7 @@ margin-left: 0px;
             border-radius: 20px;
             color: white;
             border: none;
-            font-size: 80%;
+
             font-weight: bold;
             cursor: pointer;
             transition: all .3s ease-in-out;
@@ -1005,7 +1026,6 @@ margin-left: 0px;
         }
     
         .hamburger {
-            font-size: 25px;
             margin-right: 10px;
         }
     
