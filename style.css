@@ -861,15 +861,22 @@ margin-left: 0px;
     }
     
     * {
-        font-size: 14px;
+        font-size: 15px;
     }
 
+    .bort {
+        display: none;
+    }
 
     .banner {
         height: 740px;
         margin-top: 60px;
         
     }    
+
+    .table {
+        width: 90%;
+    }
 
     .nav-boxy-class {
         width: 200px;
@@ -920,7 +927,7 @@ margin-left: 0px;
     }
 
     .hamburger {
-        margin-right: 10px;
+        margin-right: 20px;
     }
 
     .navigation-wrapper {
