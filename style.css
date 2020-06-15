@@ -914,7 +914,7 @@ margin-left: 0px;
         }
 
     .header {
-        height:70px;
+        height:40px;
         box-shadow: none;
         background-color: white;
         border-bottom: solid lightgray 1px;
@@ -923,7 +923,7 @@ margin-left: 0px;
 
     .logo {
         width: 200px;
-        height: 50px;
+        height: 40px;
     }
 
     .hamburger {
@@ -931,7 +931,8 @@ margin-left: 0px;
     }
 
     .navigation-wrapper {
-        padding-top: 10px;
+        height: 40px;
+        padding-top: 0px;
     }
 
     .box-two {
