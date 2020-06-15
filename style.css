@@ -462,10 +462,12 @@ background-color: var(--background-color);
         height: 100px;    
         }
         
+        /*
         .grid-item:hover { 
         transform: scale(1.05); 
         }
-        
+        */
+
         .one,
         .two,
         .three,
@@ -497,10 +499,12 @@ background-color: var(--background-color);
         
     */
 
+        /*
         .two:hover {
             transform: scale(1.1);
         }
-        
+        */
+
         .three {
         grid-area: three;
         
@@ -864,7 +868,7 @@ margin-left: 0px;
     .grid-container {
     display: grid;
     justify-content: center;
-    grid-template-columns: minmax(300px,400px);
+    grid-template-columns: minmax(300px,350px);
     grid-template-rows: auto;
     gap: 30px 30px;
     grid-template-areas:
