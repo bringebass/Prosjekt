@@ -864,7 +864,7 @@ margin-left: 0px;
     .grid-container {
     display: grid;
     justify-content: center;
-    grid-template-columns: 300px;
+    grid-template-columns: minmax(300px,400px);
     grid-template-rows: auto;
     gap: 30px 30px;
     grid-template-areas:
