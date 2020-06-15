@@ -883,18 +883,21 @@ margin-left: 0px;
         display: none;
     }
 
+
+
     .banner {
-        height: 550px;
+        height: 470px;
         margin-top: 60px; 
     }    
 
     .table {
-        width: 90%;
+        width: 80%;
     }
 
     .what-is {
         width: 90%;
         text-align: start;
+        margin-bottom: 35px;
     }
 
     .nav-boxy-class {
@@ -911,7 +914,8 @@ margin-left: 0px;
     .headline-two {
         padding-left: 20px;
         padding-right: 20px;
-        margin-top: 40px;
+        margin-top: 25px;
+        margin-bottom: 30px;
 
     }
 
@@ -923,6 +927,12 @@ margin-left: 0px;
     .headline5 {
         padding-left: 15px;
         padding-right: 15px;
+        margin-top: 30px;
+        margin-bottom: 40px;
+    }
+
+    .wrapper {
+        margin-top: 30px;
     }
 
     .btn {
@@ -941,7 +951,7 @@ margin-left: 0px;
 
     .logo {
         width: 200px;
-        height: 0px;
+        height: 50px;
     }
 
     .hamburger {
@@ -955,7 +965,7 @@ margin-left: 0px;
 
     .box-one {
         align-self: flex-start;
-        margin-top: 20px;
+        margin-top: 0px;
     }
 
     .box-two {
