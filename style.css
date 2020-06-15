@@ -1,8 +1,8 @@
 /* ------------------------------------ Variables -------------------------------------- */
 
 :root {
---background-color: lightgray;
---headline-color: blue;
+--background-color:#F8F8FF;
+--headline-color: #00008B;
 --button-color: #FF1493;
 --box-shaddow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
@@ -319,7 +319,7 @@ margin-left:;
 }
     
 .imageinbox {
-background-image: url();
+background-image: url(Bilder/ppc.png);
 width: 300px;
 height: 300px;
 background-size: cover;
@@ -327,7 +327,7 @@ background-repeat: no-repeat;
 }
 
 .imageinbox2 {
-    width: 40px;
+    width: 400px;
     height: auto;
 background-size: cover;
 background-repeat: no-repeat;
@@ -636,7 +636,7 @@ th, tr, td {
     display: grid;
     max-width: 1200px;
     min-width: 300px;
-    height: 2000px;
+    height: auto;
     box-shadow: var(--box-shaddow);
     margin-right: 10px;
     margin-left: 15px;
@@ -884,9 +884,8 @@ margin-left: 0px;
     }
 
     .banner {
-        height: 740px;
-        margin-top: 60px;
-        
+        height: 550px;
+        margin-top: 60px; 
     }    
 
     .table {
@@ -902,31 +901,23 @@ margin-left: 0px;
         width: 200px;
     }
 
-    .imageinbox {
-    background-image: url("Bilder/imacsmall.png");
-    width: 290px;
-    height: 290px;
-    background-size: cover;
-    background-repeat: no-repeat;
+   
+    .socialmedia-symbols {
+        display: none;
     }
 
-    #headline {
-    
-    margin-top: 0px;
-    padding-top: 0px;
-    padding-left: 15px;
-    padding-right: 15px;
-    width: 100%;
-    
-        }
+
 
     .headline-two {
-        padding-left: 5px;
-        padding-right: 5px;
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-top: 40px;
+
     }
 
     .headline3 {
-        margin-top: 30px;
+        
+        display: none;
     }
 
     .headline5 {
@@ -975,8 +966,7 @@ margin-left: 0px;
         display: flex;
         justify-content: center;
         width: 95%;
-        margin: 0 auto;
-        margin: 0 auto;
+       
         }
 
         .flex-grid:hover { 
@@ -1023,9 +1013,9 @@ margin-left: 0px;
         }    
     
         .imageinbox {
-        background-image: url("Bilder/imacsmall.png");
-        width: 290px;
-        height: 290px;
+        background-image: url("");
+        width: 2px;
+        height: auto;
         background-size: cover;
         background-repeat: no-repeat;
         }
