@@ -28,7 +28,6 @@ font-size: 16px;
     height: 100%;
     display: block;
     padding-top: 16px;
-    text-transform: uppercase;
     font-size: 1rem;
 }
 
@@ -105,13 +104,15 @@ font-size: 16px;
     height: 100%;
     background-color: var(--button-color);
     border-radius: none;
-    color: white;
     border: none;
     font-size: 1rem;
     font-weight: bold;
     cursor: pointer;
     transition: all .2s ease-in-out;
-    
+}
+
+.white {
+    color: white;
 }
 
 /* ------------------------------------ Headlines ------------------------------------- */
@@ -315,9 +316,9 @@ margin-left:;
 }
     
 .imageinbox {
-background-image: url("Bilder/test.png");
-width: 400px;
-height: 400px;
+background-image: url(Bilder/AdobeStock_285894178.jpeg);
+width: 300px;
+height: 300px;
 background-size: cover;
 background-repeat: no-repeat;
 }
@@ -477,7 +478,7 @@ background-color: var(--background-color);
         grid-area: two;
         border-top: 40px solid var(--button-color);
         position: relative;
-        transform: scale(1.04);
+     
             
     }
         
@@ -630,7 +631,7 @@ th, tr, td {
 
 .grid5 {
     display: grid;
-    max-width: 1300px;
+    max-width: 1200px;
     min-width: 300px;
     height: 2000px;
     box-shadow: var(--box-shaddow);
@@ -757,6 +758,10 @@ grid-template-areas:
     margin: 10px auto;
     }
 
+.banner {
+    width: 100%;
+}
+
 .box-one {
     text-align: center;
     margin-left: 100px; 
@@ -771,8 +776,6 @@ display: none;
 }
 
 .hamburger {
-
-
 display: block;
 margin-right: 50px;
 cursor: pointer;
@@ -791,6 +794,7 @@ color: grey;
 }
 
 .grid5 {
+width: 80%;
 grid-template-columns: 1fr 1fr;
 grid-template-rows: 500px 1fr 1fr;
 grid-template-areas: "topleft topright" 
@@ -806,7 +810,7 @@ grid-template-areas: "topleft topright"
 
 /* ------------------------------- max-width 1000px ---------------------------------- */
 
-@media all and (max-width: 1000px) {
+@media all and (max-width: 1122px) {
 .banner {
 display: grid;
 width: 100%;
@@ -839,6 +843,14 @@ margin-right: 0px;
 .box-one {
 text-align: center;
 margin-left: 0px; 
+}
+
+.table {
+    width: 90%
+}
+
+.grid5 {
+    width: 90%;
 }
 
 }
@@ -899,15 +911,15 @@ margin-left: 0px;
     
     margin-top: 0px;
     padding-top: 0px;
-    margin-left: 15px;
-    margin-right: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
     width: 100%;
     
         }
 
     .headline-two {
-        margin-left: 5px;
-        margin-right: 5px;
+        padding-left: 5px;
+        padding-right: 5px;
     }
 
     .headline3 {
@@ -915,8 +927,8 @@ margin-left: 0px;
     }
 
     .headline5 {
-        margin-left: 5px;
-        margin-right: 5px;
+        padding-left: 15px;
+        padding-right: 15px;
     }
 
     .btn {
@@ -971,6 +983,7 @@ margin-left: 0px;
         }
 
         .grid5 {
+            width: 90%;
             grid-template-columns: 1fr;
             grid-template-rows: auto;
             grid-template-areas: "topleft" 
