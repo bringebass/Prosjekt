@@ -902,16 +902,7 @@ margin-left: 0px;
     }
 
     .btn {
-        width: 100px;
-        background-color: #FF1493;
-        border-radius: 20px;
-        color: white;
-        border: none;
-        font-weight: bold;
-        cursor: pointer;
-        transition: all .3s ease-in-out;
-        margin-top: 30px;
-        }
+        display: none;
 
     .header {
         height:50px;
