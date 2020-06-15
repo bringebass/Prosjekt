@@ -439,7 +439,7 @@ background-color: var(--background-color);
         display: flex;
         flex-direction: column;
         align-items: center;
-        height: 750px;
+        height: 700px;
         min-width: 250px;
         border-radius: 20px; 
         box-shadow: var(--box-shaddow);
@@ -891,7 +891,7 @@ margin-left: 0px;
     }    
 
     .table {
-        width: 80%;
+        width: 95%;
     }
 
     .what-is {
@@ -988,7 +988,7 @@ margin-left: 0px;
         }
 
         .grid5 {
-            width: 90%;
+            width: 95%;
             grid-template-columns: 1fr;
             grid-template-rows: auto;
             grid-template-areas: "topleft" 
