@@ -11,3 +11,22 @@
       navBoxEl.classList.toggle('show');
     }
   });
+
+
+
+  function myFunction (x) {
+    if (x.matches) {
+      document.getElementById('element1').innerHTML ='Content';
+
+      } else {document.getElementById('element1').innerHTML = 'Types of webhosting';   
+    }
+  }
+
+  let x = window.matchMedia('(max-width: 670px)')
+  myFunction(x)
+  x.addListener (myFunction);
+
+ document.getElementById ('tegz').onclick = function () {myFunctionz()};
+ function myFunctionz() {
+   document.getElementById('rullegardin-id').classList.toggle('rullegardin-show');
+ } 

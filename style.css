@@ -36,7 +36,7 @@ font-size: 16px;
 
 .button-text-2 {
     text-decoration: none;
-    color: grey;
+    color: gray;
     font-size: 0.8rem;
 }
 
@@ -81,7 +81,7 @@ font-size: 16px;
 
     .btn4 {
     background-color: white;
-    width: 220px;
+    width: 200px;
     height: 50px;
     border:none;
     margin-right: 3px;
@@ -269,13 +269,11 @@ display: block;
 display: inline-block;
 list-style: none;
 margin-left: 30px;
-
 position: absolute;
 }
 
 .li2 {
 padding-top: 40px;
-position: ;
 text-decoration: none;
 display: block;
 color: white;
@@ -285,6 +283,7 @@ color: white;
 .ar {
 color: white;
 }
+
 
 
 /* --------------------------------------- Banner One --------------------------------------------- */
@@ -315,7 +314,6 @@ margin-left: 80px ;
 .box-two {
 align-self: center;
 justify-self: center;
-margin-left:;
 }
     
 .imageinbox {
@@ -399,11 +397,35 @@ color: rgba(255, 0, 0, 0.091);
 display: flex;
 justify-content:center;
 background-color: var(--background-color);
-
-
 }
 
-/* --------------------------------------- Headline over top grid ----------------------------- */
+.anglez {
+    display: none;
+}
+
+.tegz {
+    position: relative;
+}
+
+/* --------------------------------------- rullegardin ----------------------------- */
+
+.rullegardin {
+    width: 200px;
+    height: 400px;
+    color: red;
+    border: solid black;
+    position: absolute;
+    background-color: white;
+    left: 50%;
+    margin-left: -97px;
+    display: none;
+}
+
+.rullegardin-show {
+    display: block;
+    transition: all .3s ease-in-out;
+}
+
 
 
 
@@ -716,6 +738,7 @@ th, tr, td {
     
 }
 
+
 #wixwax {
 width: 200px;
 height: 200px;
@@ -815,7 +838,7 @@ grid-template-areas: "topleft topright"
     height: auto;
 }
 
-/* ------------------------------- max-width 1000px ---------------------------------- */
+/* ------------------------------- max-width 1122px ---------------------------------- */
 
 @media all and (max-width: 1122px) {
 .banner {
@@ -835,16 +858,14 @@ grid-template-rows: 1fr 1fr;
 .btn {
 width: 150px;
 margin-top: 20px;
-
-}
-
-#headline {
-color: #00008B;
-padding-top: 30px;
 }
 
 .box-two {
 margin-right: 0px;
+}
+
+.bort {
+    display: none;
 }
 
 .box-one {
@@ -883,10 +904,6 @@ margin-left: 0px;
         font-size: 14px;
     }
 
-    .bort {
-        display: none;
-    }
-
 
 
     .banner {
@@ -900,7 +917,6 @@ margin-left: 0px;
 
     .what-is {
         width: 90%;
-        text-align: start;
         margin-bottom: 35px;
     }
 
@@ -913,7 +929,9 @@ margin-left: 0px;
         display: none;
     }
 
-
+    .borte2 {
+        display: none;
+    }
 
     .headline-two {
         padding-left: 20px;
@@ -951,7 +969,9 @@ margin-left: 0px;
 
     }
 
-
+    .anglez {
+        display: inline-block;
+    }
 
     .logo {
         width: 200px;
@@ -1004,97 +1024,3 @@ margin-left: 0px;
 }
 
 /* -------------------------------------- Landscape view --------------------------- */
-
-@media only screen (max-width: 800px) and (orientation:landscape) {
-    .grid-container {
-        display: grid;
-        justify-content: center;
-        grid-template-columns: 300px;
-        grid-template-rows: 400px 400px 400px 400px;
-        gap: 30px 30px;
-        grid-template-areas:
-                
-                                    "one"
-                                    "two"
-                                    "three"
-                                    "four";
-        }
-        
-        .banner {
-            height: 740px;
-            margin-top: 60px;
-            
-        }    
-    
-        .imageinbox {
-        background-image: url("");
-        width: 2px;
-        height: auto;
-        background-size: cover;
-        background-repeat: no-repeat;
-        }
-    
-        #headline {
-        margin-top: 50px;
-            }
-    
-    
-        .headline3 {
-            margin-top: 30px;
-        }
-    
-        .btn {
-            width: 100px;
-            background-color: #FF1493;
-            border-radius: 20px;
-            color: white;
-            border: none;
-
-            font-weight: bold;
-            cursor: pointer;
-            transition: all .3s ease-in-out;
-            margin-top: 30px;
-            }
-    
-        .header {
-            height:70px;
-            box-shadow: none;
-            background-color: white;
-            border-bottom: solid lightgray 1px;
-    
-        }
-    
-        .logo {
-            width: 200px;
-            height: 50px;
-        }
-    
-        .hamburger {
-            margin-right: 10px;
-        }
-    
-        .navigation-wrapper {
-            padding-top: 10px;
-        }
-    
-        .box-two {
-            margin-bottom: 70px;
-        }
-    
-        .wrapper {
-            display: flex;
-            justify-content: center;
-            width: 95%;
-            margin: 0 auto;
-            margin: 50px auto;
-            }
-    
-            .flex-grid:hover { 
-                transform: none; 
-                }
-            
-            .grid-item {
-            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);      
-            }
-        }
-    }
