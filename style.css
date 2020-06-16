@@ -92,9 +92,9 @@ font-size: 16px;
     cursor: pointer;
     }
 
-    .btn4:hover {
+  /*  .btn4:hover {
         background-color: var(--background-color);
-    }
+    } */
 
 .spm {
     color: var(--headline-color);
