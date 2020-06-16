@@ -407,24 +407,11 @@ background-color: var(--background-color);
     position: relative;
 }
 
-/* --------------------------------------- rullegardin ----------------------------- */
-
-.rullegardin {
-    width: 200px;
-    height: 400px;
-    color: red;
-    border: solid black;
-    position: absolute;
-    background-color: white;
-    left: 50%;
-    margin-left: -97px;
+.liste-i-rullegardin {
     display: none;
 }
 
-.rullegardin-show {
-    display: block;
-    transition: all .3s ease-in-out;
-}
+
 
 
 
@@ -622,7 +609,7 @@ background-color: var(--background-color);
 margin: 0 auto;
 width: 70%;
 max-width: 1200px;
-height: 1000px;
+height: 600px;
 box-shadow: var(--box-shaddow);
 border-collapse: collapse;  
 margin-top: 100px;
@@ -904,6 +891,45 @@ margin-left: 0px;
         font-size: 14px;
     }
 
+/* --- rullegardin --- */
+
+    .rullegardin {
+        width: 260px;
+        height: 400px;
+        border: solid 2px black;
+        position: absolute;
+        border-radius: 7px;
+        background-color: white;
+        left: 50%;
+        margin-left: -130px;
+        display: none;
+    }
+    
+    .rullegardin-show {
+        display: flex;
+        
+    }
+
+    .liste-i-rullegardin {
+    display: block;
+    margin: 0 auto;
+    list-style: none;
+    margin-top: 5px;
+      
+    }
+
+    .li-i-rullegardin {
+        font-size: 15px;
+        padding-top: 25px;
+        color: var(--headline-color);
+        font-weight: bolder;
+    }
+
+
+    .btn4 {
+        margin-right: 0px;
+        margin-left: 0px;
+    }
 
 
     .banner {
