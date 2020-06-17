@@ -36,8 +36,9 @@ document.getElementById('tegz').addEventListener('click', () => {
   if(window.scrollY==0)
   window.scrollBy(0, 200);
 
-  if(window.scrollY>=200)
-  window.scrollBy(0, -200);
+  else
+  window.scrollBy(0,0,0,0)
+ 
 });
 
 
