@@ -29,8 +29,8 @@
 
 //test
 
-document.getElementById('tegz').addEventListener('click', (e,) => {
-  e.stopPropagation();
+document.getElementById('tegz').addEventListener('click', () => {
+  
   document.getElementById('rullegardin-id').classList.toggle('rullegardin-show');
   
   if(window.scrollY==0)
