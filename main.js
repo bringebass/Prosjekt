@@ -1,5 +1,5 @@
   // Open nav bar when hamburger menu is clicked
-  document.getElementById('hambruger-menu').addEventListener('click', (e) => {
+  document.getElementById('hambruger-menu').addEventListener('click', (e, r) => {
     e.stopPropagation();
     document.getElementById('nav-boxy').classList.toggle('show');
   });
@@ -12,8 +12,8 @@
     }
   });
 
-
-
+  
+  
   function myFunction (x) {
     if (x.matches) {
       document.getElementById('element1').innerHTML ='Content';
@@ -26,11 +26,10 @@
   myFunction(x)
   x.addListener (myFunction);
 
+
+  
  document.getElementById ('tegz').onclick = function () {myFunctionz()};
  function myFunctionz() {
    document.getElementById('rullegardin-id').classList.toggle('rullegardin-show');
  } 
 
- function scrollWin() {
-   window.scrollBy(0, 10000);
- }
