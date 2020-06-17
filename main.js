@@ -27,9 +27,31 @@
   x.addListener (myFunction);
 
 
+//test
+
+document.getElementById('tegz').addEventListener('click', (e,) => {
+  e.stopPropagation();
+  document.getElementById('rullegardin-id').classList.toggle('rullegardin-show');
   
- document.getElementById ('tegz').onclick = function () {myFunctionz()};
- function myFunctionz() {
-   document.getElementById('rullegardin-id').classList.toggle('rullegardin-show');
- } 
+  if(window.scrollY==0)
+  window.scrollBy(0, 100);
+});
+
+
+
+
+
+
+
+
+
+//test
+
+
+//den som fungerer er nedenfor//
+  
+ //document.getElementById ('tegz').onclick = function () {myFunctionz()};
+ //function myFunctionz() {
+  // document.getElementById('rullegardin-id').classList.toggle('rullegardin-show');
+ //} 
 

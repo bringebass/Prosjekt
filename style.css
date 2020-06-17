@@ -927,19 +927,19 @@ grid-template-rows: 100px 200px;
 /* --- rullegardin --- */
 
     .rullegardin {
-        width: 100%;
+        width: 300px;
         height: 380px;
-        border: none ;
-        border-radius: 7px;
+        border: none;
         background-color: white;
-        margin-left: auto;
-        margin-right: auto;
+        position: relative;
+        left: 50%;
+        margin-left: -150px;
         display: none;
         margin-top: 5px;
     }
     
     .rullegardin-show {
-        display: flex;  
+        display: inline-block;  
     }
 
     
@@ -955,7 +955,6 @@ grid-template-rows: 100px 200px;
     .li-i-rullegardin {
         font-size: 14px;
         padding-top: 25px;
-        color: ;
         font-weight: bolder;
     }
 
