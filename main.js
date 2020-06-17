@@ -34,7 +34,7 @@ document.getElementById('tegz').addEventListener('click', () => {
   document.getElementById('rullegardin-id').classList.toggle('rullegardin-show');
   
   if(window.scrollY==0)
-  window.scrollBy(0, 100);
+  window.scrollBy(0, 200);
 });
 
 
