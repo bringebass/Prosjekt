@@ -324,9 +324,9 @@ justify-self: center;
 }
     
 .imageinbox {
-background-image: url();
-width: 10px;
-height: 10px;
+background-image: url(bilder/TRTR.png);
+width: 300px;
+height: 184px;
 background-size: cover;
 background-repeat: no-repeat;
 }
@@ -898,6 +898,32 @@ margin-left: 0px;
         font-size: 14px;
     }
 
+/* -- banner top --*/
+
+
+.wrapper-around-banner {
+width: 100%;
+height: 370px;
+}
+
+.button-span {
+    background-color: white;
+}
+
+.banner {
+display: grid;
+width: 100%;
+height: 100%;
+margin-top: 60px;
+background-color: white;
+grid-template-columns: 1fr;
+grid-template-rows: 100px 200px;
+}
+
+#headline {
+    font-size: 2.1rem;
+}
+
 /* --- rullegardin --- */
 
     .rullegardin {
@@ -967,11 +993,18 @@ margin-left: 0px;
         display: none;
     }
 
+    .headline {
+       padding-top: 20px;
+    }
+
+
     .headline-two {
         padding-left: 20px;
         padding-right: 20px;
         margin-top: px;
         margin-bottom: 30px;
+        font-size: 27px;
+        font-weight: lighter;
 
     }
 
@@ -1022,12 +1055,8 @@ margin-left: 0px;
     }
 
     .box-one {
-        align-self: flex-start;
+        align-self: center;
         margin-top: 0px;
-    }
-
-    .box-two {
-        margin-bottom: 70px;
     }
 
     .wrapper {
