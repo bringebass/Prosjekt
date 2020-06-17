@@ -30,3 +30,7 @@
  function myFunctionz() {
    document.getElementById('rullegardin-id').classList.toggle('rullegardin-show');
  } 
+
+ function scrollWin() {
+   window.scrollBy(0, 10000);
+ }
