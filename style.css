@@ -928,13 +928,13 @@ grid-template-rows: 100px 200px;
 
     .rullegardin {
         
-        width: 300px;
+        width: 90%;
         height: 380px;
         border: none;
         background-color: white;
         position: relative;
-        left: 50%;
-        margin-left: -150px;
+        margin-left: 5%;
+        
         display: none;
         margin-top: 5px;
     }
@@ -957,6 +957,7 @@ grid-template-rows: 100px 200px;
         font-size: 14px;
         padding-top: 25px;
         font-weight: bolder;
+       
     }
 
 
