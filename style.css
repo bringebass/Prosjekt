@@ -47,7 +47,7 @@ scroll-behavior: smooth;
     height: 40px;
     border-radius: 20px;
     color: white;
-    margin-top: 40px;
+    margin-top: ;
     }
 
     .small-btn2 {
@@ -122,6 +122,7 @@ scroll-behavior: smooth;
     margin-bottom: 20px;
     font-size: 80%;
     margin-top: 6px;
+    
     
 }
 
@@ -586,7 +587,7 @@ background-color: var(--background-color);
    margin-top: 10px;
    margin-bottom: 5px;
    text-align: justify;
-   text-align-last: center ;
+   text-align-last: center;
 }
 
 .penger {
@@ -883,7 +884,7 @@ margin-left: 0px;
     .grid-container {
     display: grid;
     justify-content: center;
-    grid-template-columns: minmax(300px,350px);
+    grid-template-columns: minmax(300px,325px);
     grid-template-rows: auto;
     gap: 30px 30px;
     grid-template-areas:
@@ -960,6 +961,20 @@ grid-template-rows: 100px 200px;
        
     }
 
+/* -- Grid med bokser -- */
+
+.grid-item {
+    height: 620px
+}
+
+.margo {
+    margin-top: 20px;
+}
+
+.symbolboks2 {
+    margin-top: 20px;
+}
+
 
     .btn4 {
         margin-right: 0px;
@@ -979,6 +994,8 @@ grid-template-rows: 100px 200px;
     .what-is {
         width: 90%;
         margin-bottom: 35px;
+        text-align: justify;
+        text-align-last: center;
     }
 
     .nav-boxy-class {
@@ -1019,6 +1036,8 @@ grid-template-rows: 100px 200px;
         padding-right: 15px;
         margin-top: 30px;
         margin-bottom: 40px;
+        font-size: 28px;
+        
     }
 
     .wrapper {
