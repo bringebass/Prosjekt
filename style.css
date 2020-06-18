@@ -444,10 +444,10 @@ background-color: /* var(--background-color) */ white;
     gap: 20px 20px;
     grid-template-areas:
     
-                        "one two three four"
-                        "one two three four"
-                        "one two three four"
-                        "one two three four"
+                        "one three two four"
+                        "one three two four"
+                        "one three two four"
+                        "one three two four"
     ;
     }
 
