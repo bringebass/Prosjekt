@@ -44,11 +44,12 @@ scroll-behavior: smooth;
     background-color: #FF1493;
     border: none;
     width: 200px;
-    height: 40px;
+    height: 34px;
     border-radius: 20px;
     color: white;
-    margin-top: ;
-    }
+    margin-top: 50px ;
+
+}
 
     .small-btn2 {
         background-color: #FF1493;
@@ -300,7 +301,7 @@ color: white;
     display: flex;
     width: 100%;
     justify-content: center;
-    background-color: var(--background-color);
+    background-color: /* var(--background-color) */ white;
 }
 
 .banner {
@@ -308,7 +309,7 @@ display: grid;
 width: 1200px;
 height: 600px;
 margin-top: 60px;
-background-color: var(--background-color);
+background-color: /*var(--background-color)*/ white;
 grid-template-columns: 600px 600px
 }
 
@@ -404,7 +405,7 @@ color: rgba(255, 0, 0, 0.091);
 .button-span {
 display: flex;
 justify-content:center;
-background-color: var(--background-color);
+background-color: /* var(--background-color) */ white;
 }
 
 .anglez {
@@ -456,7 +457,7 @@ background-color: var(--background-color);
         display: flex;
         flex-direction: column;
         align-items: center;
-        height: 700px;
+        height: 730px;
         min-width: 250px;
         border-radius: 20px; 
         box-shadow: var(--box-shaddow);
@@ -466,7 +467,7 @@ background-color: var(--background-color);
         
         .toppick {
             position: absolute;
-            top: -29px;
+            top: -24px;
             color: white;
             text-transform: uppercase;
             font-size: 1rem;
@@ -490,6 +491,7 @@ background-color: var(--background-color);
         .three,
         .four {
         padding: 20px;
+        border-top: 30px solid white;
         }
         
         .one {
@@ -498,7 +500,7 @@ background-color: var(--background-color);
         
         .two {
         grid-area: two;
-        border-top: 40px solid var(--button-color);
+        border-top: 30px solid var(--button-color);
         position: relative;
      
             
@@ -586,8 +588,8 @@ background-color: var(--background-color);
    width: 200px;
    margin-top: 10px;
    margin-bottom: 5px;
-   text-align: justify;
-   text-align-last: center;
+   text-align: center;
+;
 }
 
 .penger {
@@ -617,7 +619,7 @@ background-color: var(--background-color);
 margin: 0 auto;
 width: 70%;
 max-width: 1200px;
-height: 600px;
+height: 900px;
 box-shadow: var(--box-shaddow);
 border-collapse: collapse;  
 margin-top: 100px;
@@ -841,7 +843,7 @@ display: grid;
 width: 100%;
 height: 700px;
 margin-top: 100px;
-background-color: var(--background-color);
+background-color: /* var(--background-color) */ white;
 grid-template-columns: 1fr;
 grid-template-rows: 1fr 1fr;
         }
@@ -874,6 +876,10 @@ margin-left: 0px;
 
 .grid5 {
     width: 90%;
+}
+
+.grid-item {
+    height: 700px;
 }
 
 }
@@ -964,7 +970,7 @@ grid-template-rows: 100px 200px;
 /* -- Grid med bokser -- */
 
 .grid-item {
-    height: 620px
+    height: 630px
 }
 
 .margo {
@@ -989,6 +995,7 @@ grid-template-rows: 100px 200px;
 
     .table {
         width: 95%;
+        height: 600px;
     }
 
     .what-is {

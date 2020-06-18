@@ -18,7 +18,7 @@
     if (x.matches) {
       document.getElementById('element1').innerHTML ='Content';
 
-      } else {document.getElementById('element1').innerHTML = 'Types of webhosting';   
+      } else {document.getElementById('element1').innerHTML = 'What is webhosting?';   
     }
   }
 
