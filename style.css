@@ -650,7 +650,7 @@ th, tr, td {
 .wrapper-around-grid-five {
     display: flex;
     max-width: 100%;
-    height: auto;
+    height: 100%;
     justify-content: center;
    
     
@@ -699,7 +699,16 @@ th, tr, td {
  
     grid-area: aside;
     width:100%;
-    border-left: solid lightgray 1px;
+    background-color: var(--background-color);
+    border: solid black 1px;
+}
+
+.item-five-grid-five {
+    grid-area: video;
+    width: 100%;
+    background-color: var(--background-color);
+   border: solid black 1px;
+    
 }
 
 .anmeldelse-tekst {
@@ -727,14 +736,7 @@ th, tr, td {
     font-weight: bolder;
 }
 
-.item-five-grid-five {
-    grid-area: video;
-    width: 100%;
-    background-color: var(--background-color);
-    display: flex;
-    justify-content: center;
-    
-}
+
 
 
 #wixwax {
@@ -757,6 +759,48 @@ margin-top: 40%;
     width: 500px;
     height: 100%;
     text-align: center;
+}
+
+/* ---------------- footer --------------- */
+
+
+.footer {
+    height: 100%;
+    width: 100%;
+    background-color: var(--background-color);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 400px 300px;
+    grid-template-areas: "gr1 gr2 gr2 gr3"
+                         "gr1 gr2 gr2 gr3"
+
+
+                    }
+
+.grid1footer {
+    border: solid black 1px;
+    display: flex;
+    justify-content: center;
+    grid-area: gr1;
+}
+
+.grid2footer {
+    border: solid black 1px;
+    display: flex;
+    justify-content: center;
+    grid-area: gr2;
+}
+
+.grid3footer {
+    border: solid black 1px;
+    display: flex;
+    justify-content: center;
+    grid-area: gr3;
+}
+
+.bokser-i-footer {
+    width: 300px;
+    margin-left: 5%;
 }
 
 
@@ -882,6 +926,13 @@ margin-left: 0px;
 
 .grid-item {
     height: 700px;
+}
+
+.footer {
+grid-template-columns: 1fr 1fr;
+grid-template-areas: "gr2 gr2"
+                     "gr1 gr3"
+
 }
 
 }
@@ -1030,7 +1081,6 @@ grid-template-rows: 100px 200px;
         padding-right: 20px;
         margin-bottom: 30px;
         font-size: 27px;
-        font-weight: ;
 
     }
 
@@ -1110,11 +1160,21 @@ grid-template-rows: 100px 200px;
         .grid5 {
             width: 95%;
             grid-template-columns: 1fr;
-            grid-template-rows: auto;
+            margin-bottom: 100px;
+            grid-template-rows: 200px 300px 1fr;
             grid-template-areas: "topleft" 
                                  "topright"
                                  "bottoms";
             }
+
+            .footer {
+                grid-template-columns: 1fr;
+                grid-template-rows: 400px 200px 200px;
+                grid-template-areas: "gr2"
+                                     "gr1"
+                                     "gr3"
+                }
+
 
     }
 }
