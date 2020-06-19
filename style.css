@@ -799,7 +799,8 @@ margin-top: 40%;
 }
 
 .bokser-i-footer {
-    width: 300px;
+    max-width: 300px;
+    min-width: 150px;
     margin-left: 5%;
 }
 
@@ -930,8 +931,9 @@ margin-left: 0px;
 
 .footer {
 grid-template-columns: 1fr 1fr;
-grid-template-areas: "gr2 gr2"
-                     "gr1 gr3"
+grid-template-rows: 600px 200px;
+grid-template-areas: "gr1 gr2"
+                     "gr3 gr3"
 
 }
 
@@ -1167,13 +1169,7 @@ grid-template-rows: 100px 200px;
                                  "bottoms";
             }
 
-            .footer {
-                grid-template-columns: 1fr;
-                grid-template-rows: 400px 200px 200px;
-                grid-template-areas: "gr2"
-                                     "gr1"
-                                     "gr3"
-                }
+            
 
 
     }
