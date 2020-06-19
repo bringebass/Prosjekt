@@ -748,8 +748,9 @@ margin-top: 40%;
 .symboler-under-tekst {
     display: flex;
     justify-content: space-evenly;
-    margin-top: 50px;
-    margin-bottom: 20px;
+    align-items: center;
+    width: 100%;
+    height: 100%;
 
 }
 
@@ -769,42 +770,74 @@ margin-top: 40%;
     width: 100%;
     background-color: var(--background-color);
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 400px 300px;
-    grid-template-areas: "gr1 gr2 gr2 gr3"
-                         "gr1 gr2 gr2 gr3"
-
+    grid-template-columns: 1fr 200px 200px 300px 300px 1fr;
+    grid-template-rows: 400px 300px 100px;
+    grid-template-areas: ". gr3 gr3 gr2 gr5 ."
+                         ". gr3 gr3 gr2 gr5 ."
+                         "gr4 gr4 gr4 gr4 gr4 gr4"
 
                     }
 
 .grid1footer {
-    border: solid black 1px;
+    border: none;
     display: flex;
     justify-content: center;
     grid-area: gr1;
+    
 }
 
 .grid2footer {
-    border: solid black 1px;
     display: flex;
     justify-content: center;
     grid-area: gr2;
+    
 }
 
 .grid3footer {
-    border: solid black 1px;
     display: flex;
     justify-content: center;
     grid-area: gr3;
+    
+}
+
+.grid4footer {
+    display: flex;
+    justify-content: center;
+    grid-area: gr4;
+    
+}
+
+.grid5footer {
+    display: flex;
+    justify-content: center;
+    grid-area: gr5;   
+}
+
+.grid6footer {
+    display: flex;
+    justify-content: center;
+    grid-area: gr6;
+    
 }
 
 .bokser-i-footer {
     max-width: 300px;
     min-width: 150px;
-    margin-left: 5%;
+    margin-top: 60px;
+    line-height: 2.5;
+    margin-right: 80px;
+    text-align: justify;
 }
 
 
+
+
+
+.tres-amigo {
+    width: 50%;
+    margin-top: 70px;
+    line-height: 1.5;
+}
 
 /* ------------------------------- Media queries --------------------------------- 
 ------------------------------------------------------------------------------------
@@ -882,6 +915,8 @@ grid-template-areas: "topleft topright"
     height: auto;
 }
 
+}
+
 /* ------------------------------- max-width 1122px ---------------------------------- */
 
 @media all and (max-width: 1122px) {
@@ -930,12 +965,26 @@ margin-left: 0px;
 }
 
 .footer {
-grid-template-columns: 1fr 1fr;
-grid-template-rows: 600px 200px;
-grid-template-areas: "gr1 gr2"
-                     "gr3 gr3"
+grid-template-columns: 1fr 1fr 1fr 1fr;
+grid-template-rows: 300px 600px 100px;
+grid-template-areas: "gr3 gr3 gr3 gr3"
+                     "gr1 gr2 gr5 gr6"
+                     "gr4 gr4 gr4 gr4";
 
 }
+
+
+
+
+
+
+
+.tres-amigo {
+    width: 90%;
+    height: 90%
+}
+
+
 
 }
 
@@ -1144,11 +1193,26 @@ grid-template-rows: 100px 200px;
         margin-top: 0px;
     }
 
+/* footer */
+
+    .footer {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 300px 600px 100px;
+        grid-template-areas: "gr3 gr3 gr3 gr3"
+                             "gr1 gr1 gr2 gr2"
+                             "gr4 gr4 gr4 gr4";
+        
+        }
+
+
+    .grid5footer, .grid6footer {
+        display: none;
+    }
+
     .wrapper {
         display: flex;
         justify-content: center;
         width: 95%;
-       
         }
 
         .flex-grid:hover { 
@@ -1170,9 +1234,13 @@ grid-template-rows: 100px 200px;
             }
 
             
+         
+
+    
+
+   
+   }
 
 
-    }
-}
 
 /* -------------------------------------- Landscape view --------------------------- */
