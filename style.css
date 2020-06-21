@@ -164,8 +164,17 @@ scroll-behavior: smooth;
     text-align: center;
     color: var(--headline-color);
     font-size: 1.5rem;
-    margin-bottom: 80px;
+    margin-bottom: 0px;
     margin-top: 60px;
+    }
+
+    .headline6 {
+    text-align: center;
+    color: var(--headline-color);
+    font-size: 1.5rem;
+    margin-bottom: 60px;
+    margin-top: 60px;
+    }
     }
 
     .symbolzz {
@@ -623,7 +632,7 @@ max-width: 1200px;
 height: 900px;
 box-shadow: var(--box-shaddow);
 border-collapse: collapse;  
-margin-top: 100px;
+margin-top: 60px;
 text-align: center;
 margin-bottom: 100px;
 
@@ -692,7 +701,8 @@ th, tr, td {
 .item-three-grid-five {
  
     grid-area: bottoms;
-    width:90%
+    width:90%;
+    margin-bottom: 30px;
 }
 
 .item-four-grid-five {
@@ -700,14 +710,14 @@ th, tr, td {
     grid-area: aside;
     width:100%;
     background-color: var(--background-color);
-    border: solid black 1px;
+    border: none;
 }
 
 .item-five-grid-five {
     grid-area: video;
     width: 100%;
     background-color: var(--background-color);
-   border: solid black 1px;
+   border: none;
     
 }
 
@@ -898,16 +908,18 @@ color: grey;
 }
 
 .item-four-grid-five {
-    display: none;
+    height: 100%;
+    width: 100%;
 }
 
 .grid5 {
 width: 80%;
 grid-template-columns: 1fr 1fr;
-grid-template-rows: 500px 1fr 1fr;
+grid-template-rows: 500px 1fr 1fr 1fr;
 grid-template-areas: "topleft topright" 
                      "bottoms bottoms"
-                     "bottoms bottoms";
+                     "bottoms bottoms"
+                     "aside aside";
 }
 
 .table-two {
@@ -1139,7 +1151,7 @@ grid-template-rows: 100px 200px;
         padding-left: 15px;
         padding-right: 15px;
         margin-top: 30px;
-        margin-bottom: 40px;
+    
         font-size: 28px;
         
     }
@@ -1197,9 +1209,10 @@ grid-template-rows: 100px 200px;
                              "gr4";
    
 
+}
     .wrapper {
-        display: flex;
-        justify-content: center;
+    display: flex;
+    justify-content: center;
         width: 95%;
         }
 
@@ -1215,14 +1228,18 @@ grid-template-rows: 100px 200px;
             width: 95%;
             grid-template-columns: 1fr;
             margin-bottom: 100px;
-            grid-template-rows: 200px 300px 1fr;
+            grid-template-rows: 200px 300px 1fr 1fr 1fr;
             grid-template-areas: "topleft" 
                                  "topright"
-                                 "bottoms";
+                                 "bottoms"
+                                 "bottoms"
+                                 "aside";
             }
 
             
-         
+         .item-one-grid-five {
+             margin-left: 0px;
+         }
 
     
 
