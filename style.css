@@ -149,6 +149,7 @@ scroll-behavior: smooth;
         padding: 0px 5px 0px 5px;
         margin-bottom: 10px;
         padding-top: 100px;
+        font-size: 2rem;
         }
     
     .headline-two {
@@ -632,7 +633,7 @@ max-width: 1200px;
 height: 900px;
 box-shadow: var(--box-shaddow);
 border-collapse: collapse;  
-margin-top: 60px;
+margin-top: 50px;
 text-align: center;
 margin-bottom: 100px;
 
@@ -676,7 +677,7 @@ th, tr, td {
     margin-bottom: 200px;
     justify-items: center;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 500px 1fr 1fr;
+    grid-template-rows: 400px 1fr 1fr;
     grid-template-areas: "topleft topright aside" 
                          "bottoms bottoms aside"
                          "bottoms bottoms video";
@@ -706,18 +707,23 @@ th, tr, td {
 }
 
 .item-four-grid-five {
- 
-    grid-area: aside;
-    width:100%;
-    background-color: var(--background-color);
-    border: none;
+grid-area: aside;
+width:100%;
+height: 100%;
+background-color: var(--background-color);
+display: flex;
+justify-content: center;
+padding-top: 200px;
+    
 }
 
 .item-five-grid-five {
-    grid-area: video;
-    width: 100%;
-    background-color: var(--background-color);
-   border: none;
+grid-area: video;
+width: 100%;
+background-color: var(--background-color);
+display: flex;
+justify-content: center;
+
     
 }
 
@@ -907,10 +913,7 @@ color: grey;
     display: none;
 }
 
-.item-four-grid-five {
-    height: 100%;
-    width: 100%;
-}
+
 
 .grid5 {
 width: 80%;
@@ -1107,6 +1110,7 @@ grid-template-rows: 100px 200px;
     .table {
         width: 95%;
         height: 600px;
+        margin-top: 40px;
     }
 
     .what-is {
@@ -1151,8 +1155,7 @@ grid-template-rows: 100px 200px;
         padding-left: 15px;
         padding-right: 15px;
         margin-top: 30px;
-    
-        font-size: 28px;
+
         
     }
 
@@ -1198,6 +1201,7 @@ grid-template-rows: 100px 200px;
     .box-one {
         align-self: center;
         margin-top: 0px;
+        margin-bottom: 20px;
     }
 
     .footer {
@@ -1236,11 +1240,22 @@ grid-template-rows: 100px 200px;
                                  "aside";
             }
 
+            .grid5footer, .grid2footer {
+                justify-content: start;
+                margin-left: 10%;
+            }
+
             
+
          .item-one-grid-five {
              margin-left: 0px;
          }
 
+         .item-two-grid-five {
+             align-self: center;
+             justify-self: start;
+             margin-left: 40px;
+         }
     
 
    
