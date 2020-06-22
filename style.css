@@ -1175,8 +1175,6 @@ grid-template-rows: 100px 200px;
 
     }
 
-    
-
     .anglez {
         display: inline-block;
         margin-left: 1px;
@@ -1245,18 +1243,23 @@ grid-template-rows: 100px 200px;
                 margin-left: 10%;
             }
 
-            
+           .anmeldelse-tekst, .anmeldelse-tekst2 {
+            text-align: justify;
+            text-align-last: center;
+           } 
 
          .item-one-grid-five {
              margin-left: 0px;
          }
 
+
+         /*
          .item-two-grid-five {
              align-self: center;
              justify-self: start;
              margin-left: 40px;
          }
-    
+    */
 
    
    }
