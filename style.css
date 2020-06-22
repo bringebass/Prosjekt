@@ -13,36 +13,29 @@ scroll-behavior: smooth;
 
 /* ------------------------------------ Buttons ------------------------------------- */
 
-.button-tekst {
-    text-decoration: none;
-    color: white;
-    width: 100%;
-    height: 100%;
-    display: block;
-    padding-top: 16px;
-    font-size: 1rem;
-}
 
 
-.small-btn {
-    background-color: #FF1493;
-    border: none;
-    width: 200px;
-    height: 34px;
-    border-radius: 20px;
-    color: white;
-    margin-top: 50px ;
-
+.small {
+background-color: #FF1493;
+width: 100px;
+height: 30px;
+border-radius: 20px;
+color: white;
+text-align: center;
+padding-top: 6px;
+display: block;
 }
 
     .small-btn2 {
         background-color: #FF1493;
-        border: none;
         width: 200px;
         height: 40px;
         border-radius: 20px;
         color: white;
         margin-top: 20px;
+        text-decoration: none;
+        text-align: center;
+        padding-top: 11px;
     }
 
     .btn {
@@ -55,7 +48,12 @@ scroll-behavior: smooth;
         font-weight: bold;
         cursor: pointer;
         transition: all .2s ease-in-out;
-        margin-top: 10px;
+        margin: 10px;
+        text-align: center;
+        text-decoration: none;
+        color: white;
+        padding-top: 16px;
+        font-size: 1rem;
         
         }
         
@@ -87,16 +85,15 @@ scroll-behavior: smooth;
 .button-table {
     width: 100%;
     height: 100%;
-    background-color: #F8F8FF;
     font-size: 1rem;
     font-weight: bold;
     cursor: pointer;
-    transition: all .2s ease-in-out;
+    color: white;
+    
+    
 }
 
-.white {
-    color: white;
-}
+
 
 .review-button {
     margin-bottom: 20px;
@@ -605,7 +602,8 @@ th, tr, td {
 
 .tablerow {
     font-size: 1rem;
-    width: 70px
+    width: 70px;
+    background-color:#FF1493;
     
 }
 
@@ -633,8 +631,9 @@ th, tr, td {
     margin-bottom: 200px;
     justify-items: center;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 400px 1fr 1fr;
-    grid-template-areas: "topleft topright aside" 
+    grid-template-rows: 300px 80px 1fr 1fr;
+    grid-template-areas: "topleft topright aside"
+                         "btn btn aside" 
                          "bottoms bottoms aside"
                          "bottoms bottoms video";
 
@@ -645,14 +644,17 @@ th, tr, td {
     grid-area: topleft;
     align-self: center;
     margin-left: 100px;
-   
-
 }
+
+.item-x-grid-five {
+    grid-area: btn;
+}
+
 
 .item-two-grid-five {
     grid-area: topright;
     align-self: center;
-    margin-bottom: 50px;
+   
 }
 
 .item-three-grid-five {
