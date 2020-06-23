@@ -1174,13 +1174,21 @@ width: 80%;
 height: auto;
 justify-content: center;
 margin: 0 auto;
+margin-top: 200px;
 }
 
 .grid-boks-reviews {
 display: grid;
 grid-template-columns: repeat(3, 1fr);
-grid-template-rows: 500px;
+grid-template-rows: 50px 300px 300px;
 grid-gap: 50px;
+grid-template-areas: ". b-zero ."
+                     "b-uno b-dos b-tres"
+                     "b-quatro . ."           ;
+}
+
+.overskrift-reviews {
+text-align: center;
 }
 
 .h3{
@@ -1188,11 +1196,27 @@ display: block;
 text-align: center;
 }
 
+.b-zero {
+grid-area: b-zero;
+}
+
 .b-uno {
 display: flex;
 justify-content: center;
 flex-direction: column;
-border: solid 1px lightgray;
+grid-area: b-uno;
+}
+
+.b-dos {
+grid-area: b-dos;
+}
+
+.b-tres {
+grid-area: b-tres;
+}
+
+.b-quatro {
+grid-area: b-quatro;
 }
 
 .b-uno-button-boks {
@@ -1206,7 +1230,18 @@ margin-top: 30px;
 
 .buz {
 width: 200px;
-height: 100px;
+height: 40px;
 color: red;
 margin: 0 auto;
+text-align: center;
+
+background-color: #FF1493;
+
+border-radius: 20px;
+color: white;
+margin-top: 20px;
+text-decoration: none;
+
+padding-top: 11px;
+font-weight: bold;
 }
