@@ -781,6 +781,123 @@ margin-top: 70px;
 line-height: 1.5;
 }
 
+/* -------------------------------------- Reviews.html --------------------------- */
+
+#review-container {
+    display: flex;
+    width: 80%;
+    height: auto;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 200px;
+    margin-bottom: 200px;
+    }
+    
+    .grid-boks-reviews {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 100px 300px 300px 300px;
+    grid-gap: 50px;
+    grid-template-areas: ". b-zero ."
+                         "b-uno b-dos b-tres"
+                         "b-quatro b-cinco b-seis"
+                         "b-siete b-ocho b-nueve" 
+                         "b-dies b-onze b-doze"            ;
+    }
+    
+    .overskrift-reviews {
+    text-align: center;
+    font-size: 3rem;
+    }
+    
+    .h3{
+    display: block;
+    text-align: center;
+    }
+    
+    .b-zero {
+    grid-area: b-zero;
+    }
+    
+    .b-uno {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    grid-area: b-uno;
+    }
+    
+    .b-dos {
+    grid-area: b-dos;
+    }
+    
+    .b-tres {
+    grid-area: b-tres;
+    }
+    
+    .b-quatro {
+    grid-area: b-quatro;
+    }
+    
+    .b-cinco {
+    grid-area: b-cinco;
+    }
+    
+    .b-seis {
+    grid-area: b-seis;
+    }
+    
+    .b-siete {
+    grid-area: b-siete;
+    }
+    
+    .b-ocho {
+    grid-area: b-ocho;
+    }
+    
+    .b-nueve {
+    grid-area: b-nueve;
+    }
+    
+    .b-dies {
+    grid-area: b-dies;   
+    }
+    
+    .b-onze {
+    grid-area: b-onze;   
+    }
+    
+    .b-doze {
+    grid-area: b-doze;   
+    }
+    
+    .b-uno-button-boks {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    
+    margin-top: 30px;
+    }
+    
+    .buz {
+    width: 200px;
+    height: 40px;
+    color: red;
+    margin: 0 auto;
+    text-align: center;
+    
+    background-color: #FF1493;
+    
+    border-radius: 20px;
+    color: white;
+    margin-top: 20px;
+    text-decoration: none;
+    
+    padding-top: 11px;
+    font-weight: bold;
+    }
+
+
 /* ------------------------------- Media queries --------------------------------- 
 ------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------*/
@@ -871,9 +988,12 @@ grid-template-columns: 1fr;
 grid-template-rows: 1fr 1fr;
         }
 
+        /*
 * {
-    font-size: 15px;
+    font-size: 15px; 
 }
+
+*/
 
 .btn {
 width: 150px;
@@ -917,6 +1037,21 @@ grid-template-areas: "gr3 gr3"
 .bokser-i-footer {
 margin-right: 0px;
 }
+
+.grid-boks-reviews {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    grid-gap: 50px;
+    grid-template-areas: "b-zero b-zero"
+                         "b-uno b-dos"
+                         "b-tres b-quatro"
+                         "b-cinco b-seis" 
+                         "b-siete b-ocho"
+                         "b-nueve b-dies"
+                         "b-onze b-doze";
+    }
+
 
 }
 
@@ -1162,86 +1297,28 @@ text-align-last: center;
 margin-left: 0px;
 }
 
+.grid-boks-reviews {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: auto;
+    grid-gap: 50px;
+    grid-template-areas: "b-zero"
+                         "b-uno"
+                         "b-dos"
+                         "b-tres" 
+                         "b-quatro"
+                         "b-cinco"
+                         "b-seis"
+                         "b-siete"
+                         "b-ocho"
+                         "b-nueve"
+                         "b-dies"
+                         "b-onze"
+                         "b-doze";
+    }
+
+
 }
 
 /* -------------------------------------- Landscape view --------------------------- */
 
-/* -------------------------------------- Reviews.html --------------------------- */
-
-#review-container {
-display: flex;
-width: 80%;
-height: auto;
-justify-content: center;
-margin: 0 auto;
-margin-top: 200px;
-}
-
-.grid-boks-reviews {
-display: grid;
-grid-template-columns: repeat(3, 1fr);
-grid-template-rows: 50px 300px 300px;
-grid-gap: 50px;
-grid-template-areas: ". b-zero ."
-                     "b-uno b-dos b-tres"
-                     "b-quatro . ."           ;
-}
-
-.overskrift-reviews {
-text-align: center;
-}
-
-.h3{
-display: block;
-text-align: center;
-}
-
-.b-zero {
-grid-area: b-zero;
-}
-
-.b-uno {
-display: flex;
-justify-content: center;
-flex-direction: column;
-grid-area: b-uno;
-}
-
-.b-dos {
-grid-area: b-dos;
-}
-
-.b-tres {
-grid-area: b-tres;
-}
-
-.b-quatro {
-grid-area: b-quatro;
-}
-
-.b-uno-button-boks {
-width: 100%;
-height: 100%;
-display: flex;
-flex-direction: column;
-
-margin-top: 30px;
-}
-
-.buz {
-width: 200px;
-height: 40px;
-color: red;
-margin: 0 auto;
-text-align: center;
-
-background-color: #FF1493;
-
-border-radius: 20px;
-color: white;
-margin-top: 20px;
-text-decoration: none;
-
-padding-top: 11px;
-font-weight: bold;
-}
