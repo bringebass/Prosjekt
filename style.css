@@ -618,12 +618,13 @@ margin-left: 15px;
 margin-bottom: 200px;
 justify-items: center;
 grid-template-columns: repeat(3, 1fr);
-grid-template-rows: 300px 80px 600px 1fr;
+grid-template-rows: 300px 80px 600px 350px 1fr;
 grid-template-areas:     
                          "topleft topright aside"
                          "btn btn aside " 
                          "bottoms bottoms sixer"
-                         "bottoms bottoms fiver";
+                         "bottoms bottoms fiver"
+                         "seven seven seven";
 
 }
 
@@ -647,6 +648,7 @@ align-self: center;
 grid-area: bottoms;
 width:90%;
 margin-bottom: 30px;
+height: auto;
 }
 
 .item-four-grid-five {
@@ -662,6 +664,8 @@ padding-top: 70px;
 
 .item-five-grid-five {
     grid-area: fiver;
+    text-align: center;
+    height: 242px;
 }
 
 .wordpress-text {
@@ -678,6 +682,11 @@ justify-content: ;
 text-align: center;
 padding-top: 50px;
 font-style: italic;
+}
+
+.item-seven-grid-five {
+grid-area: seven;
+
 }
 
 .anmeldelse-tekst {
