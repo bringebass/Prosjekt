@@ -618,17 +618,18 @@ margin-left: 15px;
 margin-bottom: 200px;
 justify-items: center;
 grid-template-columns: repeat(3, 1fr);
-grid-template-rows: 300px 80px 600px 350px 1fr 300px 1fr 1fr 1fr;
+grid-template-rows: 300px 80px 600px 350px 1fr 300px 1fr 1fr 400px 1fr;
 grid-template-areas:     
                          "topleft topright aside"
-                         "btn btn aside " 
+                         "btn btn aside" 
                          "bottoms bottoms sixer"
                          "bottoms bottoms fiver"
                          "seven seven seven"
                          "eigth eigth eigth"
                          "nine nine nine"
                          "ten ten ten"
-                         "eleven eleven eleven";
+                         "eleven eleven eleven"
+                         "twelve twelve twelve";
 
 }
 
@@ -678,6 +679,7 @@ padding-top: 20px;
 font-style: italic;
 }
 
+
 .item-six-grid-five {
 grid-area: sixer;
 width: 100%;
@@ -688,6 +690,7 @@ text-align: center;
 padding-top: 30px;
 font-style: italic;
 }
+
 
 .item-seven-grid-five {
 grid-area: seven;
@@ -730,6 +733,12 @@ justify-content: center;
 grid-area: eleven;
 width: 93%;
 margin-top: 20px;
+}
+
+.item-twelve-grid-five {
+grid-area: twelve;
+width: 93%;
+margin-bottom: 30px;
 }
 
 .table-in-review {
