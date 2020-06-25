@@ -17,7 +17,7 @@ scroll-behavior: smooth;
 
 .small {
 background-color: #FF1493;
-width: 150px;
+width: 200px;
 height: 40px;
 border-radius: 20px;
 color: white;
@@ -224,7 +224,7 @@ align-items: baseline;
 
 .ulclass {
 display: inline;
-padding-right: 100px;
+padding-right: 70px;
 }
 
 .liclass, .aclass {
@@ -618,7 +618,7 @@ margin-left: 15px;
 margin-bottom: 200px;
 justify-items: center;
 grid-template-columns: repeat(3, 1fr);
-grid-template-rows: 300px 80px 600px 350px 1fr 400px;
+grid-template-rows: 300px 80px 600px 350px 1fr 300px 1fr 1fr 1fr;
 grid-template-areas:     
                          "topleft topright aside"
                          "btn btn aside " 
@@ -626,9 +626,13 @@ grid-template-areas:
                          "bottoms bottoms fiver"
                          "seven seven seven"
                          "eigth eigth eigth"
-                         "nine nine nine";
+                         "nine nine nine"
+                         "ten ten ten"
+                         "eleven eleven eleven";
 
 }
+
+
 
 .item-one-grid-five {
 grid-area: topleft;
@@ -699,7 +703,6 @@ margin-top: 30px;
 .item-eight-grid-five {
 grid-area: eigth;
 width: 93%;
-margin-top: 100px;
 }
 
 .item-nine-grid-five { 
@@ -709,6 +712,23 @@ width: 93%;
 
 .float-bilde {
     float: right;
+}
+
+.float-bilde-left {
+    float: left;
+}
+
+.item-ten-grid-five {
+grid-area: ten;
+width: 93%;
+margin-top: 20px;
+display: flex;
+justify-content: center;
+}
+
+.item-eleven-grid-five {
+grid-area: eleven;
+width: 93%;
 }
 
 .table-in-review {
