@@ -618,13 +618,15 @@ margin-left: 15px;
 margin-bottom: 200px;
 justify-items: center;
 grid-template-columns: repeat(3, 1fr);
-grid-template-rows: 300px 80px 600px 350px 1fr;
+grid-template-rows: 300px 80px 600px 350px 1fr 400px;
 grid-template-areas:     
                          "topleft topright aside"
                          "btn btn aside " 
                          "bottoms bottoms sixer"
                          "bottoms bottoms fiver"
-                         "seven seven seven";
+                         "seven seven seven"
+                         "eigth eigth eigth"
+                         "nine nine nine";
 
 }
 
@@ -657,7 +659,6 @@ width:300px;
 height: 258px;
 display: flex;
 flex-direction: column;
-justify-content: ;
 text-align: center;
 padding-top: 70px;
 }
@@ -686,7 +687,34 @@ font-style: italic;
 
 .item-seven-grid-five {
 grid-area: seven;
+width: 90%;
+margin-top: 30px;
+}
 
+.compare {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.item-eight-grid-five {
+grid-area: eigth;
+width: 93%;
+margin-top: 100px;
+}
+
+.item-nine-grid-five { 
+grid-area: nine;
+width: 93%;  
+}
+
+.float-bilde {
+    float: right;
+}
+
+.table-in-review {
+width: 80%;
+margin: 0 auto;
+background-color: #F8F8FF;
 }
 
 .anmeldelse-tekst {
