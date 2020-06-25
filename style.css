@@ -660,11 +660,11 @@ height: auto;
 .item-four-grid-five {
 grid-area: aside;
 width:300px;
-height: 258px;
+height: auto;
 display: flex;
 flex-direction: column;
 text-align: center;
-padding-top: 70px;
+padding-top: 34px;
 }
 
 .item-five-grid-five {
@@ -685,7 +685,7 @@ display: flex;
 flex-direction: column;
 justify-content: ;
 text-align: center;
-padding-top: 50px;
+padding-top: 30px;
 font-style: italic;
 }
 
@@ -729,6 +729,7 @@ justify-content: center;
 .item-eleven-grid-five {
 grid-area: eleven;
 width: 93%;
+margin-top: 20px;
 }
 
 .table-in-review {
