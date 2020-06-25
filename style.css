@@ -618,12 +618,12 @@ margin-left: 15px;
 margin-bottom: 200px;
 justify-items: center;
 grid-template-columns: repeat(3, 1fr);
-grid-template-rows: 300px 80px 1fr 1fr;
+grid-template-rows: 300px 80px 600px 1fr;
 grid-template-areas:     
                          "topleft topright aside"
-                         "btn btn aside" 
-                         "bottoms bottoms aside"
-                         "bottoms bottoms video";
+                         "btn btn aside " 
+                         "bottoms bottoms sixer"
+                         "bottoms bottoms fiver";
 
 }
 
@@ -651,20 +651,33 @@ margin-bottom: 30px;
 
 .item-four-grid-five {
 grid-area: aside;
-width:100%;
-height: 100%;
-background-color: #F8F8FF;
+width:300px;
+height: 258px;
 display: flex;
-justify-content: center;
-padding-top: 200px;
+flex-direction: column;
+justify-content: ;
+text-align: center;
+padding-top: 70px;
 }
 
 .item-five-grid-five {
-grid-area: video;
+    grid-area: fiver;
+}
+
+.wordpress-text {
+padding-top: 20px;
+font-style: italic;
+}
+
+.item-six-grid-five {
+grid-area: sixer;
 width: 100%;
-background-color: #F8F8FF;
 display: flex;
-justify-content: center;
+flex-direction: column;
+justify-content: ;
+text-align: center;
+padding-top: 50px;
+font-style: italic;
 }
 
 .anmeldelse-tekst {
