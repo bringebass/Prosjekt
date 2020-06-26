@@ -517,7 +517,6 @@ display: flex;
 flex-direction: column;
 float: left;
 margin-left: 20px;
-margin-top: 30px;
 }
 
 .tekstboks5 {
@@ -526,7 +525,7 @@ flex-direction: column;
 float: left;
 line-height: 1.37;
 margin-left: 10px;
-margin-top: 31px;
+
 }
 
 .v {
@@ -1068,17 +1067,33 @@ color: grey;
 .grid5 {
 width: 80%;
 grid-template-columns: 1fr 1fr;
-grid-template-rows: 500px 1fr 1fr 1fr;
-grid-template-areas: "topleft topright" 
+grid-template-rows: 300px auto 400px auto 430px;
+grid-template-areas: "topleft topright"
+                     "btn btn"
+                     "aside aside" 
                      "bottoms bottoms"
-                     "bottoms bottoms"
-                     "aside aside";
+                     "seven seven"
+                     "eigth eigth"
+                     "nine nine"
+                     "nine nine"
+                     "ten ten"
+                     "eleven eleven"
+                     "twelve twelve"
+                     "thirteen thirteen";
 }
 
 .table-two {
-    width: 80%;
-    margin: 0 auto;
-    height: auto;
+width: 80%;
+margin: 0 auto;
+height: auto;
+}
+
+.item-four-grid-five {
+width: 60%;
+}
+
+.item-six-grid-five {
+    display: none;
 }
 
 }
