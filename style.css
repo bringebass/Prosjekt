@@ -1465,34 +1465,9 @@ grid-template-areas:
 }
 
 
-/*
-
-.grid5 {
-    width: 80%;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: auto;
-    grid-template-areas:         "topleft topleft"
-                                 "topright topright"
-                                 "btn btn"
-                                 "bottoms bottoms"
-                                 "seven seven"
-                                 "eigth eigth"
-                                 "nine nine"
-                                 "nine nine"
-                                 "ten ten"
-                                 "eleven eleven"
-                                 "twelve twelve"
-                                 "mobile mobile";
-            }
-
-*/
-
-
-
-
-
-
-
+.item-seven-grid-five {
+width: 100%;
+}
 
 .grid5footer, .grid2footer {
 justify-content: start;
@@ -1506,6 +1481,10 @@ text-align-last: center;
 
 .item-one-grid-five {
 margin-left: 0px;
+}
+
+.item-ten-grid-five {
+text-align: center;
 }
 
 .grid-boks-reviews {
