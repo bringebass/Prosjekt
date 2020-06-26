@@ -731,7 +731,12 @@ grid-area: ten;
 width: 93%;
 margin-top: 20px;
 display: flex;
-justify-content: center;
+justify-content:space-evenly;
+font-style: italic;
+}
+
+.drus {
+    margin-bottom: 29px;
 }
 
 .item-eleven-grid-five {
