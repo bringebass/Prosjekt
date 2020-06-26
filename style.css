@@ -617,7 +617,7 @@ margin-left: 15px;
 margin-bottom: 200px;
 justify-items: center;
 grid-template-columns: repeat(3, 1fr);
-grid-template-rows: 300px 80px 600px 350px 1fr 300px 1fr 1fr 400px 1fr 1fr;
+grid-template-rows: auto;
 grid-template-areas:     
                          "topleft topright aside"
                          "btn btn aside" 
@@ -639,21 +639,25 @@ grid-template-areas:
 grid-area: topleft;
 align-self: center;
 margin-left: 100px;
+margin-top: 60px;
 }
 
 .item-x-grid-five {
 grid-area: btn;
+margin-top: 60px;
 }
 
 
 .item-two-grid-five {
 grid-area: topright;
-align-self: center; 
+align-self: center;
+margin-top: 60px; 
 }
 
 .item-three-grid-five {
 grid-area: bottoms;
 width:90%;
+margin-top: 60px;
 margin-bottom: 30px;
 height: auto;
 }
@@ -695,6 +699,7 @@ font-style: italic;
 grid-area: seven;
 width: 90%;
 margin-top: 30px;
+margin-bottom: 50px;
 }
 
 .compare {
@@ -706,6 +711,7 @@ margin-top: 30px;
 grid-area: eigth;
 width: 93%;
 margin-top: 20px;
+margin-bottom: 30px;
 }
 
 li {
@@ -714,7 +720,8 @@ list-style: none;
 
 .item-nine-grid-five { 
 grid-area: nine;
-width: 93%;  
+width: 93%;
+margin-top: 10px;  
 }
 
 .float-bilde {
@@ -728,7 +735,8 @@ width: 93%;
 .item-ten-grid-five {
 grid-area: ten;
 width: 93%;
-margin-top: 20px;
+margin-top: 50px;
+margin-bottom: 40px;
 display: flex;
 justify-content:space-evenly;
 font-style: italic;
@@ -748,6 +756,7 @@ margin-top: 20px;
 grid-area: twelve;
 width: 93%;
 margin-bottom: 30px;
+margin-top: 40px;
 }
 
 .item-thirteen-grid-five{
@@ -755,7 +764,8 @@ grid-area: thirteen;
 width: 90%;
 height: 300px;
 border: solid 1px lightgray;
-margin-top: 50px;
+margin-top: 40px;
+margin-bottom: 50px;
 display: flex;
 align-items: center;
 justify-content: space-evenly;
@@ -1067,7 +1077,7 @@ color: grey;
 .grid5 {
 width: 80%;
 grid-template-columns: 1fr 1fr;
-grid-template-rows: 300px auto 400px auto 430px;
+grid-template-rows: auto;
 grid-template-areas: "topleft topright"
                      "btn btn"
                      "aside aside" 
@@ -1094,6 +1104,10 @@ width: 60%;
 
 .item-six-grid-five {
     display: none;
+}
+
+.item-x-grid-five {
+margin-bottom: 30px;
 }
 
 }
