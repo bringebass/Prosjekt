@@ -13,49 +13,10 @@
   });
 
   
-  
-  function myFunction (x) {
-    if (x.matches) {
-      document.getElementById('element1').innerHTML ='Content';
-
-      } else {document.getElementById('element1').innerHTML = 'What is webhosting?';   
-    }
+  function myFunction() {
+    var element = document.getElementById("rullegardin-id");
+    element.classList.toggle("rullegardin-show");
   }
 
-  let x = window.matchMedia('(max-width: 670px)')
-  myFunction(x)
-  x.addListener (myFunction);
 
-
-//test
-
-document.getElementById('tegz').addEventListener('click', () => {
-  
-  document.getElementById('rullegardin-id').classList.toggle('rullegardin-show');
-  
-  if(window.scrollY==0)
-  window.scrollBy(0, 200);
-
-  else
-  window.scrollBy(0,0,0,0)
- 
-});
-
-
-
-
-
-
-
-
-
-//test
-
-
-//den som fungerer er nedenfor//
-  
- //document.getElementById ('tegz').onclick = function () {myFunctionz()};
- //function myFunctionz() {
-  // document.getElementById('rullegardin-id').classList.toggle('rullegardin-show');
- //} 
 

@@ -11,6 +11,40 @@ scroll-behavior: smooth;
 
 }
 
+/* --- rullegardin --- */
+
+.rullegardin {
+    width: 100%;
+    height: auto;
+    background-color: white;
+    position: relative;
+    margin-top: 5px;
+    display: none;
+   
+    }
+        
+    .rullegardin-show {
+    display: flex;
+    justify-content: center;  
+    }
+    
+    .liste-i-rullegardin {
+    display: block;
+    list-style: none;
+    text-decoration: underline;
+    margin-bottom: 25px;
+    cursor: pointer;
+    }
+    
+    .li-i-rullegardin {
+    font-size: 1rem;
+    padding-top: 25px;
+    font-weight: bolder;
+    
+    
+    }
+
+
 /* ------------------------------------ Buttons ------------------------------------- */
 
 
@@ -25,6 +59,7 @@ text-align: center;
 padding-top: 11px;
 display: block;
 font-weight: bold;
+text-decoration: none;
 }
 
 .small-btn2 {
@@ -61,17 +96,6 @@ font-size: 1rem;
 background-color: rgba(255, 20, 145, 0.269);
 }
 
-.btn4 {
-background-color: white;
-width: 200px;
-height: 50px;
-margin-right: 3px;
-font-family: arial;
-margin-left: 7px;
-font-weight: bold;
-transition: all .2s ease-in-out;
-cursor: pointer;
-}
 
 
 .spm {
@@ -99,9 +123,17 @@ text-decoration: none;
 border: solid grey 1px;
 background-color: rgb(238, 237, 237);
 border-radius: 5px;
-padding: 1px;
-    
-    
+padding: 1px;    
+}
+
+.content {
+padding-right: 4px;
+color: blue;
+cursor: pointer;
+}
+
+.curz {
+cursor: pointer;
 }
 
 /* ------------------------------------ Headlines ------------------------------------- */
@@ -297,6 +329,7 @@ height: 600px;
 margin-top: 60px;
 background-color:white;
 grid-template-columns: 600px 600px;
+
 }
 
 .box-one {
@@ -401,15 +434,6 @@ display: none;
 .tegz {
 position: relative;
 }
-
-.liste-i-rullegardin {
-display: none;
-}
-
-
-
-
-
 
 /* --------------------------------------- Wrapper around top grid ----------------------------- */
 
@@ -617,7 +641,7 @@ min-width: 300px;
 height: auto;
 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 margin-right: 10px;
-margin-left: 15px;
+margin-left: 10px;
 margin-bottom: 200px;
 justify-items: center;
 grid-template-columns: repeat(3, 1fr);
@@ -778,9 +802,12 @@ background-color: black;
 .mobil-boks {
 grid-area: mobile;
 display: none;
-width: 300px;
-height: 300px;
-background-color: red;
+width: 90%;
+height: auto;
+margin-top: 30px;
+padding-top: 30px;
+padding-bottom: 20px;
+margin-bottom: 50px;
 }
 
 .boks3-nederst {
@@ -849,7 +876,7 @@ height: 100%;
 width: 100%;
 background-color: #F8F8FF;
 display: grid;
-grid-template-columns: 1fr 200px 200px 300px 300px 1fr;
+grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
 grid-template-rows: 400px 300px 100px;
 grid-template-areas:     ". gr3 gr3 gr2 gr5 ."
                          ". gr3 gr3 gr2 gr5 ."
@@ -872,7 +899,8 @@ grid-area: gr2;
 .grid3footer {
 display: flex;
 justify-content: center;
-grid-area: gr3;  
+grid-area: gr3;
+margin-right: 20px;
 }
 
 .grid4footer {
@@ -1051,10 +1079,6 @@ grid-template-areas:
 margin: 10px auto;
 }
 
-.banner {
-width: 100%;
-}
-
 .box-one {
 text-align: center;
 margin-left: 100px; 
@@ -1117,6 +1141,8 @@ margin-bottom: 30px;
 margin-top: 60px;
 }
 
+
+
 }
 
 /* ------------------------------- max-width 1122px ---------------------------------- */
@@ -1139,10 +1165,6 @@ margin-top: 20px;
 
 .box-two {
 margin-right: 0px;
-}
-
-.bort {
-    display: none;
 }
 
 .box-one {
@@ -1211,11 +1233,20 @@ grid-template-areas:         "topleft topleft"
 
 .mobil-boks {
 display: flex;
+flex-direction: column;
 justify-content: center;
+align-items: center;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .item-thirteen-grid-five {
 display: none;
+}
+
+.visblock {
+display: block;
+margin-top: 8px;
+color: blue;
 }
 
 .item-five-grid-five {
@@ -1283,36 +1314,7 @@ grid-template-rows: 100px 200px;
 font-size: 2.1rem;
 }
 
-/* --- rullegardin --- */
 
-.rullegardin {
-width: 90%;
-height: 380px;
-background-color: white;
-position: relative;
-margin-left: 5%;
-display: none;
-margin-top: 5px;
-}
-    
-.rullegardin-show {
-display: inline-block;  
-}
-
-    
-
-.liste-i-rullegardin {
-display: block;
-margin: 0 auto;
-list-style: none;
-margin-top: 5px;
-}
-
-.li-i-rullegardin {
-font-size: 14px;
-padding-top: 25px;
-font-weight: bolder;
-}
 
 /* -- Grid med bokser -- */
 
@@ -1362,9 +1364,6 @@ width: 200px;
 display: none;
 }
 
-.borte2 {
-display: none;
-}
 
 .headline {
 padding-top: 20px;
@@ -1377,6 +1376,7 @@ padding-right: 20px;
 margin-bottom: 30px;
 font-size: 27px;
 }
+
 
 .headline3 {
 display: none;
