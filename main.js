@@ -1,5 +1,5 @@
   // Open nav bar when hamburger menu is clicked
-  document.getElementById('hambruger-menu').addEventListener('click', (e, r) => {
+  document.getElementById('hambruger-menu').addEventListener('click', (e) => {
     e.stopPropagation();
     document.getElementById('nav-boxy').classList.toggle('show');
   });
