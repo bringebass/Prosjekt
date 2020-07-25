@@ -10,18 +10,58 @@ font-size: 16px;
 scroll-behavior: smooth;
 }
 
+a {
+text-decoration: none;
+}
+
 .rotate {
 transform: rotate(180deg) ;
 }
 
+.rotate_two {
+    transform: rotate(180deg) ;
+    }
+
 .cfv {
 display: flex;
+}
 
+/*test*/
+
+.parent {
+position: relative;
+cursor: pointer;
+}
+
+.dropdown-content-linker {
+padding: 10px;
+color: #00008B;
+font-weight: bolder;
+}
+
+.dropdown-content {
+position: absolute;
+display: none;
+flex-direction: column;
+right: 110px;
+margin-top: 28px;
+background-color: white;
+padding: 20px;
+width: 250px;
+height: 400px;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.show-dropdown {
+display: flex;
 }
 
 .debug {
 border: solid green 1px;
 }
+
+
+/*test*/
 
 /* rullegardin */
 
@@ -48,6 +88,9 @@ padding-top: 25px;
 font-weight: bolder;
 }
 
+li:hover {
+color:rgba(0, 0, 0, 0.269);
+}
 
 /* Buttons */
 
@@ -422,6 +465,7 @@ color:  rgba(0, 128, 0, 0.084);
 .button-span {
 display: flex;
 justify-content:center;
+
 }
 
 .anglez {

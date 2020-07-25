@@ -12,13 +12,16 @@ const navBoxEl = document.getElementById("nav-boxy")
 if(navBoxEl.className === 'nav-boxy-class show') {
 navBoxEl.classList.toggle('show');
 }
+
 });
 
 const vinkel = document.getElementById('vinkel');
+const vinkelTopp = document.getElementById('vink-topp');
 const content = document.querySelector('.content', '#rullegardin-id');
 const rullegardin = document.getElementById('rullegardin-id');
 const cfv = document.querySelector('.cfv');
-
+const dropdownContent = document.querySelector('.dropdown-content');
+const reviews = document.querySelector('.parent');
 
 
 cfv.addEventListener('click', () => {
@@ -26,5 +29,15 @@ vinkel.classList.toggle('rotate'),
 rullegardin.classList.toggle('rullegardin-show');
 });
 
+reviews.addEventListener('click', (e) => {
+e.stopPropagation();
+vinkelTopp.classList.toggle('rotate'),
+dropdownContent.classList.toggle('show-dropdown');
+});
 
 
+document.body.addEventListener('click', () => {
+ if (dropdownContent.className === 'dropdown-content show-dropdown') {
+  dropdownContent.classList.toggle('show-dropdown');
+}
+ });
