@@ -91,6 +91,7 @@ justify-content: center;
 text-decoration: underline;
 margin-bottom: 25px;
 cursor: pointer;
+margin-left: 70px;
 }
     
 .li-i-rullegardin {
@@ -838,7 +839,7 @@ font-style: italic;
 }
 
 .drus {
-    margin-bottom: 29px;
+margin-bottom: 29px;
 }
 
 .item-eleven-grid-five {
