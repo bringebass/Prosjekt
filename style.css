@@ -80,7 +80,6 @@ border-radius: 10px;
     padding: 20px;
     width: 230px;
     height: 40px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border-radius: 10px;
 }
 
@@ -575,11 +574,10 @@ height: 730px;
 min-width: 250px;
 border-radius: 20px; 
 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-transition: all .3s ease-in-out;
 }
 
 .grid-item:hover {
-    transform: scale(1.07);
+    
 }
         
 .toppick {
@@ -613,6 +611,7 @@ grid-area: one;
 grid-area: two;
 border-top: 30px solid #FF1493;
 position: relative;
+transform: scale(1.04);
 }
         
 .three {
