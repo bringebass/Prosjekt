@@ -24,8 +24,11 @@ transform: rotate(180deg) ;
 
 .cfv {
 display: flex ;
-
 }
+
+.content {
+    transition: all .2s ease-in-out;
+    }
 
 .content:hover{
     color: rgb(78, 78, 148);
@@ -100,9 +103,14 @@ padding-top: 25px;
 font-weight: bolder;
 }
 
-li:hover {
+.rull {
+    transition: all .2s ease-in-out;
+    }
+
+.rull:hover {
 color:rgba(0, 0, 0, 0.269);
 }
+
 
 /* Buttons */
 
@@ -154,6 +162,12 @@ font-size: 1rem;
 .btn:hover {
 background-color: rgba(255, 20, 145, 0.269);
 }
+
+/*
+.small-btn2:hover {
+    background-color: rgba(255, 20, 145, 0.269);
+    }
+*/  
 
 .button-table {
 width: 100%;
