@@ -4,7 +4,8 @@
 //const rullegardin = document.getElementById('rullegardin-id');
 //const cfv = document.querySelector('.cfv');
 const dropdownContent = document.querySelector('.dropdown-content');
-const reviews = document.querySelector('.parent');
+const parent = document.querySelector('.parent');
+const sidemenyHide = document.querySelector('.sidemeny_hide');
 
 // Open nav bar when hamburger menu is clicked
 document.getElementById('hambruger-menu').addEventListener('click', (e) => {
@@ -21,10 +22,14 @@ navBoxEl.classList.toggle('show');
 
 });
 
-reviews.addEventListener('click', (e) => {
+
+
+parent.addEventListener('click', (e) => {
   e.stopPropagation();
   document.getElementById('vink-topp').classList.toggle('rotate'),
   dropdownContent.classList.toggle('show-dropdown');
+  sidemenyHide.classList.toggle('back');
+
   });
   
 /* 

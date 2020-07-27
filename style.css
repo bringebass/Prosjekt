@@ -14,6 +14,10 @@ a {
 text-decoration: none;
 }
 
+
+
+
+
 .rotate {
 transform: rotate(180deg) ;
 }
@@ -41,7 +45,8 @@ display: flex ;
 .parent {
 position: relative;
 cursor: pointer;
-display: flex;
+display: inline;
+margin-left: 20px;
 }
 
 .dropdown-content-linker {
@@ -63,7 +68,7 @@ top: 100px;
 background-color: white;
 padding: 20px;
 width: 230px;
-height: 585px;
+height: 500px;
 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 border-radius: 10px;
 }
@@ -73,13 +78,13 @@ border-radius: 10px;
 .sidemeny_hide {
     position: absolute;
     display: flex;
+    justify-content: center;
     flex-direction: column;
     right: 0px;
-    top: 644px;
+    top: 540px;
     background-color: white;
-    padding: 20px;
-    width: 230px;
-    height: 40px;
+    width: 70px;
+    height: 60px;
     border-radius: 10px;
 }
 
@@ -89,6 +94,12 @@ display: none;
 
 .debug {
 border: solid green 1px;
+}
+
+
+
+.back {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 
@@ -228,7 +239,8 @@ cursor: pointer;
 
 .curz {
 cursor: pointer;
-margin-left: 10%;
+font-size: 30px;
+color: lightgrey;
 }
 
 /* ------------------------------------ Headlines ------------------------------------- */
@@ -376,6 +388,7 @@ text-decoration: none;
 padding-left: 70px;
 }
 
+/*
 .aclass {
 transition: all .2s ease-in-out;
 }
@@ -383,6 +396,7 @@ transition: all .2s ease-in-out;
 .aclass:hover {
 color:rgba(0, 0, 0, 0.269);
 }
+*/
 
 .nav-boxy-class {
 position: absolute;
@@ -608,7 +622,7 @@ grid-area: one;
 grid-area: two;
 border-top: 30px solid #FF1493;
 position: relative;
-transform: scale(1.02);
+transform: scale(1.04);
 }
         
 .three {
