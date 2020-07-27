@@ -27,6 +27,7 @@ reviews.addEventListener('click', (e) => {
   dropdownContent.classList.toggle('show-dropdown');
   });
   
+/* 
   
   document.body.addEventListener('click', () => {
    if (dropdownContent.className === 'dropdown-content show-dropdown') {
@@ -40,3 +41,4 @@ document.getElementById('vinkel').classList.toggle('rotate'),
 document.getElementById('rullegardin-id').classList.toggle('rullegardin-show');
 });
 
+*/

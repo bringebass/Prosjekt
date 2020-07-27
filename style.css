@@ -56,7 +56,7 @@ font-weight: bolder;
 
 .dropdown-content {
 position: absolute;
-display: none;
+display: flex;
 flex-direction: column;
 right: 0px;
 top: 100px;
@@ -84,7 +84,7 @@ border-radius: 10px;
 }
 
 .show-dropdown {
-display: flex;
+display: none;
 }
 
 .debug {
@@ -166,6 +166,7 @@ font-weight: bold;
     border-radius: 20px;
     color: white;
     margin-top: 40px;
+    margin-bottom: 40px;
     text-decoration: none;
     text-align: center;
     padding-top: 11px;
@@ -570,14 +571,10 @@ grid-template-areas:
 display: flex;
 flex-direction: column;
 align-items: center;
-height: 730px;
+height: 690px;
 min-width: 250px;
 border-radius: 20px; 
 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
-.grid-item:hover {
-    
 }
         
 .toppick {
@@ -611,7 +608,7 @@ grid-area: one;
 grid-area: two;
 border-top: 30px solid #FF1493;
 position: relative;
-transform: scale(1.04);
+transform: scale(1.02);
 }
         
 .three {
@@ -998,16 +995,16 @@ text-align: center;
     .flexbbx {
         display: flex;
         width: 100%;
-        height: 400px;
+        height: auto;
         flex-wrap: wrap;
-        gap: 10px;
+        gap: 15px;
         margin: auto;
         justify-content: center;
     }
     
     .flexbbxo {
         width: 300px;
-        height: 40  0px;
+        height: auto;
         box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
         display: flex;
         flex-direction: column;
@@ -1346,7 +1343,7 @@ width: 90%;
 }
 
 .grid-item {
-height: 700px;
+height: 690px;
 }
 
 .footer {
