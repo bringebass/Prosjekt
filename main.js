@@ -1,8 +1,4 @@
-//const vinkel = document.getElementById('vinkel');
-//const vinkelTopp = document.getElementById('vink-topp');
-//const content = document.querySelector('.content', '#rullegardin-id');
-//const rullegardin = document.getElementById('rullegardin-id');
-//const cfv = document.querySelector('.cfv');
+// Selectors
 const dropdownContent = document.querySelector('.dropdown-content');
 const parent = document.querySelector('.parent');
 const sidemenyHide = document.querySelector('.sidemeny_hide');
@@ -13,7 +9,7 @@ e.stopPropagation();
 document.getElementById('nav-boxy').classList.toggle('show');
 });
   
-// close hamburger menu if body is clicked ONLY when the menu is already visible
+// Close hamburger menu if body is clicked ONLY when the menu is already visible
 document.body.addEventListener('click', () => {
 const navBoxEl = document.getElementById("nav-boxy")
 if(navBoxEl.className === 'nav-boxy-class show') {
@@ -22,28 +18,11 @@ navBoxEl.classList.toggle('show');
 
 });
 
-
-
-parent.addEventListener('click', (e) => {
-  e.stopPropagation();
-  document.getElementById('vink-topp').classList.toggle('rotate'),
-  dropdownContent.classList.toggle('show-dropdown');
-  sidemenyHide.classList.toggle('back');
-
-  });
-  
-/* 
-  
-  document.body.addEventListener('click', () => {
-   if (dropdownContent.className === 'dropdown-content show-dropdown') {
-    dropdownContent.classList.toggle('show-dropdown');
-  }
-   });
-
-
-document.querySelector('.cfv').addEventListener('click', () => {
-document.getElementById('vinkel').classList.toggle('rotate'),
-document.getElementById('rullegardin-id').classList.toggle('rullegardin-show');
+// Show sidemenu and rotate arrow
+parent.addEventListener('click', e  => {
+e.stopPropagation();
+document.getElementById('vink-topp').classList.toggle('rotate'),
+dropdownContent.classList.toggle('show-dropdown');
+sidemenyHide.classList.toggle('back');
 });
 
-*/
