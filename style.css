@@ -105,41 +105,7 @@ border: solid green 1px;
 }
 
 
-/*test*/
 
-/* rullegardin */
-
-.rullegardin {
-display: none;
-background-color: #F8F8FF;
-margin-top: 15px;
-}
-        
-.rullegardin-show {
-display: flex;
-justify-content: center;  
-}
-    
-.liste-i-rullegardin {
-text-decoration: underline;
-margin-bottom: 25px;
-cursor: pointer;
-margin-left: 70px;
-}
-    
-.li-i-rullegardin {
-font-size: 1rem;
-padding-top: 25px;
-font-weight: bolder;
-}
-
-.rull {
-    transition: all .2s ease-in-out;
-    }
-
-.rull:hover {
-color:rgba(0, 0, 0, 0.269);
-}
 
 
 /* Buttons */
