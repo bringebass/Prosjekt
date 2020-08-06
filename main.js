@@ -1,3 +1,4 @@
+
 // Selectors
 const dropdownContent = document.querySelector('.dropdown-content');
 const parent = document.querySelector('.parent');
