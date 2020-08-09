@@ -1,0 +1,415 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: arial;
+}
+
+body {
+    height: 1000px;
+}
+
+p {
+    padding: 20px;
+}
+
+/* header */
+
+.header {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    box-shadow: 0px 15px 20px -5px rgba(204,204,204,1);
+    height: 60px;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    background-color: white;
+}
+
+.nav-boks {
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.unordered-list {
+    display: flex;
+}
+
+.liste-item {
+    display: flex;
+    padding-right: 30px;
+}
+
+.logo-boks {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-left: 30px;
+}
+
+/* linker */
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+/* grid items */
+
+.grid-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+}
+
+.grid-container2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.grid-containerX {
+    display: flex;
+    justify-content: center;
+}
+
+.grid {
+    display: inline-grid;
+    width: 1008px;
+    position: relative;
+    grid-template-columns: repeat(4, 1fr);
+    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.gridX {
+    display: inline-grid;
+    width: 1008px;
+    position: relative;
+    grid-template-columns: repeat(4, 1fr);
+    border: solid lightgray 1px;
+    
+    background-color: white;
+}
+
+.bildeboksen {
+    margin-top: 20px;
+}
+
+.kort-anmeldelse {
+    font-size: 14px;
+}
+
+.grid-item {
+    width: 250px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+}
+
+.en {
+    position: relative;
+}
+
+.better {
+   position: absolute;
+   bottom: 5;
+   left: 64;
+   font-size: 70%;
+   text-decoration: none;  
+}
+
+.nummer {
+    background-color: #00008B;
+    height: 30px;
+    width: 40px;
+    position: absolute;
+    left: 0;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+    border-bottom-right-radius: 9px;
+}
+
+.nummer2 {
+    background-color: #00008B;
+    height: 30px;
+    width: 25px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+    border-bottom-right-radius: 9px;
+    display: none;
+}
+
+.fire {
+    align-items: center;
+}
+
+.to {
+    font-size: 200%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.en, .to, .tre {
+    border-right: lightgray solid 1px;
+}
+
+.tre {
+    position: relative;
+}
+
+.fire {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+/* table */
+
+.table {
+    margin: 0 auto;
+    width: 60%;
+    max-width: 1200px;
+    height: auto;
+    border-collapse: collapse;  
+    
+    text-align: center;
+    
+    background-color: rgb(248, 248, 248);
+    text-align: justify;
+
+    
+    }
+    
+    tr, td, th {
+    border-bottom: solid lightgray 1px ;    
+    }
+    
+    th, tr, td {
+    font-size: 14px;
+    }
+
+    th {
+        font-weight: normal;
+    }
+    
+    .tablerow {
+    font-size: 1rem;
+    width: 10px;
+    background-color:#FF1493;  
+    }
+
+    .v {
+        color: green;
+    }
+
+    /* table end */
+
+
+.knapp {
+background-color: #FF1493;
+color: white;
+display: flex;
+justify-content: center;
+align-items: center;
+border: none;
+font-size: 1rem;
+font-weight: bolder;
+margin-top: 30px;
+width: 180px;
+height: 50px;
+border-radius: 50px;
+box-shadow: 0px 15px 20px -5px rgb(217, 214, 229);
+}
+
+.stjerne-beholder {
+    font-size: 50%;
+    margin-top: -40px;
+  
+}
+    
+
+
+
+.p-inline {
+    position: absolute;
+    font-size: 100%;
+    font-weight: bolder;
+    bottom: 2;
+   
+   
+}
+
+.rating {
+    padding-left:0px;
+    padding-bottom: 10px;
+    margin-top: -20px;
+    margin-left: 44px;
+    font-weight: bold;
+}
+
+.review {
+    padding-top: 9px;
+    padding-bottom: 2px;
+    font-size: small;
+    color: grey;
+}
+
+.check-beholder {
+    display:flex;
+    flex-direction: column;
+    position: absolute;
+    top: 28;
+    left: 50;
+    font-size: 70%;
+    color: green;
+}
+
+
+
+.fa-check {
+    padding-top: 5px;
+  
+}
+
+.h6 {
+    display: inline;
+    margin-left: 3px;
+    font-size: 130%;
+    color: black;
+    padding: 0;
+    font-weight: normal;
+
+}
+
+.fa-minus {
+    color: red;
+    padding-top: 5px;
+    padding-left: 1px;
+}
+
+.starr {
+    border: solid #00008B  1px;
+    background-color: green;
+    padding: 2px;
+    color: white;
+}
+
+
+
+
+.btn {
+   position: absolute;
+   bottom: 2;
+   color: grey;
+   font-size: 1.4rem;
+}
+
+/* test */
+
+.gridContainerTo {
+    display: none;
+    margin: 0 auto;
+}
+
+.vis {
+    display: grid;
+}
+
+
+.rotate {
+    transform: rotate(180deg);
+}
+
+    @media only screen and (max-width: 1100px) {
+      .grid {
+
+        width: 504px;
+        grid-template-columns: repeat(2, 1fr);
+        
+            }
+
+    .gridX {
+        width: 504px;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+     .en {
+        border-right: solid lightgray 1px;
+     }
+
+    
+
+     .to {
+        border-right: none;
+     }
+
+     .tre {
+        border-right: solid lightgray 1px;
+        border-top: solid lightgray 1px;
+     }
+
+     .fire {
+        border-top: solid lightgray 1px;
+    }
+
+    }
+    
+    
+      
+
+      
+
+      @media only screen and (max-width: 566px) {
+        .grid {
+            
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 80%;
+            grid-template-columns: 1fr;
+           
+        }
+        
+        .gridX {
+          
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: auto;
+            grid-template-columns: 1fr;
+        }
+
+        .en, .tre {
+            border-right: none;
+            border-bottom: solid lightgray 1px;
+        }
+        
+        .vis {
+            display: flex;
+        }
+
+        .grid-item {
+            
+            min-width: 250px;
+        }
+
+        .nummer {
+           display: none;
+        }
+
+        .nummer2 {
+            display: flex;
+        }
+    }
