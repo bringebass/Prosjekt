@@ -16,18 +16,18 @@ const reviewToern = document.querySelector ('.reviewToern');
 
 toern.addEventListener('click', () =>  {
     gridContainerTo.classList.toggle('vis')
-    if (reviewToern.textContent=='Vis mer') {
-    reviewToern.textContent='Vis mindre'; 
+    if (reviewToern.textContent=='Show more') {
+    reviewToern.textContent='Show less'; 
 }
-    else if (reviewToern.textContent=='Vis mindre') {
-    reviewToern.textContent='Vis mer'
+    else if (reviewToern.textContent=='Show less') {
+    reviewToern.textContent='Show more'
     }
 
 })
 
 reviewToern.addEventListener('click', () =>  {
     gridContainerTo.classList.toggle('vis')
-    reviewToern.textContent='Vis mindre';
+    reviewToern.textContent='Show less';
 })
 
 toern.addEventListener('click', () =>  {

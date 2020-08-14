@@ -91,12 +91,11 @@ a {
     background-color: white;
 }
 
-.bildeboksen {
-    margin-top: 20px;
-}
+
 
 .kort-anmeldelse {
     font-size: 14px;
+   
 }
 
 .grid-item {
@@ -108,6 +107,16 @@ a {
 
 .en {
     position: relative;
+}
+
+.headline-boks {
+    margin-top: 20px;
+}
+
+.ul {
+    position: absolute;
+    top: 60;
+    color: #00008B;
 }
 
 .better {
@@ -245,9 +254,16 @@ box-shadow: 0px 15px 20px -5px rgb(217, 214, 229);
     position: absolute;
     font-size: 100%;
     font-weight: bolder;
-    bottom: 2;
-   
-   
+    bottom: 2; 
+}
+
+.read-full {
+    position: relative;
+    bottom: -33;
+    left: -50;
+    color: blue;
+    text-decoration: underline;
+    font-size: 13px;
 }
 
 .rating {
