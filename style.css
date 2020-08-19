@@ -420,19 +420,12 @@ justify-self: center;
 }
     
 .imageinbox {
-background-image: url(Bilder/Computer&mobile500px.jpg);
+background-image: url(Bilder/computer-mobile-big.jpg);
 width: 500px;
 height: 333px;
 background-size: cover;
 background-repeat: no-repeat;
 margin-top: 35px;
-}
-
-.imageinbox2 {
-width: 400px;
-height: auto;
-background-size: cover;
-background-repeat: no-repeat;
 }
 
 /* - S */
@@ -1279,7 +1272,11 @@ margin-bottom: 30px;
 margin-top: 60px;
 }
 
-
+.imageinbox {
+    width: 400px;
+    height: 267px;
+    background-image: url(Bilder/computer-mobile-medium.jpg);
+    }
 
 }
 
@@ -1295,7 +1292,9 @@ grid-template-columns: 1fr;
 grid-template-rows: 1fr 1fr;
 }
 
-
+.headline-two {
+    margin-top: 0px;
+}
 
 .btn {
 width: 150px;
@@ -1404,7 +1403,9 @@ display: none;
 margin-left: 0px;
 }
 
-
+.imageinbox {
+    margin-top: 0px;
+}
 
 }
 
@@ -1450,12 +1451,13 @@ grid-template-rows: 100px 200px;
 #headline {
 font-size: 2.1rem;
 margin-bottom: 10px;
+margin-top: 20px;
 }
 
 .imageinbox {
-    background-image: url(Bilder/computer-mobile.jpg);
-    width: 400px;
-    height: 267px;
+    background-image: url(Bilder/computer-mobile-small.jpg);
+    width: 300px;
+    height: 200px;
     background-size: cover;
     background-repeat: no-repeat;
     margin-top: 35px;
