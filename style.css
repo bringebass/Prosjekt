@@ -5,8 +5,8 @@ box-sizing: border-box;
 margin: 0;
 padding: 0;
 font-family: arial; /* husk å legge til font fra google f.eks. */
-color: rgb(2, 2, 65);
 font-size: 16px;
+color: rgb(2, 2, 65);
 scroll-behavior: smooth;
 }
 
@@ -32,11 +32,8 @@ display: flex ;
 
 /*test*/
 
-.parent {
-position: relative;
-cursor: pointer;
-display: inline;
-margin-left: 20px;
+.lesMer {
+    display: none;
 }
 
 .dropdown-content-linker {
@@ -51,7 +48,7 @@ font-weight: bolder;
 
 .dropdown-content {
 position: absolute;
-display: flex;
+display: none;
 flex-direction: column;
 right: 0px;
 top: 100px;
@@ -75,11 +72,11 @@ border-radius: 10px;
     background-color: white;
     width: 70px;
     height: 60px;
-    border-radius: 10px;
+    
 }
 
 .show-dropdown {
-display: none;
+display: flex;
 }
 
 .debug {
@@ -90,9 +87,7 @@ border: solid green 1px;
     height: auto;
 }
 
-.back {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
+
 
 
 
@@ -828,6 +823,10 @@ margin-bottom: 50px;
     margin-bottom: 10px;
     padding-left: 5px;
 padding-right: 5px;
+}
+
+.farge {
+    color: red;
 }
 
 .item-eight-grid-five {
@@ -1608,6 +1607,37 @@ grid-template-areas:
                              "gr4";
    
 }
+
+/* boks rundt hva er webhosting */
+
+.boks-rundt-hva {
+    height: 100px;
+    overflow: hidden;
+}
+
+.skruPå {
+    height: auto;
+}
+
+.minusMargin {
+margin-top: -38px;
+}
+
+.lesMer {
+    display: flex;
+    justify-content: center;
+}
+
+.pilen {
+    margin-top: 10px;
+    font-size: 20px;  
+}
+
+.rotate {
+   transform: rotate(180deg);
+}
+
+/* boks ferdig */
 
 .wrapper {
 display: flex;
