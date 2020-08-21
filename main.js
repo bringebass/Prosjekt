@@ -32,6 +32,16 @@ dropdownContent.classList.toggle('show-dropdown');
 sidemenyHide.classList.toggle('back');
 });
 
+
+document.body.addEventListener('click', () => { 
+    if (dropdownContent.className === 'dropdown-content show-dropdown') {
+        dropdownContent.classList.toggle('show-dropdown');
+        ove.classList.toggle('farge');
+    }
+});
+
+
+// Show more content on mobile version
 pilen.addEventListener('click', () => {
     container.classList.toggle('skruPå');
     lesMer.classList.toggle('minusMargin');
