@@ -26,11 +26,31 @@ transform: rotate(180deg) ;
 display: flex ;
 }
 
+.farge {
+    color: lightgray;
+}
+
 .content:hover{
     color: black;
 }
 
-/*test*/
+/* ---- Review siden ---- */
+
+.innpakning {
+    
+    width: 80%;
+    margin: 100px auto 100px;
+    
+}
+
+.margino {
+    margin-left: 100px;
+}
+
+
+/* ---- Review siden end ---- */
+
+
 
 .lesMer {
     display: none;
@@ -119,8 +139,10 @@ color: white;
 margin-top: 20px;
 text-decoration: none;
 text-align: center;
+
 padding-top: 11px;
 font-weight: bold;
+box-shadow: 0px 15px 20px -5px rgb(217, 214, 229);
 }
 
 .small-btn22 {
@@ -272,13 +294,7 @@ text-align: center;
 font-size: 1.2rem;
 }
 
-.headline_reviews {
-    text-align: center;
-    font-size: 3rem;
-    margin-top: 150px;
-    color: #00008B;
 
-}
 
 /* ----------------------------------- Header -------------------------------------------- */
 
@@ -345,15 +361,7 @@ text-decoration: none;
 padding-left: 70px;
 }
 
-/*
-.aclass {
-transition: all .2s ease-in-out;
-}
 
-.aclass:hover {
-color:rgba(0, 0, 0, 0.269);
-}
-*/
 
 .nav-boxy-class {
 position: absolute;
@@ -727,193 +735,9 @@ background-color:#FF1493;
 /* --------------------------------------------- Grid 5 ---------------------------------------- */
 
 
-.wrapper-around-grid-five {
-display: flex;
-max-width: 100%;
-height: 90%;
-justify-content: center;  
-}
-
-.grid5 {
-display: grid;
-max-width: 1200px;
-min-width: 300px;
-height: auto;
-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-margin-right: 10px;
-margin-left: 10px;
-margin-top: 90px;
-margin-bottom: 200px;
-justify-items: center;
-grid-template-columns: repeat(3, 1fr);
-grid-template-rows: auto;
-grid-template-areas:     
-                         "topleft topright aside"
-                         "btn btn aside" 
-                         "bottoms bottoms sixer"
-                         "bottoms bottoms fiver"
-                         "seven seven seven"
-                         "eigth eigth eigth"
-                         "nine nine nine"
-                         "ten ten ten"
-                         "eleven eleven eleven"
-                         "twelve twelve twelve"
-                         "thirteen thirteen thirteen";
-
-}
 
 
 
-.item-one-grid-five {
-grid-area: topleft;
-align-self: center;
-margin-left: 100px;
-margin-top: 60px;
-}
-
-.item-x-grid-five {
-grid-area: btn;
-margin-top: 60px;
-}
-
-
-.item-two-grid-five {
-grid-area: topright;
-align-self: center;
-margin-top: 60px; 
-}
-
-.item-three-grid-five {
-grid-area: bottoms;
-width:90%;
-margin-top: 60px;
-margin-bottom: 30px;
-height: auto;
-}
-
-.item-four-grid-five {
-grid-area: aside;
-width:auto;
-height: auto;
-display: flex;
-flex-direction: column;
-text-align: center;
-padding-top: 34px;
-}
-
-.item-five-grid-five {
-    grid-area: fiver;
-    text-align: center;
-    height: 242px;
-}
-
-.wordpress-text {
-padding-top: 20px;
-font-style: italic;
-}
-
-
-.item-six-grid-five {
-grid-area: sixer;
-width: 100%;
-display: flex;
-flex-direction: column;
-text-align: center;
-padding-top: 30px;
-font-style: italic;
-}
-
-
-.item-seven-grid-five {
-grid-area: seven;
-width: 90%;
-margin-top: 30px;
-margin-bottom: 50px;
-}
-
-.compare {
-    text-align: center;
-    margin-bottom: 10px;
-    padding-left: 5px;
-padding-right: 5px;
-}
-
-.farge {
-    color: red;
-}
-
-.item-eight-grid-five {
-grid-area: eigth;
-width: 93%;
-margin-top: 20px;
-margin-bottom: 30px;
-}
-
-li {
-list-style: none;
-}
-
-.item-nine-grid-five { 
-grid-area: nine;
-width: 93%;
-margin-top: 10px;  
-}
-
-.float-bilde {
-    float: right;
-    width: auto;
-}
-
-.item-ten-grid-five {
-grid-area: ten;
-width: 93%;
-margin-top: 50px;
-margin-bottom: 40px;
-display: flex;
-justify-content:space-evenly;
-font-style: italic;
-}
-
-.drus {
-margin-bottom: 29px;
-}
-
-.item-eleven-grid-five {
-grid-area: eleven;
-width: 93%;
-margin-top: 20px;
-}
-
-.item-twelve-grid-five {
-grid-area: twelve;
-width: 93%;
-margin-bottom: 30px;
-margin-top: 40px;
-}
-
-.item-thirteen-grid-five{
-grid-area: thirteen;
-width: 90%;
-height: 300px;
-border: solid 1px lightgray;
-margin-top: 40px;
-margin-bottom: 50px;
-display: flex;
-align-items: center;
-justify-content: space-evenly;
-background-color: black;
-}
-
-.mobil-boks {
-grid-area: mobile;
-display: none;
-width: 90%;
-height: auto;
-margin-top: 30px;
-padding-top: 30px;
-padding-bottom: 20px;
-margin-bottom: 50px;
-}
 
 .boks3-nederst {
 text-align: center;
@@ -925,17 +749,9 @@ margin: 0 auto;
 height: 350px;
 }
 
-.anmeldelse-tekst {
-line-height: 1.7;
-font-size: 1.1rem;
-}
 
-.anmeldelse-tekst2 {
-line-height: 1.7;
-float: none;
-margin-top: 100px;
-font-size: 1.1rem;
-}
+
+
 
 .webhosting-dave {
 float: right;
@@ -943,12 +759,7 @@ margin-top: 20px;
 margin-left: 20px;
 }
 
-.whd {
-margin-top: 35px;
-float: right;
-color: #00008B;
-font-weight: bolder;
-}
+
 
 #wixwax {
 width: 200px;
@@ -956,13 +767,6 @@ height: 200px;
 margin-top: 40%;
 }  
 
-.symboler-under-tekst {
-display: flex;
-justify-content: center;
-align-items: center;
-width: 100%;
-height: 100%;
-}
 
 .fb, .tw, .lk, .fa-instagram {
     padding-left: 30px;
@@ -1255,23 +1059,7 @@ color: grey;
     width: 100%;
 }
 
-.grid5 {
-width: 80%;
-grid-template-columns: 1fr 1fr;
-grid-template-rows: auto;
-grid-template-areas: "topleft topright"
-                     "btn btn"
-                     "aside fiver" 
-                     "bottoms bottoms"
-                     "seven seven"
-                     "eigth eigth"
-                     "nine nine"
-                     "nine nine"
-                     "ten ten"
-                     "eleven eleven"
-                     "twelve twelve"
-                     "thirteen thirteen";
-}
+
 
 .table-two {
 width: 80%;
@@ -1280,17 +1068,11 @@ height: auto;
 }
 
 
-.item-six-grid-five {
-    display: none;
-}
 
-.item-x-grid-five {
-margin-bottom: 30px;
-}
 
-.item-five-grid-five {
-margin-top: 60px;
-}
+
+
+
 
 .imageinbox {
     width: 400px;
@@ -1334,9 +1116,7 @@ margin-left: 0px;
 width: 90%
 }
 
-.grid5 {
-width: 90%;
-}
+
 
 .grid-item {
 height: 690px;
@@ -1369,23 +1149,7 @@ margin-right: 0px;
                          "b-onze b-doze";
     }
 
-.grid5 {
-width: 80%;
-grid-template-columns: 1fr 1fr;
-grid-template-rows: auto;
-grid-template-areas:         "topleft topleft"
-                             "topright topright"
-                             "btn btn"
-                             "bottoms bottoms"
-                             "seven seven"
-                             "eigth eigth"
-                             "nine nine"
-                             "nine nine"
-                             "ten ten"
-                             "eleven eleven"
-                             "twelve twelve"
-                             "mobile mobile";
-        }
+
 
 
 
@@ -1397,9 +1161,7 @@ align-items: center;
 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.item-thirteen-grid-five {
-display: none;
-}
+
 
 .visblock {
 display: block;
@@ -1407,21 +1169,15 @@ margin-top: 8px;
 color: blue;
 }
 
-.item-five-grid-five {
-    display: none;
-}
 
-.item-four-grid-five {
-    display: none;
-}
+
+
 
 .fjernes {
 display: none;
 }
 
-.item-one-grid-five {
-margin-left: 0px;
-}
+
 
 .imageinbox {
     margin-top: 0px;
@@ -1609,9 +1365,7 @@ margin-top: 20px;
 margin-bottom: 50px;
 }
 
-.headline_reviews {
-    margin-top: 70px;
-}
+
 
 .box-one {
 align-self: center;
@@ -1672,44 +1426,24 @@ width: 95%;
 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);      
 }
 
-.grid5 {
-width: 95%;
-grid-template-columns: 1fr;
-margin-top: 40px;
-margin-bottom: 100px;
-grid-template-rows: auto;
-grid-template-areas: 
-                                 "topleft" 
-                                 "topright"
-                                 "btn"
-                                 "bottoms"
-                                 "aside"
-                                 "seven"
-                                 "eigth"
-                                 "nine"
-                                 "ten"
-                                 "eleven"
-                                 "twelve"
-                                 "mobile";
-}
 
 
-.item-seven-grid-five {
-width: 100%;
-}
+
+
 
 .grid5footer, .grid2footer {
 justify-content: start;
 margin-left: 10%;
 }
 
-.anmeldelse-tekst, .anmeldelse-tekst2 {
-text-align: justify;
-text-align-last: center;
-} 
 
-.item-ten-grid-five {
-text-align: center;
+.grid4footer {
+    align-self: center;
+}
+
+.helt-nede {
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 .float-bilde {
@@ -1717,13 +1451,8 @@ width: 250px;
 margin-left: 10px; 
 }
 
-.item-three-grid-five {
-margin-top: 20px;
-}
 
-.item-x-grid-five {
-margin-top: 40px;
-}
+
 
 .drus {
 width: 280px;
