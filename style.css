@@ -1358,7 +1358,7 @@ margin-top: 20px;
 /* -- Grid med bokser -- */
 
 .grid-item {
-height: 630px
+height: 550px
 }
 
 .margo {
@@ -1366,9 +1366,12 @@ margin-top: 20px;
 }
 
 .symbolboks2 {
-margin-top: 20px;
+display: none;
 }
 
+.underpenger {
+    display: none;
+}
 
 .btn4 {
 margin-right: 0px;
@@ -1390,7 +1393,7 @@ margin-bottom: 60px;
 
 .what-is {
 width: 90%;
-margin-bottom: 35px;
+margin-bottom: 25px;
 text-align: justify;
 text-align-last: center;
 }
@@ -1414,8 +1417,9 @@ padding-top: 20px;
 padding-left: 20px;
 padding-right: 20px;
 margin-bottom: 30px;
-margin-top: 30px;
-font-size: 27px;
+margin-top: 0px;
+font-size: 16px;
+color: grey;
 }
 
 
@@ -1614,6 +1618,11 @@ width: 280px;
     .wix-overskrift {
         margin-top: 100px;
         margin-bottom: 0px;
+    }
+
+    .flexbox-med-logoer {
+    margin-bottom: 50px;
+    
     }
 
 }
