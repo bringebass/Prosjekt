@@ -44,13 +44,106 @@ display: flex ;
 }
 
 .margino {
-    margin-left: 100px;
+   display: flex;
+   justify-content: center;
+   margin-bottom: 50px;
+   margin-left: 50px;
+   margin-right: 50px;
+   
+  
+}
+
+.midtstill {
+    width: 800px;
+}
+
+.mellomrom {
+    padding-bottom: 20px;
+    font-size: 1.1rem;
 }
 
 
 /* ---- Review siden end ---- */
 
 
+/* --- boks wix */
+
+.wix-overskrift {
+    margin-top: 170px;
+    text-align: center;
+    font-size: 3rem;
+    color: #00008B;
+}
+
+.dudewhere {
+    margin-bottom: 50px;
+}
+
+.grid-container-wix {
+    display: grid;
+    width: 1200px;
+    height: 200px;
+    margin: 100px auto 50px;
+    grid-template-columns: 300px 300px 300px 300px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    grid-template-areas: "wixZero wixOne wixTwo wixThree";
+}
+
+.ratter {
+    margin-bottom: 10px;
+}
+
+.boks0-wix {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-area: wixZero;
+}
+
+.boks1-wix {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    grid-area: wixOne;
+}
+
+.boks2-wix {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    grid-area: wixTwo;
+}
+
+.boks3-wix {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-area: wixThree;
+}
+
+.button-wix {
+    background-color: #FF1493;
+    display: flex;
+    color: white;
+    width: 200px;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    font-size: 1.1rem;
+    font-weight: bolder;
+}
+
+/* --- boks wix */
+
+.flexbox-med-logoer {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
 
 .lesMer {
     display: none;
@@ -344,8 +437,22 @@ display: none;
 
 .logoboks {
 display: flex;
-align-items: baseline;
-    
+align-items: baseline;   
+}
+
+.float {
+    float: right;
+}
+
+.spacez {
+    margin: 10px 0px 10px;
+    font-size: 1.1rem;
+}
+
+.spacez2 {
+    margin: 30px 0px 10px;
+    font-size: 1.1rem;
+    color: #00008B;
 }
 
 .ulclass {
@@ -1068,10 +1175,18 @@ height: auto;
 }
 
 
+.grid-container-wix {
+   
+    width: 600px;
+    height: 300px;
+    margin: 100px auto 50px;
+    grid-template-columns: 300px 300px;
+    
+    
+    grid-template-areas: "wixZero wixOne"
+                         "wixTwo wixThree";
 
-
-
-
+}
 
 
 .imageinbox {
@@ -1478,6 +1593,27 @@ width: 280px;
                          "b-doze";
     }
 
+
+    .grid-container-wix {
+   
+        width: 300px;
+        height: 500px;
+        margin: 40px auto 50px;
+        grid-template-columns: 300px;
+        grid-template-rows: 150px 100px 150px 50px;
+        
+        
+        grid-template-areas: "wixZero"
+                             "wixOne" 
+                             "wixTwo"
+                             "wixThree";
+    
+    }
+
+    .wix-overskrift {
+        margin-top: 100px;
+        margin-bottom: 0px;
+    }
 
 }
 
