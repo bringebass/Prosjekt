@@ -145,6 +145,10 @@ display: flex ;
     margin-bottom: 100px;
 }
 
+.kun_margin {
+    margin-bottom: 500px;
+}
+
 .lesMer {
     display: none;
 }
