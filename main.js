@@ -46,5 +46,5 @@ pilen.addEventListener('click', () => {
     container.classList.toggle('skruPå');
     lesMer.classList.toggle('minusMargin');
     pilen.classList.toggle('rotate');
-} )
+});
 
