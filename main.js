@@ -7,6 +7,7 @@ const ove = document.querySelector('.ove');
 const pilen = document.querySelector('.pilen');
 const container = document.querySelector('.boks-rundt-hva');
 const lesMer = document.querySelector('.lesMer');
+const target = document.querySelector('.flexbox-med-logoer');
 
 
 // Open nav bar when hamburger menu is clicked
@@ -46,5 +47,8 @@ pilen.addEventListener('click', () => {
     container.classList.toggle('skruPå');
     lesMer.classList.toggle('minusMargin');
     pilen.classList.toggle('rotate');
+    target.scrollIntoView({behavior: "smooth"});
+
 });
+
 
