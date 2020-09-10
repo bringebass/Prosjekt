@@ -294,7 +294,7 @@ text-decoration: none;
 border: solid grey 1px;
 background-color: rgb(238, 237, 237);
 border-radius: 5px;
-padding: 1px;    
+padding: 1px;
 }
 
 .content {
@@ -651,6 +651,7 @@ grid-template-areas:
 .grid-item {
 display: flex;
 flex-direction: column;
+position: relative;
 align-items: center;
 height: 690px;
 min-width: 250px;
@@ -670,7 +671,7 @@ font-size: 1rem;
         
 display: flex;
 align-items: center;
-height: 100px;    
+height: 100px; 
 }
         
 .one,
@@ -741,7 +742,7 @@ padding-right: 5px;
 display: flex;
 flex-direction: column;
 float: left;
-margin-left: 20px;
+margin-left: 5px;
 }
 
 .tekstboks5 {
