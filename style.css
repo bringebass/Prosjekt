@@ -941,7 +941,7 @@ width: 100%;
 background-color: #F8F8FF;
 display: grid;
 grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-grid-template-rows: 400px 300px 100px;
+grid-template-rows: 400px 400px 100px;
 grid-template-areas:     ". gr3 gr3 gr2 gr5 ."
                          ". gr3 gr3 gr2 gr5 ."
                          "gr4 gr4 gr4 gr4 gr4 gr4"
@@ -1197,6 +1197,22 @@ height: auto;
     background-image: url(Bilder/computer-mobile-medium.jpg);
     }
 
+
+.footer {
+    height: 100%;
+    width: 100%;
+    background-color: #F8F8FF;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 600px 400px 100px;
+    grid-template-areas:     ". gr3 gr3 gr3 gr3 ."
+                             ". gr2 gr2 gr5 gr5 ."
+                             "gr4 gr4 gr4 gr4 gr4 gr4"
+        
+                            }
+
+
+
 }
 
 /* ------------------------------- max-width 1122px ---------------------------------- */
@@ -1237,15 +1253,6 @@ width: 90%
 
 .grid-item {
 height: 690px;
-}
-
-.footer {
-grid-template-columns: 1fr 1fr;
-grid-template-rows: 150px 600px 100px;
-grid-template-areas: "gr3 gr3"
-                     "gr2 gr5"
-                     "gr4 gr4";
-
 }
 
 .bokser-i-footer {
