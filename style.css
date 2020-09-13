@@ -326,7 +326,7 @@ font-size: 1.1rem;
 }
 
 .headline-three {
-color: #00008B;
+color: rgb(96, 96, 96);
 text-align: center;
 padding: 0px 5px 0px 5px;
 margin-bottom: 10px;
@@ -372,8 +372,9 @@ margin-top: 80px;
 
 
 .symbolzz {
-font-size: 5rem;
+font-size: 4rem;
 margin: 0 auto;
+color: rgb(96, 96, 96);
 }
 
 #overskrift-banner-two {
@@ -565,6 +566,7 @@ margin-bottom: 10px;
 max-width: 1000px;
 font-size: 1rem;
 line-height: 1.7;
+color: rgb(96, 96, 96);
 }
 
 
@@ -628,6 +630,10 @@ justify-content: center;
 width: 80%;
 margin: 0 auto;
 margin-top: 80px
+}
+
+.container-bbxo {
+    margin-bottom: 100px;
 }
 
 /* --------------------------------------- Grid one -------------------------------------------- */
@@ -724,8 +730,9 @@ background-color: #F8F8FF;
 }
 
 .yoyoyo {
-font-size: 5rem;
+font-size: 4rem;
 margin-top: 20px;
+color: rgb(96, 96, 96);
     
 }
 
@@ -1204,7 +1211,7 @@ height: auto;
     background-color: #F8F8FF;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 600px 400px 100px;
+    grid-template-rows: auto 400px 100px;
     grid-template-areas:     ". gr3 gr3 gr3 gr3 ."
                              ". gr2 gr2 gr5 gr5 ."
                              "gr4 gr4 gr4 gr4 gr4 gr4"
