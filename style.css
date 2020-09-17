@@ -58,6 +58,7 @@ display: flex ;
 .mellomrom {
     padding-bottom: 20px;
     font-size: 1.1rem;
+    line-height: 1.7;
 }
 
 
@@ -564,7 +565,7 @@ width: 70%;
 margin: 0 auto;
 margin-bottom: 10px;
 max-width: 1000px;
-font-size: 1rem;
+font-size: 1.1rem;
 line-height: 1.7;
 color: rgb(96, 96, 96);
 }
