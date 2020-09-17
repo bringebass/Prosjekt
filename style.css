@@ -691,14 +691,18 @@ border-top: 30px solid white;
 .one {
 grid-area: one;
 }
-        
+      
 .lets {
 grid-area: two;
 border-top: 30px solid #FF1493;
 position: relative;
-
 }
         
+.lets2 {
+    border-top: 30px solid lightblue;
+position: relative;
+}
+
 .three {
 grid-area: three;
 }
@@ -1211,7 +1215,7 @@ height: auto;
     background-color: #F8F8FF;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: auto 400px 100px;
+    grid-template-rows: auto 500px 100px;
     grid-template-areas:     ". gr3 gr3 gr3 gr3 ."
                              ". gr2 gr2 gr5 gr5 ."
                              "gr4 gr4 gr4 gr4 gr4 gr4"
