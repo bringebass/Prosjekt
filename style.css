@@ -39,7 +39,7 @@ display: flex ;
 .innpakning {
     
     width: 80%;
-    margin: 100px auto 100px;
+    margin: 100px auto 1000px;
     
 }
 
@@ -63,6 +63,7 @@ display: flex ;
 
 
 /* ---- Review siden end ---- */
+
 
 
 /* --- boks wix */
@@ -315,14 +316,14 @@ color: lightgrey;
 #headline {
 color: #00008B;
 font-size: 3rem;
-margin: 0px 5px;
+margin: 0px 10px;
 padding-top: 25px;
 }
     
 .headline3 {
 color: black;
 font-weight: lighter;
-margin: 25px 5px;
+margin: 25px 20px;
 font-size: 1.1rem;
 }
 
@@ -391,13 +392,41 @@ text-align: center;
 font-size: 1.2rem;
 }
 
+.lscontainer {
+    display: flex;
+    align-items: center;
+}
 
+.america {
+    padding-right: 2px;
+    margin-bottom: 2px;
+}
+
+.sprak {
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    height: 60px;
+}
+
+.test-test {
+    width: 1000px;
+    height: 1000px;
+    border: solid red;
+  
+}
+
+.lan-gue {
+margin-left: 5px;
+margin-bottom: 14px;
+height: 10px;
+}
 
 /* ----------------------------------- Header -------------------------------------------- */
 
 .header {
 width: 100%;
-height: 60px;
+height: auto;
 background: #F8F8FF;
 position: fixed;
 z-index: 100;
@@ -417,19 +446,16 @@ box-shadow:
 display: flex;
 justify-content: space-between;
 align-items: center;
-padding-top: 6px;
 }
-
-
 
 .logo {
 background-image: url("Bilder/logo.png");
 width: 180px;
-height: 50px;
+height: auto;
 background-size: cover;
 background-repeat: no-repeat;
 display: inline-block;
-padding-left: 40px;
+
 cursor: pointer;
 }
 
@@ -440,8 +466,7 @@ display: none;
 }
 
 .logoboks {
-display: flex;
-align-items: baseline;   
+display: flex; 
 }
 
 .float {
@@ -700,7 +725,7 @@ position: relative;
 }
         
 .lets2 {
-    border-top: 30px solid lightblue;
+    border-top: 30px solid rgb(145, 207, 227);
 position: relative;
 }
 
@@ -1168,7 +1193,7 @@ display: none;
 
 .hamburger {
 display: block;
-margin-right: 50px;
+margin-right: 20px;
 cursor: pointer;
 }
 
@@ -1471,7 +1496,7 @@ display: none;
 }
 
 .header {
-height:60px;
+height:auto;
 background-color: white;
 border-bottom: solid lightgray 1px;
 box-shadow: none;
@@ -1484,18 +1509,12 @@ font-size: 16px;
 padding-top: 2px;
 }
 
-.logo {
-width: 200px;
-height: 50px;
-}
-
 .hamburger {
 margin-right: 20px;
 }
 
 .navigation-wrapper {
-height: 60px;
-padding-top: 0px;
+height: auto;
 }
 
 .banner-two {
