@@ -206,7 +206,11 @@ border: solid green 1px;
 
 
 
-
+.test-test {
+    
+    color: red;
+  
+}
 
 
 
@@ -407,13 +411,6 @@ font-size: 1.2rem;
     cursor: pointer;
     align-items: center;
     height: 60px;
-}
-
-.test-test {
-    width: 1000px;
-    height: 1000px;
-    border: solid red;
-  
 }
 
 .lan-gue {
