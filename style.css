@@ -220,6 +220,11 @@ display: flex;
     margin-top: 15px;
 }
 
+.flaggy:hover {
+ transform: scale(1.03);
+}
+
+
 .land {
     margin-left: 5px;
 }

@@ -64,6 +64,7 @@ sprak.addEventListener('click', f => {
 document.body.addEventListener('click', () => { 
     if (test.className === 'test visFlagg') {
         test.classList.toggle('visFlagg');
+        lanGue.classList.toggle('farge');
         
     }
 });
