@@ -8,6 +8,9 @@ const pilen = document.querySelector('.pilen');
 const container = document.querySelector('.boks-rundt-hva');
 const lesMer = document.querySelector('.lesMer');
 const target = document.querySelector('.flexbox-med-logoer');
+const test = document.querySelector('.test');
+const sprak = document.querySelector('.sprak');
+const lanGue = document.querySelector('.lan-gue');
 
 
 // Open nav bar when hamburger menu is clicked
@@ -25,7 +28,7 @@ navBoxEl.classList.toggle('show');
 
 });
 
-// Show sidemenu and rotate arrow
+// Show sidemenu
 parent.addEventListener('click', e  => {
 e.stopPropagation();
 ove.classList.toggle('farge');
@@ -33,7 +36,7 @@ dropdownContent.classList.toggle('show-dropdown');
 sidemenyHide.classList.toggle('back');
 });
 
-
+// hide sidemenu when body is clicked
 document.body.addEventListener('click', () => { 
     if (dropdownContent.className === 'dropdown-content show-dropdown') {
         dropdownContent.classList.toggle('show-dropdown');
@@ -50,5 +53,17 @@ pilen.addEventListener('click', () => {
     target.scrollIntoView();
 });
 
+// Show language selector
+sprak.addEventListener('click', f => {
+    f.stopPropagation();
+    test.classList.toggle('visFlagg');
+    lanGue.classList.toggle('farge');
+});
 
-
+// hide language body is clicked
+document.body.addEventListener('click', () => { 
+    if (test.className === 'test visFlagg') {
+        test.classList.toggle('visFlagg');
+        
+    }
+});
