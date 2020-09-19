@@ -172,7 +172,7 @@ top: 100px;
 background-color: white;
 padding: 20px;
 width: 230px;
-height: 500px;
+height: 345px;
 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 border-radius: 10px;
 }
@@ -750,6 +750,11 @@ position: relative;
         
 .lets2 {
     border-top: 30px solid rgb(145, 207, 227);
+position: relative;
+}
+
+.lets3 {
+    border-top: 30px solid #FF1493;
 position: relative;
 }
 
