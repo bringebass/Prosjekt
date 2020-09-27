@@ -64,7 +64,9 @@ display: flex ;
 
 /* ---- Review siden end ---- */
 
-
+.taztepriv {
+    color: blue;
+}
 
 /* --- boks wix */
 
@@ -204,13 +206,13 @@ display: flex;
 .test {
     width: 250px;
     height: auto;
-    margin-top: 62px;
+ 
     display: none;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     position: fixed;
     z-index: 1000;
     background-color: white;
-    margin-left: 3px;
+
 }
 
 .flaggy {
@@ -750,12 +752,12 @@ position: relative;
 }
         
 .lets2 {
-    border-top: 30px solid rgb(145, 207, 227);
+    border-top: 30px solid #ff5eb4;
 position: relative;
 }
 
 .lets3 {
-    border-top: 30px solid #FF1493;
+    border-top: 30px solid  #ff5eb4;
 position: relative;
 }
 
