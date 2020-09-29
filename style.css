@@ -1712,6 +1712,10 @@ width: 280px;
     .sprak {
         margin-left: 20px;
     }
+
+    .test {
+        margin-left: 0;
+    }
 }
 
 /* -------------------------------------- Landscape view --------------------------- */
