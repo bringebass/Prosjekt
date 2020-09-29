@@ -39,7 +39,7 @@ display: flex ;
 .innpakning {
     
     width: 80%;
-    margin: 100px auto 1000px;
+    margin: 100px auto auto;
     
 }
 
@@ -206,7 +206,7 @@ display: flex;
 .test {
     width: 250px;
     height: auto;
- 
+    margin-left: 350px;
     display: none;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     position: fixed;
@@ -441,6 +441,8 @@ font-size: 1.2rem;
     cursor: pointer;
     align-items: center;
     height: 60px;
+    margin-left: 320px;
+    font-size: 0.8rem;
 }
 
 .lan-gue {
@@ -493,7 +495,11 @@ display: none;
 }
 
 .logoboks {
-display: flex; 
+display: flex;
+}
+
+.laogo {
+    margin-left: 40px;
 }
 
 .float {
@@ -752,12 +758,12 @@ position: relative;
 }
         
 .lets2 {
-    border-top: 30px solid #ff5eb4;
+    border-top: 30px solid #FF1493;
 position: relative;
 }
 
 .lets3 {
-    border-top: 30px solid  #ff5eb4;
+    border-top: 30px solid  #FF1493;
 position: relative;
 }
 
@@ -1008,6 +1014,7 @@ text-align: center;
 height: 100%;
 width: 100%;
 background-color: #F8F8FF;
+margin-top: 200px;
 display: grid;
 grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
 grid-template-rows: 400px 400px 100px;
@@ -1698,6 +1705,13 @@ width: 280px;
     
     }
 
+    .laogo {
+        display: none;
+    }
+
+    .sprak {
+        margin-left: 20px;
+    }
 }
 
 /* -------------------------------------- Landscape view --------------------------- */

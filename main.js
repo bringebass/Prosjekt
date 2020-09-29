@@ -11,6 +11,8 @@ const target = document.querySelector('.flexbox-med-logoer');
 const test = document.querySelector('.test');
 const sprak = document.querySelector('.sprak');
 const lanGue = document.querySelector('.lan-gue');
+const tryggPå = document.querySelector('.tryggPå');
+const headlineTwo = document.querySelector('.flexbox-med-logoer');
 
 
 // Open nav bar when hamburger menu is clicked
@@ -67,4 +69,8 @@ document.body.addEventListener('click', () => {
         lanGue.classList.toggle('farge');
         
     }
+});
+
+tryggPå.addEventListener('click', () => {
+    headlineTwo.scrollIntoView();
 });
