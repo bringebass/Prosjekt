@@ -441,7 +441,7 @@ font-size: 1.2rem;
     cursor: pointer;
     align-items: center;
     height: 60px;
-    margin-left: 320px;
+    margin-left: 10px;
     font-size: 0.8rem;
 }
 
@@ -499,7 +499,7 @@ display: flex;
 }
 
 .laogo {
-    margin-left: 40px;
+    margin-left: 20px;
 }
 
 .float {
@@ -1703,10 +1703,6 @@ width: 280px;
     .flexbox-med-logoer {
     margin-bottom: 50px;
     
-    }
-
-    .laogo {
-        display: none;
     }
 
     .sprak {
