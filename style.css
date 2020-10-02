@@ -373,7 +373,7 @@ font-size: 2rem;
 .headline-two {
 color: #00008B;
 text-align: center;
-padding: 0px 5px 0px 5px;
+padding: 0px 20px 0px 20px;
 margin-bottom: 40px;
 margin-top: 60px;
 font-size: 2.5rem;
@@ -395,7 +395,11 @@ margin-bottom: 70px;
 margin-top: 90px;
 }
 
-
+#logotegst {
+    margin-top: 17px;
+    margin-left: 10px;
+    font-size: 1.4rem;
+}
 
 .headline7 {
 text-align: center;
@@ -441,7 +445,7 @@ font-size: 1.2rem;
     cursor: pointer;
     align-items: center;
     height: 60px;
-    margin-left: 10px;
+    margin-left: 35px;
     font-size: 0.8rem;
 }
 
@@ -500,6 +504,7 @@ display: flex;
 
 .laogo {
     margin-left: 20px;
+    
 }
 
 .float {
@@ -1536,7 +1541,7 @@ display: none;
 
 .header {
 height:auto;
-background-color: white;
+background-color: ;
 border-bottom: solid lightgray 1px;
 box-shadow: none;
 }
@@ -1711,6 +1716,10 @@ width: 280px;
 
     .test {
         margin-left: 0;
+    }
+
+    #logotegst {
+        display: none;
     }
 }
 
