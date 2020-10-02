@@ -1234,6 +1234,20 @@ grid-template-areas:
 margin: 10px auto;
 }
 
+.small-btn2 {
+    margin-top: 20px;
+}
+
+#headline {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.headline3 {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
 .box-one {
 text-align: center;
 margin-left: 10%; 
