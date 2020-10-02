@@ -395,21 +395,19 @@ margin-top: 90px;
 }
 
 #logotegst {
-    margin-top: 18px;
-    margin-left: 10px;
+    
+    margin: auto 0px auto 40px;
     font-size: 1.3rem;
 }
 
 #logotegst2 {
-    margin-top: 18px;
-    margin-left: 0px;
+    margin: auto 0px auto 0px;
     font-size: 1.3rem;
     color: #FF1493;
 }
 
 #logotegst3 {
-    margin-top: 18px;
-    margin-left: 0px;
+    margin: auto 0px auto 0px;
     font-size: 1.3rem;
 }
 
@@ -514,10 +512,6 @@ display: none;
 display: flex;
 }
 
-.laogo {
-    margin-left: 20px;
-    
-}
 
 .float {
     float: right;
