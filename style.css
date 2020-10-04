@@ -399,7 +399,7 @@ margin-top: 50px;
 
 #logotegst {
     
-    margin: auto 0px auto 0px;
+    margin: auto 0px auto -7px;
     font-size: 1.3rem;
 }
 
@@ -1750,7 +1750,7 @@ width: 280px;
     }
 
     #logotegst {
-        margin-left: 0px;
+        margin-left: -7px;
     }
 }
 
