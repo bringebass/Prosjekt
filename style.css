@@ -746,6 +746,14 @@ text-transform: uppercase;
 font-size: 1rem;
 }
 
+.toppick2 {
+    position: absolute;
+    top: -24px;
+    color: #FF1493;
+    text-transform: uppercase;
+    font-size: 1rem;
+    }
+
 .logoboks-one {
         
 display: flex;
@@ -764,7 +772,7 @@ border-top: 30px solid white;
 .one {
 grid-area: one;
 }
-      
+
 .lets {
 grid-area: two;
 border-top: 30px solid #F8F8FF;
@@ -840,7 +848,6 @@ flex-direction: column;
 float: left;
 line-height: 1.37;
 margin-left: 10px;
-
 }
 
 .v {
