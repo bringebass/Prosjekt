@@ -34,6 +34,12 @@ display: flex ;
     color: black;
 }
 
+.aclass:hover{
+    color: lightgray;
+    transition: all .2s ease-in-out;
+}
+
+
 /* ---- Review siden ---- */
 
 .innpakning {
@@ -300,7 +306,7 @@ border-radius: 20px;
 color: white;
 font-weight: bold;
 cursor: pointer;
-transition: all .2s ease-in-out;
+
 margin: 10px;
 text-align: center;
 text-decoration: none;
@@ -310,10 +316,14 @@ font-size: 1rem;
  }
         
 .btn:hover {
+    transition: all .2s ease-in-out;
 background-color: rgba(255, 20, 145, 0.269);
 }
 
-
+.small-btn2:hover {
+    transition: all .2s ease-in-out;
+    background-color: rgba(255, 20, 145, 0.269);
+}
 
 .button-table {
 width: 100%;
