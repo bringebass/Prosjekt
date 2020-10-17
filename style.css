@@ -241,6 +241,12 @@ display: flex;
     font-size: 0.9rem;
 }
 
+.land2 {
+    margin-left: 5px;
+    font-size: 0.9rem;
+    margin-top: 2.5px;
+}
+
 .litengraa {
 color:gray;
 margin-left: 5px;
@@ -759,7 +765,7 @@ font-size: 1rem;
 .toppick2 {
     position: absolute;
     top: -24px;
-    color: #FF1493;
+    color: white;
     text-transform: uppercase;
     font-size: 1rem;
     }
@@ -785,7 +791,7 @@ grid-area: one;
 
 .lets {
 grid-area: two;
-border-top: 30px solid #F8F8FF;
+border-top: 30px solid #FF1493;
 position: relative;
 }
         
