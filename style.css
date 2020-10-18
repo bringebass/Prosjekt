@@ -239,12 +239,14 @@ display: flex;
 .land {
     margin-left: 5px;
     font-size: 0.9rem;
+    font-weight: bold;
 }
 
 .land2 {
     margin-left: 5px;
     font-size: 0.9rem;
     margin-top: 2.5px;
+    font-weight: bold;
 }
 
 .litengraa {
@@ -877,6 +879,7 @@ text-align: center;
 color: #00008B;
 font-size: 1.4rem;
 margin-bottom: 20px;
+font-weight: bold;
 }
 
 .starr {
