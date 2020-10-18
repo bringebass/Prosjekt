@@ -417,17 +417,7 @@ margin-top: 50px;
     
     margin: auto 0px auto -7px;
     font-size: 1.3rem;
-}
-
-#logotegst2 {
-    margin: auto 0px auto 0px;
-    font-size: 1.3rem;
-    color: black;
-}
-
-#logotegst3 {
-    margin: auto 0px auto 0px;
-    font-size: 1.3rem;
+    font-weight: bold;
 }
 
 .headline7 {
