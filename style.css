@@ -69,27 +69,27 @@ display: flex ;
 
 /* logoer */
 
-.siteground-logo {
-    width: 6rem;
-    margin-bottom: -2px;
-    margin-top: 2px;
-}
-
-.hostgatorlogo {
-    width: 9rem;
-    margin-bottom: 9px;
-    margin-top: -5px;
-}
-
-.wixlogo {
-    width: 5rem;
-    margin-bottom: 9px;
-}
-
 .cloudways-logo {
-    width: 8rem;
+    width: 200px;
     margin-top: -20px;
-    margin-bottom: -9px;
+    margin-bottom: -14px;
+}
+
+.str {
+    font-size: 18px;
+    margin-right: 20px;
+}
+
+.linkedin {
+    color: #00acee;
+}
+
+.facebook {
+    color: #3b5998;
+}
+
+.linkedin {
+    color: #0e76a8;
 }
 
 /* ---- Review siden end ---- */
@@ -172,7 +172,7 @@ display: flex ;
 
 .flexbox-med-logoer {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     
     margin-bottom: 100px;
 }
@@ -675,43 +675,7 @@ color: rgb(96, 96, 96);
 }
 
 
-.socialmedia-symbols {
-display: flex;
-justify-content: center;
-margin-top: 30px;
-}
 
-.sm {
-padding: 35px 20px;
-font-size: 1rem;
-}
-
-.fb {
-color: blue;
-transition: all .2s ease-in-out;
-}
-
-.fb:hover {
-color: rgba(0, 0, 255, 0.173);
-}
-
-.tw {
-color: blue;
-transition: all .2s ease-in-out;
-}
-
-.tw:hover {
-color: rgba(255, 0, 0, 0.091);
-}
-
-.lk {
-color: red;
-transition: all .2s ease-in-out;
-    }
-
-.lk:hover {
-color:  rgba(0, 128, 0, 0.084);
-}
 
 .button-span {
 display: flex;
@@ -1007,9 +971,6 @@ margin-top: 40%;
 }  
 
 
-.fb, .tw, .lk, .fa-instagram {
-    padding-left: 30px;
-}
 
 /* table-two */
 
