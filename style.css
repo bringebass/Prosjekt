@@ -69,11 +69,7 @@ display: flex ;
 
 /* logoer */
 
-.cloudways-logo {
-    width: 200px;
-    margin-top: -20px;
-    margin-bottom: -14px;
-}
+
 
 .str {
     font-size: 18px;
@@ -356,6 +352,26 @@ background-color: rgba(255, 20, 145, 0.269);
     transition: all .2s ease-in-out;
     background-color: rgba(255, 20, 145, 0.269);
 }
+
+.small-btn22:hover {
+    transition: all .2s ease-in-out;
+    background-color: rgba(255, 20, 145, 0.269);
+}
+
+.fastcomet {
+    margin-top: -20px;
+    margin-bottom: -30px;
+}
+
+.vector {
+    width: 100px;
+}
+
+.vector2 {
+    width: 100px;
+    margin-top: 10px;
+}
+
 
 .button-table {
 width: 100%;
@@ -1658,7 +1674,14 @@ width: 95%;
 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);      
 }
 
+.vector {
+    width: 50px;
+}
 
+.vector2 {
+    width: 50px;
+    margin-top: 10px;
+}
 
 
 
@@ -1733,7 +1756,8 @@ width: 280px;
     }
 
     .flexbox-med-logoer {
-    margin-bottom: 50px;
+    margin-bottom: 40px;
+    margin-top: 20px;
     
     }
 
