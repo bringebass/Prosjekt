@@ -358,6 +358,11 @@ background-color: rgba(255, 20, 145, 0.269);
     background-color: rgba(255, 20, 145, 0.269);
 }
 
+.button-wix:hover {
+    transition: all .2s ease-in-out;
+    background-color: rgba(255, 20, 145, 0.269);
+}
+
 .fastcomet {
     margin-top: -20px;
     margin-bottom: -30px;
@@ -380,6 +385,15 @@ font-size: 1rem;
 font-weight: bold;
 cursor: pointer;
 color: white;
+}
+
+.button-table:hover {
+    transition: all .2s ease-in-out;
+    color: black;
+}
+
+.white {
+    color: white;
 }
 
 .review-button {
@@ -933,7 +947,6 @@ border-collapse: collapse;
 margin-top: 50px;
 text-align: center;
 margin-bottom: 100px;
-
 }
 
 tr, td, th {
