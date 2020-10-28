@@ -575,7 +575,7 @@ cursor: pointer;
 
 .hamburger {
 font-size: 1.5rem;
-color: black;
+color: none;
 display: none;
 }
 
