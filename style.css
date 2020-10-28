@@ -14,6 +14,15 @@ a {
 text-decoration: none;
 }
 
+.hamburger {
+    font-size: 1.5rem;
+    margin-right: 30px;
+    cursor: pointer;
+    /*
+    display: none;
+    */
+    }
+
 .rotate {
 transform: rotate(180deg) ;
 }
@@ -569,14 +578,7 @@ height: auto;
 background-size: cover;
 background-repeat: no-repeat;
 display: inline-block;
-
 cursor: pointer;
-}
-
-.hamburger {
-font-size: 1.5rem;
-color: none;
-display: none;
 }
 
 .logoboks {
@@ -1299,10 +1301,6 @@ display: none;
 display: block;
 margin-right: 20px;
 cursor: pointer;
-}
-
-.hamburger:hover {
-color: grey;
 }
 
 .banner {
