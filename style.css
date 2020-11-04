@@ -56,6 +56,9 @@ display: flex ;
     transition: all .2s ease-in-out;
 }
 
+.informasjonskapsler {
+    margin-left: 20px;
+}
 
 /* ---- Review siden ---- */
 
@@ -185,8 +188,9 @@ display: flex ;
 .flexbox-med-logoer {
     display: flex;
     justify-content: center;
-    
+    margin-left: 20px;
     margin-bottom: 100px;
+    
 }
 
 .kun_margin {
@@ -245,7 +249,7 @@ display: flex;
 }
 
 .logosvg {
-    margin-left: 40px;
+    margin-left: 10px;
 }
 
 .test {
@@ -635,6 +639,8 @@ display: none;
 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
+
+
 .show {
 display: block;
 }    
@@ -656,9 +662,12 @@ color: white;
 
 .ar {
 color: white;
+padding: 5px;
 }
 
-
+.ar:hover {
+    color: #FF1493;
+}
 
 /* --------------------------------------- Banner One --------------------------------------------- */
 
@@ -1478,6 +1487,7 @@ font-size: 14px;
 }
 
 
+
 /* -- banner top --*/
 
 
@@ -1783,6 +1793,7 @@ width: 280px;
     .flexbox-med-logoer {
     margin-bottom: 40px;
     margin-top: 20px;
+ 
     
     }
 
