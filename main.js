@@ -13,6 +13,8 @@ const sprak = document.querySelector('.sprak');
 const lanGue = document.querySelector('.lan-gue');
 const tryggPå = document.querySelector('.tryggPå');
 const headlineTwo = document.querySelector('.flexbox-med-logoer');
+const cookies = document.querySelector('.informasjonsKapsler');
+const cookiething = document.querySelector('.cookiething');
 
 
 // Open nav bar when hamburger menu is clicked
@@ -74,3 +76,9 @@ document.body.addEventListener('click', () => {
 tryggPå.addEventListener('click', () => {
     headlineTwo.scrollIntoView();
 });
+
+cookies.addEventListener('mouseover', () => {
+    cookiething.style.display = 'flex' });
+
+cookies.addEventListener('mouseout', () => {
+        cookiething.style.display = 'none' });
