@@ -31,6 +31,8 @@ text-decoration: none;
 
 /* midlertidig fix ferdig */
 
+
+
 .rotate {
 transform: rotate(180deg) ;
 }
@@ -1520,7 +1522,6 @@ font-size: 14px;
 /* -- banner top --*/
 
 .informasjonskapsler {
- 
     margin-left: 10px;
 }
 

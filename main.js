@@ -17,6 +17,8 @@ const cookies = document.querySelector('.informasjonsKapsler');
 const cookiething = document.querySelector('.cookiething');
 
 
+
+
 // Open nav bar when hamburger menu is clicked
 document.getElementById('hambruger-menu').addEventListener('click', (e) => {
 e.stopPropagation();
@@ -49,6 +51,7 @@ document.body.addEventListener('click', () => {
 });
 
 
+
 // Show more content on mobile version
 pilen.addEventListener('click', () => {
     container.classList.toggle('skruPå');
@@ -77,8 +80,7 @@ tryggPå.addEventListener('click', () => {
     headlineTwo.scrollIntoView();
 });
 
-cookies.addEventListener('mouseover', () => {
-    cookiething.style.display = 'flex' });
 
-cookies.addEventListener('mouseout', () => {
-        cookiething.style.display = 'none' });
+cookies.addEventListener('click', () => {
+     cookiething.style.display = 'flex'; 
+ });
