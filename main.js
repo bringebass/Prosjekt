@@ -13,7 +13,7 @@ const sprak = document.querySelector('.sprak');
 const lanGue = document.querySelector('.lan-gue');
 const tryggPå = document.querySelector('.tryggPå');
 const headlineTwo = document.querySelector('.flexbox-med-logoer');
-const cookies = document.querySelector('.informasjonsKapsler');
+const cookies = document.querySelector('.informasjonskapsler');
 const cookiething = document.querySelector('.cookiething');
 
 
@@ -81,6 +81,14 @@ tryggPå.addEventListener('click', () => {
 });
 
 
-cookies.addEventListener('click', () => {
-     cookiething.style.display = 'flex'; 
+cookies.addEventListener('click', (f) => {
+     f.stopPropagation();
+     cookiething.classList.toggle('synleg'); 
  });
+
+ // hide cookiething when body is clicked
+document.body.addEventListener('click', () => { 
+    if (cookiething.className === 'cookiething synleg') {
+        cookiething.classList.toggle('synleg');
+    }
+});
