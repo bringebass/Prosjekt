@@ -76,19 +76,21 @@ document.body.addEventListener('click', () => {
     }
 });
 
+cookies.addEventListener('click', (f) => {
+    f.stopPropagation();
+    cookiething.classList.toggle('synleg'); 
+});
+
+// hide cookiething when body is clicked
+document.body.addEventListener('click', () => { 
+   if (cookiething.className === 'cookiething synleg') {
+       cookiething.classList.toggle('synleg');
+   }
+});
+
+
 tryggPå.addEventListener('click', () => {
     headlineTwo.scrollIntoView();
 });
 
 
-cookies.addEventListener('click', (f) => {
-     f.stopPropagation();
-     cookiething.classList.toggle('synleg'); 
- });
-
- // hide cookiething when body is clicked
-document.body.addEventListener('click', () => { 
-    if (cookiething.className === 'cookiething synleg') {
-        cookiething.classList.toggle('synleg');
-    }
-});

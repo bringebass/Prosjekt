@@ -1521,7 +1521,9 @@ grid-template-areas:
 font-size: 14px;
 }
 
-
+.wrapper-around-cookiething {
+    justify-content: center;
+}
 
 /* -- banner top --*/
 
