@@ -23,7 +23,7 @@ const cookiething = document.querySelector('.cookiething');
 document.getElementById('hambruger-menu').addEventListener('click', (e) => {
 e.stopPropagation();
 document.getElementById('nav-boxy').classList.toggle('show');
-});
+})
   
 // Close hamburger menu if body is clicked ONLY when the menu is already visible
 document.body.addEventListener('click', () => {
@@ -32,7 +32,7 @@ if(navBoxEl.className === 'nav-boxy-class show') {
 navBoxEl.classList.toggle('show');
 }
 
-});
+})
 
 // Show sidemenu
 parent.addEventListener('click', e  => {
@@ -40,7 +40,7 @@ e.stopPropagation();
 ove.classList.toggle('farge');
 dropdownContent.classList.toggle('show-dropdown');
 sidemenyHide.classList.toggle('back');
-});
+})
 
 // hide sidemenu when body is clicked
 document.body.addEventListener('click', () => { 
@@ -48,7 +48,8 @@ document.body.addEventListener('click', () => {
         dropdownContent.classList.toggle('show-dropdown');
         ove.classList.toggle('farge');
     }
-});
+})
+
 
 
 
@@ -58,14 +59,14 @@ pilen.addEventListener('click', () => {
     lesMer.classList.toggle('minusMargin');
     pilen.classList.toggle('rotate');
     target.scrollIntoView();
-});
+})
 
 // Show language selector
 sprak.addEventListener('click', f => {
     f.stopPropagation();
     test.classList.toggle('visFlagg');
     lanGue.classList.toggle('farge');
-});
+})
 
 // hide language body is clicked
 document.body.addEventListener('click', () => { 
@@ -74,7 +75,7 @@ document.body.addEventListener('click', () => {
         lanGue.classList.toggle('farge');
         
     }
-});
+})
 
 cookies.addEventListener('click', (f) => {
     f.stopPropagation();
@@ -86,11 +87,11 @@ document.body.addEventListener('click', () => {
    if (cookiething.className === 'cookiething synleg') {
        cookiething.classList.toggle('synleg');
    }
-});
-
+})
 
 tryggPå.addEventListener('click', () => {
     headlineTwo.scrollIntoView();
-});
+})
+
 
 
