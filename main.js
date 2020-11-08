@@ -13,8 +13,8 @@ const sprak = document.querySelector('.sprak');
 const lanGue = document.querySelector('.lan-gue');
 const tryggPå = document.querySelector('.tryggPå');
 const headlineTwo = document.querySelector('.flexbox-med-logoer');
-const cookies = document.querySelector('.informasjonskapsler');
-const cookiething = document.querySelector('.cookiething');
+const cookieThing = document.querySelector(".cookiething");
+const cookieButton = document.querySelector(".cookieButton");
 
 
 
@@ -79,4 +79,13 @@ tryggPå.addEventListener('click', () => {
 });
 
 
+cookieButton.addEventListener('click', () => {
+    cookieThing.classList.remove("active");
+    localStorage.setItem("cookieBannerDisplayed", "true")
+});
 
+
+setTimeout(() => {
+    if(!localStorage.getItem("cookieBannerDisplayed"))
+    cookieThing.classList.add("active");
+}, 1000);

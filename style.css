@@ -313,28 +313,41 @@ font-size: 0.9rem;
 display: grid;
 }
 
-.wrapper-around-cookiething {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    
-}
-
 .cookiething {
-    width: 300px;
-    height: 70px;
+    width: 100%;
+    height: 60px;
+    position: fixed;
     display: flex;
     justify-content: center;
     align-items: center;
-    position: fixed;
-    bottom: 0;
+    bottom: -100px;
     background-color: white;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     z-index: 10000;
-    padding: 20px;
+    transition: 1000ms;
 }
 
+.cookieButton {
+  position: absolute;
+  right: 15px;
+  bottom: 20px;
+  font-size: 1.2rem;
+  color: grey;
+  cursor: pointer;
+}
 
+.cookie-skrift {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.active {
+  bottom: 0;
+}
+
+.blue {
+    color: blue;
+}
 
 /* Buttons */
 
@@ -1519,10 +1532,6 @@ grid-template-areas:
 font-size: 14px;
 }
 
-.wrapper-around-cookiething {
-    justify-content: center;
-}
-
 /* -- banner top --*/
 
 .informasjonskapsler {
@@ -1651,6 +1660,8 @@ margin-bottom: 40px;
 .wrapper {
 margin-top: 50px;
 }
+
+
 
 .btn {
 display: none;
