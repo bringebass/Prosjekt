@@ -546,7 +546,7 @@ margin-top: 50px;
 
 #logotegst {
     
-    margin: auto 0px auto -7px;
+    margin: auto 0px auto auto;
     font-size: 1.3rem;
     font-weight: bold;
 }
@@ -1851,9 +1851,7 @@ width: 280px;
         font-size: 1.1rem;
     }
 
-    #logotegst {
-        margin-left: -7px;
-    }
+   
 }
 
 /* --------------------------------- max-width 400px (small-mobile) ------------- */
