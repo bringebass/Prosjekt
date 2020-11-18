@@ -1,2 +1,0 @@
-# Prosjekt
-Dette er koden
