@@ -16,6 +16,36 @@ const headlineTwo = document.querySelector('.flexbox-med-logoer');
 const cookieThing = document.querySelector(".cookiething");
 const cookieButton = document.querySelector(".cookieButton");
 
+/* Selectors */
+
+const showDropdownFirstBox = document.querySelector('.showDropdownFirstBox99');
+const DropdownFirstBox = document.querySelector('.dropdown-first-box99');
+const showDropdownSecondBox = document.querySelector('.showDropdownSecondBox99');
+const DropdownSecondBox = document.querySelector('.dropdown-second-box99');
+const showDropdownThirdBox = document.querySelector('.showDropdownThirdBox99');
+const DropdownThirdBox = document.querySelector('.dropdown-third-box99');
+const showDropdownFourthBox = document.querySelector('.showDropdownFourthBox99');
+const DropdownFourthBox = document.querySelector('.dropdown-fourth-box99');
+const showDropdownFiftBox = document.querySelector('.showDropdownFiftBox99');
+const DropdownFiftBox = document.querySelector('.dropdown-fift-box99');
+
+
+const arrow1 = document.querySelector('.arrow199');
+const arrow2 = document.querySelector('.arrow299');
+const arrow3 = document.querySelector('.arrow399');
+const arrow4 = document.querySelector('.arrow499');
+const arrow5 = document.querySelector('.arrow599');
+
+
+if (tryggPå) {
+    tryggPå.addEventListener('click', () => {
+        headlineTwo.scrollIntoView();
+    });
+}    
+
+/* Show dropdowns */
+
+
 
 
 
@@ -50,6 +80,11 @@ document.body.addEventListener('click', () => {
 });
 
 
+
+
+
+
+
 // Show more content on mobile version
 pilen.addEventListener('click', () => {
     container.classList.toggle('skruPå');
@@ -65,6 +100,8 @@ sprak.addEventListener('click', f => {
     lanGue.classList.toggle('farge');
 });
 
+
+
 // hide language body is clicked
 document.body.addEventListener('click', () => { 
     if (test.className === 'test visFlagg') {
@@ -74,9 +111,11 @@ document.body.addEventListener('click', () => {
     }
 });
 
-tryggPå.addEventListener('click', () => {
-    headlineTwo.scrollIntoView();
-});
+
+
+
+
+
 
 
 cookieButton.addEventListener('click', () => {
@@ -84,8 +123,23 @@ cookieButton.addEventListener('click', () => {
     localStorage.setItem("cookieBannerDisplayed", "true")
 });
 
-
 setTimeout(() => {
     if(!localStorage.getItem("cookieBannerDisplayed"))
     cookieThing.classList.add("active");
 }, 1000);
+
+function showDropdowns (c, b, d) {
+    c.addEventListener("click", () => {
+        b.classList.toggle("show99");
+        d.classList.toggle("rotate99");
+    
+    }
+    )};
+    
+    
+    
+    showDropdowns (showDropdownFirstBox, DropdownFirstBox, arrow1);
+    showDropdowns (showDropdownSecondBox, DropdownSecondBox, arrow2);
+    showDropdowns (showDropdownThirdBox, DropdownThirdBox, arrow3);
+    showDropdowns (showDropdownFourthBox, DropdownFourthBox, arrow4);
+    showDropdowns (showDropdownFiftBox, DropdownFiftBox, arrow5);
