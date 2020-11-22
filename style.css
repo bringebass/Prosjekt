@@ -1982,6 +1982,29 @@ display: none;
 
     .chamber1-grid79 {
         margin-top: 100px;
+        margin-bottom: 50px;
+    }
+
+    .image99 {
+        width: 300px;
+        transform: rotate(30.5deg);
+    }
+
+    .boks1-i-boksus79, .boks2-i-boksus79, .boks3-i-boksus79 {
+        margin-left: 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .boksus79 {
+        display: flex;
+        justify-content: center;
+    }
+
+    .under79 {
+        margin-left: 0px;
     }
 
   }
