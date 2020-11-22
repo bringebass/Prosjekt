@@ -86,12 +86,13 @@ document.body.addEventListener('click', () => {
 
 
 // Show more content on mobile version
+if (pilen) {
 pilen.addEventListener('click', () => {
     container.classList.toggle('skruPå');
     lesMer.classList.toggle('minusMargin');
     pilen.classList.toggle('rotate');
     target.scrollIntoView();
-});
+});}
 
 // Show language selector
 sprak.addEventListener('click', f => {
