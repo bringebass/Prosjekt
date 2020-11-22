@@ -169,6 +169,11 @@ display: flex ;
     grid-area: wixOne;
 }
 
+.boks3-i-boksus79 {
+    margin-left: 100px;
+    
+}
+
 .boks2-wix {
     display: flex;
     flex-direction: column;
@@ -1338,7 +1343,7 @@ line-height: 1.5;
 
 .headline89 {
     font-size: 2.2rem;
-    margin-top: 20px;
+    margin-top: 13px;
     margin-left: 15px;
   
 }
@@ -1355,7 +1360,7 @@ line-height: 1.5;
 }
 
 .under79 {
-    margin-left: 66px;
+    margin-left: 67px;
     margin-top: 10px;
     font-size: 1rem;
 }
@@ -1368,7 +1373,6 @@ line-height: 1.5;
 
 .boksus79 {
     display: flex;
-    padding-top: x;
 }
 
 .under798 {
@@ -1378,7 +1382,7 @@ line-height: 1.5;
 .wrapper-around-grid79 {
     display: flex;
     justify-content: center;
-    margin-top: 80px;
+    margin-top: 100px;
 }
 
 .fiktiv-boks {
@@ -1411,10 +1415,12 @@ line-height: 1.5;
 }
 
 .disclaimer79 {
-    margin-top: 100px;
+    
     color: gray;
+    margin-left: 77px;
     font-weight: bold;
-    font-size: 0.9rem;
+    font-size: 0.8rem;
+    margin-top: 30px;
 }
 
 /* Overskrift */
