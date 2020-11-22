@@ -1996,6 +1996,7 @@ display: none;
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        
     }
 
     .boksus79 {
@@ -2003,7 +2004,11 @@ display: none;
         justify-content: center;
     }
 
-    .under79 {
+    .wired {
+        margin-left: 0px;
+    }
+
+    .under79, .under79-2 {
         margin-left: 0px;
     }
 
