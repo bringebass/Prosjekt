@@ -1417,7 +1417,7 @@ line-height: 1.5;
 
 .image99 {
     width: 600px;
-    transform: rotate(30.5deg);
+   
 }
 
 .tekst-over-image99 {
@@ -1574,7 +1574,6 @@ box-shadow: 0px 0px 12px 0px rgba(0,97,255,1);
 .chamber-two99, .chamber-two-secondbox99, .chamber-two-thirdbox99, .chamber-two-fourthbox99, .chamber-two-fiftbox99 {
     grid-area: two;
     align-items: center;
-    justify-content: center;
 }
 
 .chamber-three99, .chamber-three-secondbox99, .chamber-three-thirdbox99, .chamber-three-fourthbox99, .chamber-three-fiftbox99 {
@@ -1657,7 +1656,7 @@ box-shadow: 0px 0px 12px 0px rgba(0,97,255,1);
 }
 
 .symbol99 {
-    padding-top: 5px;
+    padding-top: 4px;
 }
 
 /* Content in chamber three */
@@ -2005,7 +2004,7 @@ display: none;
 
     .image99 {
         width: 300px;
-        transform: rotate(30.5deg);
+        
     }
 
     .boks1-i-boksus79, .boks2-i-boksus79, .boks3-i-boksus79 {
@@ -2061,6 +2060,12 @@ font-size: 14px;
 
 .toppick, .toppick2 {
     font-size: 1.1rem;
+}
+
+
+
+.tekstboks599 {
+    margin-bottom: 2.5px;
 }
 
 .wrapper-around-banner {
@@ -2385,6 +2390,10 @@ width: 280px;
         margin-left: 0;
     }
 
+    #Layer_1 {
+        margin-top: 60px;
+    }
+
     #logotegst, #logotegst2, #logotegst3 {
         font-size: 1.1rem;
     }
@@ -2401,7 +2410,7 @@ width: 280px;
         max-width: 380px;
     }
 
-    .chamber-one99, .chamber-two99, .chamber-three99 {
+    .chamber-one99, .chamber-two99, .chamber-three99, .chamber-two-secondbox99 {
         border-bottom: solid lightgrey 1px;
         width: auto;
     }
@@ -2413,6 +2422,13 @@ width: 280px;
     .border-text99 {
         left: 60px;
         top: -43px;
+    }
+
+    .chamber-four-secondbox99, .chamber-four-thirdbox99, .chamber-four-fourthbox99, .chamber-four-fiftbox99, 
+    .chamber-three-secondbox99, .chamber-three-thirdbox99, .chamber-three-fourthbox99, .chamber-three-fiftbox99, 
+    .chamber-one-secondbox99, .chamber-one-thirdbox99, .chamber-one-fourthbox99, .chamber-one-fiftbox99, .chamber-two99, .chamber-two-secondbox99, .chamber-two-thirdbox99, .chamber-two-fourthbox99, .chamber-two-fiftbox99 {
+        justify-content: center;
+        width: auto;
     }
 
 
