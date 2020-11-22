@@ -1341,7 +1341,7 @@ line-height: 1.5;
 #Layer_1 {
     width: 50%;
     position: absolute;
-    top: -30px;
+    top: 0;
     z-index: -1;
 }
 
@@ -1429,9 +1429,11 @@ line-height: 1.5;
 }
 
 .disclaimer79 {
-    
+    display: flex;
+    margin-left: 129px;
+    padding: 0px 1px 0px 1px ;
+    border: lightgray solid 1px;
     color: gray;
-    margin-left: 77px;
     font-weight: bold;
     font-size: 0.8rem;
     margin-top: 30px;
@@ -1519,7 +1521,9 @@ line-height: 1.5;
     grid-template-areas: "one two three four";
     height: auto;
     margin-top: 30px;
-    border: solid 2px lightgray;
+    -webkit-box-shadow: 0px 0px 23px -9px rgba(143,143,143,1);
+    -moz-box-shadow: 0px 0px 23px -9px rgba(143,143,143,1);
+    box-shadow: 0px 0px 23px -9px rgba(143,143,143,1);
     border-top: #F8F8FF solid 50px;
     position: relative;
 }
@@ -1619,16 +1623,17 @@ box-shadow: 0px 0px 12px 0px rgba(0,97,255,1);
     width: 50px;
     height: 50px;
     border-bottom-right-radius: 20px;
-    background-color: #E4EFFF;
+    background-color: rgb(61, 61, 61);
     display: flex;
     justify-content: center;
     align-items: center;
-    color: black;
+    color: white;
     font-weight: bolder;
 }
 
 .col89 {
     background-color: gold;
+    color: black;
 }
 
 /* Content in chamber two */
@@ -1708,6 +1713,10 @@ box-shadow: 0px 0px 12px 0px rgba(0,97,255,1);
     border-radius: 25px;
 }
 
+.col39 {
+    background-color: #1b72ff;
+}
+
 .showDropdownFirstBox99, .showDropdownSecondBox99, .showDropdownThirdBox99, .showDropdownFourthBox99, .showDropdownFiftBox99  {
     display: flex;
     align-items: center;
@@ -1716,7 +1725,8 @@ box-shadow: 0px 0px 12px 0px rgba(0,97,255,1);
     font-size: 13px;
     position: absolute;
     bottom: 30px;
-    cursor: pointer;  
+    cursor: pointer;
+   
 }
 
 .toppvalg99 {
@@ -1726,6 +1736,14 @@ box-shadow: 0px 0px 12px 0px rgba(0,97,255,1);
     border: solid 1px black;
     border-radius: 40px;
     padding: 5px;
+  
+}
+
+.uno1337 {
+    border: none;
+    -webkit-box-shadow: 0px 0px 12px 0px rgba(0,97,255,1);
+    -moz-box-shadow: 0px 0px 12px 0px rgba(0,97,255,1);
+    box-shadow: 0px 0px 12px 0px rgba(0,97,255,1);
 }
 
 /* Toggle classes */
@@ -2343,8 +2361,20 @@ width: 280px;
     .flexbox-med-logoer {
     margin-bottom: 40px;
     margin-top: 20px;
- 
-    
+    }
+
+    .image99 {
+        display: none;
+    }
+
+    .under798 {
+        margin-right: 20px;
+    }
+
+    .headline89 {
+        margin-top: -10px;
+        margin-right: 20px;
+        margin-left: 20px;
     }
 
     .sprak {
