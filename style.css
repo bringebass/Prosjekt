@@ -1337,9 +1337,10 @@ line-height: 1.5;
 
 
 .headline89 {
-    font-size: 2rem;
+    font-size: 2.2rem;
     margin-top: 20px;
-    margin-left: 30px;
+    margin-left: 15px;
+  
 }
 
 .ajour {
@@ -1367,12 +1368,17 @@ line-height: 1.5;
 
 .boksus79 {
     display: flex;
+    padding-top: x;
+}
+
+.under798 {
+    margin-left: 20px;
 }
 
 .wrapper-around-grid79 {
     display: flex;
     justify-content: center;
-    margin-top: 200px;
+    margin-top: 80px;
 }
 
 .fiktiv-boks {
@@ -1402,6 +1408,13 @@ line-height: 1.5;
     top: 340px;
     background-color: white;
     color: #00008B;
+}
+
+.disclaimer79 {
+    margin-top: 100px;
+    color: gray;
+    font-weight: bold;
+    font-size: 0.9rem;
 }
 
 /* Overskrift */
@@ -1486,14 +1499,14 @@ line-height: 1.5;
     grid-template-areas: "one two three four";
     height: auto;
     margin-top: 30px;
-    -webkit-box-shadow: 0px 0px 29px 1px rgba(143,143,143,1);
-    -moz-box-shadow: 0px 0px 29px 1px rgba(143,143,143,1);
-    box-shadow: 0px 0px 29px 1px rgba(143,143,143,1);
+    border: solid 1px lightgray;
     border-top: #F8F8FF solid 50px;
     position: relative;
 }
 
-
+.first-box99 {
+    margin-top: 10px;
+}
 
 .overskrift99 {
     position: absolute;
