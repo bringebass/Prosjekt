@@ -1505,13 +1505,14 @@ line-height: 1.5;
     grid-template-areas: "one two three four";
     height: auto;
     margin-top: 30px;
-    border: solid 1px lightgray;
+    border: solid 2px lightgray;
     border-top: #F8F8FF solid 50px;
     position: relative;
 }
 
 .first-box99 {
     margin-top: 10px;
+    border-top: rgb(251, 218, 218) solid 50px;
 }
 
 .overskrift99 {
@@ -1527,6 +1528,7 @@ line-height: 1.5;
     left: 320px;
     z-index: 2;
     font-weight: bold;
+ 
 }
 
 /* Chambers in boxes */
@@ -1605,6 +1607,10 @@ line-height: 1.5;
     font-weight: bolder;
 }
 
+.col89 {
+    background-color: rgb(254, 110, 110);
+}
+
 /* Content in chamber two */
 
 .symbolboks99 {
@@ -1668,7 +1674,7 @@ line-height: 1.5;
 .buttons-chamber499 {
     text-decoration: none;
     color: white;
-    background-color: #00008B;
+    background-color: #0061ff;
     padding: 10px;
     width: 200px;
     height: 50px;
