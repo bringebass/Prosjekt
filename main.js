@@ -82,12 +82,12 @@ document.body.addEventListener('click', () => {
     }
 });
 
-
+/*
 if (showDropdownFirstBox) {
     showDropdownFirstBox.addEventListener('click', () =>
     firstBox.scrollIntoView()
     )}
-
+*/
     
 
     

@@ -1444,6 +1444,10 @@ line-height: 1.5;
 }
 
 
+.jumper {
+    height: 231px;
+    max-width: 396px;
+}
 
 
 
@@ -1551,7 +1555,7 @@ line-height: 1.5;
 
 .first-box99 {
     margin-top: 10px;
-    border-top: rgb(251, 246, 251) solid 50px;
+    border-top: rgb(254, 226, 254) solid 50px;
     border-left: none;
     border-right: none;
     border-bottom: none;
@@ -1574,6 +1578,7 @@ box-shadow: 0px 0px 12px 0px rgba(0,97,255,1);
     z-index: 2;
     font-weight: bold;
 }
+
 
 .belus {
     color: #00008B;
