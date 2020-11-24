@@ -1551,14 +1551,14 @@ line-height: 1.5;
     -webkit-box-shadow: 0px 0px 23px -9px rgba(143,143,143,1);
     -moz-box-shadow: 0px 0px 23px -9px rgba(143,143,143,1);
     box-shadow: 0px 0px 23px -9px rgba(143,143,143,1);
-    border-top: #f2f2ff solid 50px;
+    border-top: white solid 50px;
     position: relative;
     border-bottom: 4px solid lightgray;
 }
 
 .first-box99 {
     margin-top: 10px;
-    border-top: rgb(254, 226, 254) solid 50px;
+    border-top: white solid 49px;
     border-left: none;
     border-right: none;
     border-bottom: none;
@@ -1580,6 +1580,7 @@ box-shadow: 0px 0px 12px 0px rgba(0,97,255,1);
     left: 390px;
     z-index: 2;
     font-weight: bold;
+   
 }
 
 
@@ -1593,6 +1594,7 @@ box-shadow: 0px 0px 12px 0px rgba(0,97,255,1);
     width: 250px;
     height: 180px;
     display: flex;
+    border-top: solid lightgray 1px ;
 }
 
 .chamber-one99, .chamber-one-secondbox99, .chamber-one-thirdbox99, .chamber-one-fourthbox99, .chamber-one-fiftbox99 {
