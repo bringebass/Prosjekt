@@ -775,6 +775,8 @@ padding: 5px;
     color: #FF1493;
 }
 
+
+
 /* --------------------------------------- Banner One --------------------------------------------- */
 
 .wrapper-around-banner {
@@ -1571,8 +1573,10 @@ box-shadow: 0px 0px 12px 0px rgba(0,97,255,1);
     left: 390px;
     z-index: 2;
     font-weight: bold;
-    
- 
+}
+
+.belus {
+    color: #00008B;
 }
 
 /* Chambers in boxes */
@@ -2473,6 +2477,7 @@ width: 280px;
     .border-text99 {
         left: 100px;
         top: -33px;
+        
     }
 
     .chamber-four-secondbox99, .chamber-four-thirdbox99, .chamber-four-fourthbox99, .chamber-four-fiftbox99, 
