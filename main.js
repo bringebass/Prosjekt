@@ -15,6 +15,9 @@ const tryggPå = document.querySelector('.tryggPå');
 const headlineTwo = document.querySelector('.flexbox-med-logoer');
 const cookieThing = document.querySelector(".cookiething");
 const cookieButton = document.querySelector(".cookieButton");
+const firstBox = document.querySelector(".first-box99");
+
+
 
 /* Selectors */
 
@@ -80,7 +83,14 @@ document.body.addEventListener('click', () => {
 });
 
 
+if (showDropdownFirstBox) {
+    showDropdownFirstBox.addEventListener('click', () =>
+    firstBox.scrollIntoView()
+    )}
 
+    
+
+    
 
 
 
