@@ -1449,7 +1449,10 @@ line-height: 1.5;
     max-width: 396px;
 }
 
-
+.jumper2 {
+    width: 300px;
+    height: 250px;
+}
 
 
 .disclaimer79 {
@@ -1548,7 +1551,7 @@ line-height: 1.5;
     -webkit-box-shadow: 0px 0px 23px -9px rgba(143,143,143,1);
     -moz-box-shadow: 0px 0px 23px -9px rgba(143,143,143,1);
     box-shadow: 0px 0px 23px -9px rgba(143,143,143,1);
-    border-top: #F8F8FF solid 50px;
+    border-top: #f2f2ff solid 50px;
     position: relative;
     border-bottom: 4px solid lightgray;
 }
@@ -2002,6 +2005,7 @@ display: none;
 
 @media only screen and (max-width: 1021px) {
     .first-box99, .second-box99, .third-box99, .fourth-box99, .fift-box99, .dropdown-first-box99, .dropdown-second-box99, .dropdown-third-box99, .dropdown-fourth-box99, .dropdown-fift-box99 {
+        width: 500px;
         grid-template-areas: "one two"
                              "three four";
     }
