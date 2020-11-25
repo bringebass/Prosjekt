@@ -669,10 +669,14 @@ display: flex;
     margin-top: 100px;
 }
 
-.rover66 {
-    width: 120px;
+
+.rover67 {
+    width: auto;
     margin-top: 20px;
     margin-bottom: 20px;
+    font-weight: bolder;
+    text-decoration: underline;
+    color: #FF1493;
 }
 
 .clwb3 {
