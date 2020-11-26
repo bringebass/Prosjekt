@@ -16,6 +16,8 @@ const headlineTwo = document.querySelector('.flexbox-med-logoer');
 const cookieThing = document.querySelector(".cookiething");
 const cookieButton = document.querySelector(".cookieButton");
 const firstBox = document.querySelector(".first-box99");
+const trekant = document.querySelector(".trekant")
+const sergjei2 = document.querySelector(".sergjei2")
 
 
 
@@ -70,8 +72,21 @@ navBoxEl.classList.toggle('show');
 parent.addEventListener('click', e  => {
 e.stopPropagation();
 ove.classList.toggle('farge');
+
 dropdownContent.classList.toggle('show-dropdown');
 sidemenyHide.classList.toggle('back');
+});
+
+parent.addEventListener('click', e  => {
+    e.stopPropagation();
+    trekant.classList.toggle('show-dropdown');
+});
+
+document.body.addEventListener('click', () => { 
+    if (dropdownContent.className === 'dropdown-content show-dropdown') {
+        trekant.classList.toggle('show-dropdown');
+      
+    }
 });
 
 // hide sidemenu when body is clicked

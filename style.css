@@ -20,13 +20,12 @@ text-decoration: none;
     font-size: 1.5rem;
     margin-right: 30px;
     cursor: pointer;
-    /*
     display: none;
-    */
+
     }
 
     .main-nav {
-        display: none;
+        display: ;
     }
 
 /* midlertidig fix ferdig */
@@ -231,7 +230,6 @@ display: flex ;
 
 .dropdown-content-linker {
 padding: 10px;
-color: #00008B;
 font-weight: bolder;
 }
 
@@ -243,17 +241,32 @@ font-weight: bolder;
 position: absolute;
 display: none;
 flex-direction: column;
-right: 0px;
-top: 100px;
+right: 211px;
+top: 80px;
 background-color: white;
 padding: 20px;
 width: 230px;
-height: 345px;
+height: 310px;
 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 border-radius: 10px;
+border: #00008B solid 1px;
 }
 
+.sergjei {
+    margin-right: 10px;
+    color: #00008B;
+}
 
+.trekant {
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    background-color: #00008B;
+    top: 75px;
+    right: 318px;
+    transform: rotate(45deg);
+    display: none;
+}
 
 .sidemeny_hide {
     position: absolute;
@@ -729,10 +742,10 @@ padding-right: 40px;
 
 .liclass {
 font-size: 1rem;
-color: black;
 display: inline-block;
 text-decoration: none;
 padding-left: 70px;
+font-weight: bold;
 }
 
 
@@ -1865,15 +1878,7 @@ margin-left: 10%;
 margin-right: 0px;
 }
 
-.ulclass {
-display: none;
-}
 
-.hamburger {
-display: block;
-margin-right: 20px;
-cursor: pointer;
-}
 
 .banner {
     width: 100%;
@@ -2040,7 +2045,15 @@ display: none;
        flex-direction: column;
    }
 
-
+   .ulclass {
+    display: none;
+    }
+    
+    .hamburger {
+    display: block;
+    margin-right: 20px;
+    cursor: pointer;
+    }
 
     .chamber-one99, .chamber-one-secondbox99, .chamber-one-thirdbox99, .chamber-one-fourthbox99, .chamber-one-fiftbox99 {
         border-bottom: 1px solid lightgray;
