@@ -2528,8 +2528,7 @@ width: 280px;
 
     .border-text99 {
         left: 100px;
-        top: -33px;
-        
+        top: -33px; 
     }
 
     .chamber-four-secondbox99, .chamber-four-thirdbox99, .chamber-four-fourthbox99, .chamber-four-fiftbox99, 
@@ -2549,7 +2548,22 @@ width: 280px;
 
 /* --------------------------------- max-width 400px (small-mobile) ------------- */
 
-@media all and (max-width: 400px) {
+@media all and (max-width: 470px) {
     #headline { 
         margin-top: 40px;
-    }}
+    }
+
+    .border-text99 {
+        left: 60px;
+    }
+
+}
+
+@media all and (max-width: 396px) {
+   
+
+    .border-text99 {
+        top: -40px;
+    }
+
+}
