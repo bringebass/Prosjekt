@@ -16,8 +16,9 @@ const headlineTwo = document.querySelector('.flexbox-med-logoer');
 const cookieThing = document.querySelector(".cookiething");
 const cookieButton = document.querySelector(".cookieButton");
 const firstBox = document.querySelector(".first-box99");
-const trekant = document.querySelector(".trekant")
-const sergjei2 = document.querySelector(".sergjei2")
+const trekant = document.querySelector(".trekant");
+const sergjei2 = document.querySelector(".sergjei2");
+
 
 
 
@@ -47,8 +48,6 @@ if (tryggPå) {
         headlineTwo.scrollIntoView();
     });
 }    
-
-/* Show dropdowns */
 
 
 

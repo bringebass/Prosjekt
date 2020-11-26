@@ -14,7 +14,21 @@ a {
 text-decoration: none;
 }
 
+.littabox1807 {
+   
+    background-color: white;
+    width: 300px;
+    margin: 0 auto 10px;
+    font-size: 0.7rem;
+    text-align: center;
+    color: grey;
+}
 
+.markgino {
+   position: absolute;
+   margin-left: 5px;
+   color: grey;
+}
 
 .hamburger {
     font-size: 1.5rem;
@@ -23,7 +37,23 @@ text-decoration: none;
     display: none;
 }
 
+.disclosure1807 {
+    font-size: 0.8rem;
+    color: gray;
+    width: 78px;
+    height: 2   0px;
+    margin: 0 auto 10px;
+    position: relative;
+   cursor: pointer;
+}
 
+
+
+.disco {
+    color: grey;
+    font-size: 0.8rem;
+    margin-left: 2px;
+}
 
 .rotate {
 transform: rotate(180deg) ;
@@ -238,7 +268,7 @@ right: 205px;
 top: 80px;
 background-color: white;
 padding: 20px;
-width: 240px;
+width: 260px;
 height: 310px;
 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 border-radius: 10px;
@@ -1491,6 +1521,10 @@ line-height: 1.5;
     margin-top: 30px;
 }
 
+.numbersgame {
+    display: none;
+}
+
 /* Overskrift */
 
 .headlinebox99 {
@@ -2041,6 +2075,13 @@ display: none;
         left: 145px;
     }
 
+    .numbersgame {
+        display: flex;
+        position: absolute;
+        margin-top: 30px;
+        margin-left: 70px;
+    }
+
     .trophy {
         margin-left: 40px;
     }
@@ -2152,6 +2193,13 @@ font-size: 14px;
 
 .PL {
     display: none;
+}
+
+.numbersgame {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 10%;
+    font-size: 0.6rem;
 }
 
 .informasjonskapsler {
