@@ -234,7 +234,7 @@ font-weight: bolder;
 position: absolute;
 display: none;
 flex-direction: column;
-right: 211px;
+right: 205px;
 top: 80px;
 background-color: white;
 padding: 20px;
@@ -251,6 +251,10 @@ border: #00008B solid 1px;
 .sergjei {
     margin-right: 10px;
     color: #00008B;
+}
+
+.sergjei3 {
+    margin-left: 10px;
 }
 
 .trekant {
@@ -544,6 +548,12 @@ padding: 0px 20px 0px 20px;
 margin-bottom: 40px;
 margin-top: 60px;
 font-size: 2.5rem;
+}
+
+.headline-two-yo {
+    margin-top: 200px;
+    margin-bottom: 80px;
+    text-align: center;
 }
 
 .headline5 {
