@@ -14,21 +14,14 @@ a {
 text-decoration: none;
 }
 
-/* midlertidig fix */
+
 
 .hamburger {
     font-size: 1.5rem;
     margin-right: 30px;
     cursor: pointer;
     display: none;
-
-    }
-
-    .main-nav {
-        display: ;
-    }
-
-/* midlertidig fix ferdig */
+}
 
 
 
@@ -252,9 +245,8 @@ border-radius: 10px;
 border: #00008B solid 1px;
 }
 
-.portuga {
-    right: 225px;;
-}
+
+
 
 .sergjei {
     margin-right: 10px;
@@ -272,9 +264,7 @@ border: #00008B solid 1px;
     display: none;
 }
 
-.portuga2 {
-    right: 335px;
-}
+
 
 .sidemeny_hide {
     position: absolute;
