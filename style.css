@@ -18,7 +18,7 @@ text-decoration: none;
    
     background-color: white;
     width: 300px;
-    margin: 0 auto 10px;
+    margin: 0 auto 15px;
     font-size: 0.7rem;
     text-align: center;
     color: grey;
@@ -29,6 +29,24 @@ text-decoration: none;
    position: absolute;
    margin-left: 5px;
    color: grey;
+}
+
+.margin-now {
+    text-align: center;
+    font-size: 1.3rem;
+    margin: 50px auto 20px;
+
+}
+
+.margin-there {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #00008B;
+}
+
+.margin-here {
+    font-size: 1.1rem;
 }
 
 .hamburger {
@@ -793,7 +811,10 @@ padding-left: 70px;
 font-weight: bold;
 }
 
-
+.wrappy {
+    width: 1000px;
+    margin: 0 auto;
+}
 
 .nav-boxy-class {
 position: absolute;
