@@ -18,8 +18,8 @@ const cookieButton = document.querySelector(".cookieButton");
 const firstBox = document.querySelector(".first-box99");
 const trekant = document.querySelector(".trekant");
 const sergjei2 = document.querySelector(".sergjei2");
-
-
+const disclosure = document.querySelector(".disclosure1807");
+const littaBox = document.querySelector(".littabox1807");
 
 
 /* Selectors */
@@ -96,17 +96,12 @@ document.body.addEventListener('click', () => {
     }
 });
 
-/*
-if (showDropdownFirstBox) {
-    showDropdownFirstBox.addEventListener('click', () =>
-    firstBox.scrollIntoView()
-    )}
-*/
-    
 
-    
-
-
+if (disclosure) {
+    disclosure.addEventListener('click', () => {
+        littaBox.classList.toggle('show'); 
+    }
+    )};
 
 
 // Show more content on mobile version
@@ -135,10 +130,6 @@ document.body.addEventListener('click', () => {
         
     }
 });
-
-
-
-
 
 
 

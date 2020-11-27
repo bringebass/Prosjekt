@@ -22,6 +22,7 @@ text-decoration: none;
     font-size: 0.7rem;
     text-align: center;
     color: grey;
+    display: none;
 }
 
 .markgino {
@@ -37,13 +38,18 @@ text-decoration: none;
     display: none;
 }
 
+.disclosure-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
 .disclosure1807 {
     font-size: 0.8rem;
     color: gray;
-    width: 78px;
-    height: 2   0px;
-    margin: 0 auto 10px;
     position: relative;
+    text-decoration: underline;
+    cursor: pointer;
 }
 
 .readmoreyo {
