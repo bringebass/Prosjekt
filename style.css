@@ -2114,6 +2114,10 @@ display: none;
         margin-left: 40px;
     }
 
+    .wrappy {
+        width: 500px;
+    }
+
     .dropdown-first-box99 {
         width: 500px;
     }
@@ -2244,7 +2248,7 @@ font-size: 14px;
 
 
 .symbol99 {
-    margin-top: 4px;
+    margin-top: 4.6px;
 }
 
 .jumper, .flex3 {
@@ -2592,7 +2596,10 @@ width: 280px;
         max-width: 380px;
     }
 
-    
+    .wrappy {
+        width: 300px;
+    }
+
     .chamber-one99, .chamber-two99, .chamber-three99, .chamber-two-secondbox99 {
         border-bottom: solid lightgrey 1px;
         width: auto;
