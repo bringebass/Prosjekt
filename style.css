@@ -113,6 +113,10 @@ display: flex ;
     cursor: pointer;
 }
 
+.under79, .under79-2 {
+    text-align: center;
+}
+
 .informasjonsKapsler {
     font-size: 1.1rem;
     color: rgb(132, 132, 132);
@@ -210,11 +214,24 @@ display: flex ;
     margin-bottom: 10px;
 }
 
+.boksus79 {
+    display: flex;
+    justify-content: space-between;
+    width: 430px;
+}
+
 .boks0-wix {
     display: flex;
     justify-content: center;
     align-items: center;
     grid-area: wixZero;
+}
+
+.boks1-i-boksus79, .boks2-i-boksus79, .boks3-i-boksus79 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .boks1-wix {
@@ -225,10 +242,7 @@ display: flex ;
     grid-area: wixOne;
 }
 
-.boks3-i-boksus79 {
-    margin-left: 100px;
-    
-}
+
 
 .boks2-wix {
     display: flex;
@@ -519,6 +533,8 @@ background-color: rgba(255, 20, 145, 0.269);
     margin-top: -20px;
     margin-bottom: -30px;
 }
+
+
 
 .vector {
     width: 100px;
@@ -1468,6 +1484,7 @@ line-height: 1.5;
     font-size: 2.2rem;
     margin-top: 13px;
     margin-left: 15px;
+    text-align: center;
   
 }
 
@@ -1478,25 +1495,26 @@ line-height: 1.5;
 .wired {
     font-size: 3rem;
     margin-top: 30px;
-    margin-left: 120px;
+    
     color: #00008B;
+    display: block;
 }
 
 .under79 {
-    margin-left: 67px;
+    
     margin-top: 10px;
     font-size: 1rem;
 }
+
 
 .under79-2 {
-    margin-left: 50px;
+ 
     margin-top: 10px;
     font-size: 1rem;
 }
 
-.boksus79 {
-    display: flex;
-}
+
+
 
 .under798 {
     margin-left: 20px;
@@ -1520,10 +1538,17 @@ line-height: 1.5;
 
 .chamber1-grid79 {
     grid-area: one79;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .chamber2-grid79 {
     grid-area: two79;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
 }
 
 
@@ -1540,7 +1565,7 @@ line-height: 1.5;
 
 .disclaimer79 {
     display: flex;
-    margin-left: 129px;
+    width: auto;
     padding: 0px 1px 0px 1px ;
     border: lightgray solid 1px;
     color: gray;
@@ -1548,6 +1573,8 @@ line-height: 1.5;
     font-size: 0.8rem;
     margin-top: 30px;
 }
+
+
 
 .numbersgame {
     display: none;
@@ -2016,6 +2043,8 @@ grid-template-columns: 1fr;
 grid-template-rows: 1fr 1fr;
 }
 
+
+
 .headline-two {
     margin-top: 0px;
 }
@@ -2103,11 +2132,17 @@ display: none;
         left: 145px;
     }
 
-    .numbersgame {
+    .disclaimer-wrapper {
         display: flex;
-        position: absolute;
-        margin-top: 30px;
-        margin-left: 70px;
+        justify-content: center;
+    }
+    
+    .chamber1-grid79 {
+        margin-bottom: 0px;
+    }
+    
+    .numbersgame {
+        display: block;
     }
 
     .trophy {
@@ -2168,31 +2203,21 @@ display: none;
 
     .chamber1-grid79 {
         margin-top: 100px;
-        margin-bottom: 50px;
     }
-
     
-
-    .boks1-i-boksus79, .boks2-i-boksus79, .boks3-i-boksus79 {
+    .under79-2 {
         margin-left: 0px;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center; 
+        margin-top: 10px;
+        font-size: 1rem;
     }
+    
+  
 
-    .boks1-i-boksus79, .boks2-i-boksus79 {
-        margin-left: 10px;
-    }
+  
 
-    .boksus79 {
-        display: flex;
-        justify-content: center;
-    }
+  
 
-    .wired {
-        margin-left: 0px;
-    }
+   
 
     .under79, .under79-2 {
         margin-left: 0px;
@@ -2227,10 +2252,12 @@ font-size: 14px;
     display: none;
 }
 
+.boksus79 {
+    width: 400px;
+}
+
 .numbersgame {
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-bottom: 10%;
+    
     font-size: 0.6rem;
 }
 
@@ -2596,6 +2623,12 @@ width: 280px;
         max-width: 380px;
     }
 
+    .boksus79 {
+        width: 300px;
+    }
+
+   
+
     .wrappy {
         width: 300px;
     }
@@ -2639,6 +2672,7 @@ width: 280px;
     .border-text99 {
         left: 60px;
     }
+
 
 }
 
