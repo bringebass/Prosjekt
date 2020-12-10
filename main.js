@@ -68,33 +68,40 @@ navBoxEl.classList.toggle('show');
 });
 
 // Show sidemenu
+if (parent) {
 parent.addEventListener('click', e  => {
 e.stopPropagation();
 ove.classList.toggle('farge');
-
 dropdownContent.classList.toggle('show-dropdown');
 sidemenyHide.classList.toggle('back');
 });
+}
 
+if (parent){
 parent.addEventListener('click', e  => {
     e.stopPropagation();
     trekant.classList.toggle('show-dropdown');
 });
+}
 
+if (dropdownContent) {
 document.body.addEventListener('click', () => { 
     if (dropdownContent.className === 'dropdown-content show-dropdown') {
         trekant.classList.toggle('show-dropdown');
       
     }
 });
+}
 
 // hide sidemenu when body is clicked
+if (dropdownContent) {
 document.body.addEventListener('click', () => { 
     if (dropdownContent.className === 'dropdown-content show-dropdown') {
         dropdownContent.classList.toggle('show-dropdown');
         ove.classList.toggle('farge');
     }
 });
+}
 
 
 if (disclosure) {
