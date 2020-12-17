@@ -631,7 +631,7 @@ font-size: 2.5rem;
 text-align: center;
 color: #00008B;
 font-size: 1.7rem;
-margin-bottom: 0px;
+margin-bottom: 60px;
 margin-top: 60px;
 }
 
@@ -1181,6 +1181,13 @@ text-align: center;
 margin-bottom: 100px;
 }
 
+.table2 {
+    width: 1000px;
+    height: 900px;
+    border-collapse: collapse;
+    text-align: center;
+}
+
 tr, td, th {
 border: solid lightgray 1px;    
 }
@@ -1304,6 +1311,13 @@ grid-template-areas:     ". gr3 gr3 gr2 gr5 ."
 display: flex;
 justify-content: center;
 grid-area: gr1; 
+}
+
+.in-the-end {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    margin-left: -10px;
 }
 
 .grid2footer {
@@ -2157,6 +2171,10 @@ display: none;
         width: 500px;
     }
 
+    .table2 {
+        width: 500px;
+    }
+
    .flex3 {
        flex-direction: column;
    }
@@ -2246,7 +2264,9 @@ grid-template-areas:
 font-size: 14px;
 }
 
-/* -- banner top --*/
+.table2 {
+    width: 500px;
+}
 
 .PL {
     display: none;
@@ -2395,6 +2415,7 @@ display: none;
 padding-left: 15px;
 padding-right: 15px;
 margin-top: 30px;
+margin-bottom: 30px;
 }
 
 .headline6 {
@@ -2627,7 +2648,9 @@ width: 280px;
         width: 300px;
     }
 
-   
+    .table2 {
+        width: 390px;
+    }
 
     .wrappy {
         width: 300px;
@@ -2673,6 +2696,9 @@ width: 280px;
         left: 60px;
     }
 
+    .table2 {
+        width: 370px;
+    }
 
 }
 
@@ -2682,5 +2708,10 @@ width: 280px;
     .border-text99 {
         top: -40px;
     }
+
+    .table2 {
+        width: 300px;
+    }
+
 
 }
