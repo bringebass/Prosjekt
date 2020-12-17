@@ -33,7 +33,7 @@ text-decoration: none;
 
 .margin-now {
     text-align: center;
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     margin: 50px auto 20px;
 
 }
@@ -43,10 +43,17 @@ text-decoration: none;
     margin-top: 20px;
     margin-bottom: 20px;
     color: #00008B;
+    font-size: 1.2rem;
 }
 
 .margin-here {
     font-size: 1.1rem;
+    line-height: 1.7rem;
+}
+
+.margin-here2 {
+    color: grey;
+    line-height: 1.7rem;
 }
 
 .hamburger {
@@ -54,6 +61,37 @@ text-decoration: none;
     margin-right: 30px;
     cursor: pointer;
     display: none;
+}
+
+.facebilder__boks1__bilde1, .facebilder__boks1__bilde2 {
+    width: 100px;
+    display: flex;
+    border: solid 1px lightgray;
+    border-radius: 50px;
+}
+
+.facebilder {
+    display: flex;
+    margin-top: 50px;
+    flex-wrap: wrap;
+}
+
+.facebiler__boks1 {
+    display: flex;
+    margin-right: 100px;
+    align-items: center;
+}
+
+.facebiler__boks2 {
+    display: flex;
+    align-items: center;
+  
+}
+
+.bio {
+    width: 200px;
+    margin-left: 20px;
+    font-size: 0.9rem;
 }
 
 .disclosure-container {
@@ -585,6 +623,24 @@ cursor: pointer;
 cursor: pointer;
 font-size: 30px;
 color: lightgrey;
+}
+
+.small-strek {
+    width: 80%;
+    border-top: solid 1px lightgray;
+    margin-top: 40px;
+}
+
+.small-strek2 {
+    width: 80%;
+    border-top: solid 1px lightgray;
+    margin-bottom: 30px;
+}
+
+.small-strek3 {
+    width: 40%;
+    border-top: solid 1px lightgray;
+    margin-top: 50px;
 }
 
 /* ------------------------------------ Headlines ------------------------------------- */
@@ -1586,7 +1642,7 @@ line-height: 1.5;
     color: gray;
     font-weight: bold;
     font-size: 0.8rem;
-    margin-top: 30px;
+    margin-top: 45px;
 }
 
 
@@ -2145,6 +2201,14 @@ display: none;
     
     .border-text99 {
         left: 145px;
+    }
+
+    .facebiler__boks2 {
+        margin-top: 30px;
+    }
+
+    .bio {
+        width: 150px;
     }
 
     .disclaimer-wrapper {
