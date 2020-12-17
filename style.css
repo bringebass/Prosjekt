@@ -280,7 +280,11 @@ display: flex ;
     grid-area: wixOne;
 }
 
-
+.helt-nede {
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+}
 
 .boks2-wix {
     display: flex;
@@ -1356,7 +1360,7 @@ background-color: #F8F8FF;
 margin-top: 200px;
 display: grid;
 grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-grid-template-rows: 400px 400px 100px;
+grid-template-rows: 400px 470px 100px;
 grid-template-areas:     ". gr3 gr3 gr2 gr5 ."
                          ". gr3 gr3 gr2 gr5 ."
                          "gr4 gr4 gr4 gr4 gr4 gr4"
@@ -2604,10 +2608,7 @@ margin-left: 10%;
     align-self: center;
 }
 
-.helt-nede {
-    margin-left: 20px;
-    margin-right: 20px;
-}
+
 
 .float-bilde {
 width: 250px;
