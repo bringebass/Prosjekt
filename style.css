@@ -1532,6 +1532,7 @@ line-height: 1.5;
 
 .under798 {
     margin-left: 20px;
+    text-align: center;
 }
 
 .wrapper-around-grid79 {
@@ -1685,7 +1686,7 @@ line-height: 1.5;
 }
 
 .first-box99 {
-    margin-top: 10px;
+    margin-top: 20px;
     border-top: white solid 49px;
     border-left: none;
     border-right: none;
