@@ -42,6 +42,8 @@ const arrow3 = document.querySelector('.arrow399');
 const arrow4 = document.querySelector('.arrow499');
 const arrow5 = document.querySelector('.arrow599');
 
+const infoBoks =
+
 
 if (tryggPå) {
     tryggPå.addEventListener('click', () => {
