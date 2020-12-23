@@ -42,7 +42,8 @@ const arrow3 = document.querySelector('.arrow399');
 const arrow4 = document.querySelector('.arrow499');
 const arrow5 = document.querySelector('.arrow599');
 
-const infoBoks =
+const infoBoks = document.querySelector('.hello___there');
+const infoContent = document.querySelector('.test45678');
 
 
 if (tryggPå) {
@@ -50,10 +51,6 @@ if (tryggPå) {
         headlineTwo.scrollIntoView();
     });
 }    
-
-
-
-
 
 // Open nav bar when hamburger menu is clicked
 document.getElementById('hambruger-menu').addEventListener('click', (e) => {
@@ -94,6 +91,15 @@ document.body.addEventListener('click', () => {
     }
 });
 }
+
+// Show disclosure thing
+if (infoBoks) {
+    infoBoks.addEventListener('click', e => {
+    infoContent.classList.toggle('show-dropdown');
+    }
+)};
+
+
 
 // hide sidemenu when body is clicked
 if (dropdownContent) {

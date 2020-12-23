@@ -25,6 +25,46 @@ text-decoration: none;
     display: none;
 }
 
+.disclaimer79 {
+    color: gray;
+    font-weight: bold;
+    font-size: 0.8rem;
+    margin-right: 5px;
+}
+
+.disclaimer79__boks {
+    position: absolute;
+    width: 100%;
+    bottom: 2px;
+    background-color: #f8f8ff;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.hello___there {
+    display: flex;
+    width: 93px;
+    cursor: pointer;
+}
+
+.wrapper__test45678 {
+    display: flex;
+    justify-content: center;
+}
+
+.test45678 {
+    height: auto;
+    width: 1000px;
+    display: flex;
+    justify-content: flex-end;
+    display: none;
+}
+
+.size4567 {
+    font-size: 0.8rem;
+    margin: 3px;
+}
+
 .markgino {
    position: absolute;
    margin-left: 5px;
@@ -1645,44 +1685,6 @@ line-height: 1.5;
 }
 
 
-.disclaimer79 {
-    color: gray;
-    font-weight: bold;
-    font-size: 0.8rem;
-    margin-right: 5px;
-}
-
-.disclaimer79__boks {
-    position: absolute;
-    width: 100%;
-    bottom: 2px;
-    background-color: #f8f8ff;
-    display: flex;
-    justify-content: flex-end;
-}
-
-.hello___there {
-    display: flex;
-    width: 100px;
-    cursor: pointer;
-}
-
-.test45678 {
-    height: auto;
-    width: 170px;
-    border: solid lightgray 1px;
-    margin-left: 68.6%;
-}
-
-.size4567 {
-    font-size: 0.8rem;
-    margin: 3px;
-}
-
-.numbersgame {
-    display: none;
-}
-
 /* Overskrift */
 
 .headlinebox99 {
@@ -2252,10 +2254,7 @@ display: none;
         margin-bottom: 0px;
     }
     
-    .numbersgame {
-        display: block;
-    }
-
+   
     .trophy {
         margin-left: 40px;
     }
@@ -2373,10 +2372,7 @@ font-size: 14px;
     width: 400px;
 }
 
-.numbersgame {
-    
-    font-size: 0.6rem;
-}
+
 
 .informasjonskapsler {
     margin-left: 10px;
