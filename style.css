@@ -529,9 +529,23 @@ display: grid;
     color: blue;
 }
 
+.sidebar {
+    width: 250px;
+    height: 300px;
+    position: fixed;
+    right: 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebar__first {
+    width: 100%;
+    border-bottom: lightgray solid 1px;
+    display: flex;
+    justify-content: space-between;
+}
+
 /* Buttons */
-
-
 
 .small {
 background-color: #FF1493;
