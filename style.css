@@ -549,10 +549,22 @@ display: grid;
 }
 
 .sidebar__first:hover {
-    background-color: lightgray;
+    background-color: whitesmoke;
+}
+
+.sidebar__second:hover {
+    background-color: whitesmoke;
 }
 
 .sidebar__first__dropdown {
+    height: 300px;
+    width: 250px;
+    background-color: rgb(248, 248, 255);
+    display: none;
+    line-height: 1.5;
+}
+
+.sidebar__second__dropdown {
     height: 300px;
     width: 250px;
     background-color: rgb(248, 248, 255);
