@@ -45,6 +45,18 @@ const arrow5 = document.querySelector('.arrow599');
 const infoBoks = document.querySelector('.hello___there');
 const infoContent = document.querySelector('.test45678');
 
+const sideBarFirst = document.querySelector('.sidebar__first');
+const sideBarFirstDropown = document.querySelector('.sidebar__first__dropdown');
+const losAngeles = document.querySelector('.losAngeles');
+
+if (sideBarFirst) {
+    sideBarFirst.addEventListener('click', () => {
+    sideBarFirstDropown.classList.toggle('show')
+    losAngeles.classList.toggle('rotate');
+    })
+};
+
+
 
 if (tryggPå) {
     tryggPå.addEventListener('click', () => {
