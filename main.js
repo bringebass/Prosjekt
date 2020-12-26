@@ -48,10 +48,13 @@ const infoContent = document.querySelector('.test45678');
 const sideBarFirst = document.querySelector('.sidebar__first');
 const sideBarFirstDropown = document.querySelector('.sidebar__first__dropdown');
 const losAngeles = document.querySelector('.losAngeles');
-
 const sideBarSecond = document.querySelector('.sidebar__second');
 const sideBarSecondDropown = document.querySelector('.sidebar__second__dropdown');
 const losAngeles2 = document.querySelector('.losAngeles2');
+const sideBarThird = document.querySelector('.sidebar__third');
+const sideBarThirdDropown = document.querySelector('.sidebar__third__dropdown');
+const losAngeles3 = document.querySelector('.losAngeles3');
+
 
 if (sideBarFirst) {
     sideBarFirst.addEventListener('click', () => {
@@ -64,6 +67,13 @@ if (sideBarSecond) {
     sideBarSecond.addEventListener('click', () => {
     sideBarSecondDropown.classList.toggle('show')
     losAngeles2.classList.toggle('rotate');
+    })
+};
+
+if (sideBarThird) {
+    sideBarThird.addEventListener('click', () => {
+    sideBarThirdDropown.classList.toggle('show')
+    losAngeles3.classList.toggle('rotate');
     })
 };
 
