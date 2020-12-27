@@ -60,6 +60,7 @@ const losAngeles4 = document.querySelector('.losAngeles4');
 const sideBarFift = document.querySelector('.sidebar__fift');
 const sideBarFiftDropown = document.querySelector('.sidebar__fift__dropdown');
 const losAngeles5 = document.querySelector('.losAngeles5');
+
 const sideBarSixt = document.querySelector('.sidebar__sixt');
 const sideBarSixtDropown = document.querySelector('.sidebar__sixt__dropdown');
 const losAngeles6 = document.querySelector('.losAngeles5');
