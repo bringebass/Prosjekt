@@ -534,7 +534,7 @@ display: grid;
     height: auto;
     position: absolute;
     right: 90px;
-    top: 405px;
+    top: 350px;
     display: flex;
     flex-direction: column;
     background-color: white;
@@ -621,6 +621,36 @@ display: grid;
     margin-top: 5px;
     border-bottom: solid black 1px;
     color: black;
+ }
+
+ .sidebar__bildeboks {
+     height: 280px;
+     margin-top: 30px;
+     background-color: whitesmoke;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+ }
+
+ .sidebar__bildeboks__overskrift {
+     margin-top: 15px;
+ }
+
+ .sidebar__button {
+     width: 150px;
+     height: 40px;
+     background-color: #f37a33;
+     margin-top: 15px;
+     border-radius: 20px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     color: white;
+     font-weight: bold;
+ }
+
+ .sidebar__button:hover {
+     color: black;
  }
 
 /* Buttons */
@@ -2130,6 +2160,8 @@ box-shadow: 0px 0px 12px 2px rgba(0,97,255,1);
 ------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------*/
 
+
+
 @media all and (min-width: 1900px) {
     .sidebar {
         right: 150px;
@@ -2149,7 +2181,7 @@ box-shadow: 0px 0px 12px 2px rgba(0,97,255,1);
     }
 }
 
-@media all and (max-width: 1596px) {
+@media all and (max-width: 1606px) {
     .sidebar {
         display: none;
     }
